@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-17T21:48:09.101580+00:00",
+  "timestamp": "2026-09-17T22:01:12.979543+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789681625,
-    "United Kingdom": 1789681639,
-    "Switzerland": 1789681674,
-    "Japan": 1789681625,
-    "China": 1789681674,
-    "UAE": 1789681598,
-    "South Africa": 1789681608
+    "Canada": 1789682431,
+    "United Kingdom": 1789682440,
+    "Switzerland": 1789682452,
+    "Japan": 1789682434,
+    "China": 1789682418,
+    "UAE": 1789682425,
+    "South Africa": 1789682428
   },
   "observed_at": {
-    "United Kingdom": "2026-09-17T21:47:19+00:00",
-    "Canada": "2026-09-17T21:47:05+00:00",
-    "China": "2026-09-17T21:47:54+00:00",
-    "Switzerland": "2026-09-17T21:47:54+00:00",
-    "Japan": "2026-09-17T21:47:05+00:00",
-    "UAE": "2026-09-17T21:46:38+00:00",
-    "South Africa": "2026-09-17T21:46:48+00:00"
+    "United Kingdom": "2026-09-17T22:00:40+00:00",
+    "Canada": "2026-09-17T22:00:31+00:00",
+    "China": "2026-09-17T22:00:18+00:00",
+    "Switzerland": "2026-09-17T22:00:52+00:00",
+    "Japan": "2026-09-17T22:00:34+00:00",
+    "UAE": "2026-09-17T22:00:25+00:00",
+    "South Africa": "2026-09-17T22:00:28+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 1717,
-    "South Africa|Smoke Grenade": 281,
-    "South Africa|Lion Plushie": 0,
-    "South Africa|African Violet": 6222,
+    "South Africa|Xanax": 1668,
+    "South Africa|Smoke Grenade": 134,
+    "South Africa|Lion Plushie": 2239,
+    "South Africa|African Violet": 5756,
     "Japan|Xanax": 0,
-    "Canada|Xanax": 749,
+    "Canada|Xanax": 17,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 2385,
-    "UAE|Camel Plushie": 0,
+    "UAE|Tribulus Omanense": 2151,
+    "UAE|Camel Plushie": 1722,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 2379,
-    "China|Peony": 5372
+    "China|Panda Plushie": 1758,
+    "China|Peony": 5184
   }
 }
