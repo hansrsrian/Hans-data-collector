@@ -26,6 +26,8 @@ jobs:
           python-version: '3.12'
 
       - name: Collect foreign stock
+        env:
+          TORN_INTEL_KEY: ${{ secrets.TORN_INTEL_KEY }}
         run: python collector.py
 
       - name: Save measurements
