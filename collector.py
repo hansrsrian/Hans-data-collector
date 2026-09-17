@@ -1,18 +1,17 @@
 import csv
 import json
-import re
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-URL = "https://weav3r.dev/travel-stock"
+URL = "https://torn-intel.com/api/v1/public/foreign-stock"
 
 DATA_DIR = Path("data")
 LATEST = DATA_DIR / "latest.json"
 HISTORY = DATA_DIR / "history.csv"
 TRANSITIONS = DATA_DIR / "transitions.csv"
 
-# Varene vi skal følge
 WATCH = {
     "South Africa": [
         "Raw Ivory",
@@ -32,146 +31,166 @@ WATCH = {
     "China": ["Blank Casino Chips"],
 }
 
-ALIASES = {
-    "South Africa": ["South Africa", "SA"],
-    "Japan": ["Japan"],
-    "Canada": ["Canada"],
-    "United Kingdom": ["United Kingdom", "UK"],
-    "UAE": ["UAE", "United Arab Emirates"],
-    "Switzerland": ["Switzerland"],
-    "China": ["China"],
-}
 
+def fetch_data():
+    api_key = os.environ.get("TORN_INTEL_KEY")
 
-def fetch_html():
+    if not api_key:
+        raise RuntimeError(
+            "TORN_INTEL_KEY is not available in the environment"
+        )
+
     request = Request(
         URL,
         headers={
-            "User-Agent":
-                "Mozilla/5.0 TornForeignStockCollector/1.0"
+            "X-Torn-Intel-Key": api_key,
+            "Accept": "application/json",
+            "User-Agent": "TornForeignStockCollector/2.0",
         },
     )
 
     with urlopen(request, timeout=30) as response:
-        return response.read().decode(
-            "utf-8",
-            errors="replace"
+        return json.loads(
+            response.read().decode("utf-8")
         )
 
 
-def clean_text(html):
-    text = re.sub(
-        r"<script[\s\S]*?</script>",
-        " ",
-        html,
-        flags=re.I,
-    )
+def normalize_country(name):
+    aliases = {
+        "SA": "South Africa",
+        "South Africa": "South Africa",
+        "Japan": "Japan",
+        "Canada": "Canada",
+        "UK": "United Kingdom",
+        "United Kingdom": "United Kingdom",
+        "UAE": "UAE",
+        "United Arab Emirates": "UAE",
+        "Switzerland": "Switzerland",
+        "China": "China",
+    }
 
-    text = re.sub(
-        r"<style[\s\S]*?</style>",
-        " ",
-        text,
-        flags=re.I,
-    )
-
-    text = re.sub(r"<[^>]+>", " ", text)
-
-    text = (
-        text
-        .replace("&nbsp;", " ")
-        .replace("&amp;", "&")
-    )
-
-    return re.sub(r"\s+", " ", text)
+    return aliases.get(name, name)
 
 
-def parse_stock(text):
-    result = {}
+def parse_stock(data):
+    stock = {
+        f"{country}|{item}": None
+        for country, items in WATCH.items()
+        for item in items
+    }
 
-    for country, items in WATCH.items():
+    countries = data.get("countries", data)
 
-        country_positions = []
+    if isinstance(countries, dict):
+        country_entries = []
 
-        for alias in ALIASES[country]:
-            country_positions.extend(
-                m.start()
-                for m in re.finditer(
-                    re.escape(alias),
-                    text,
-                    flags=re.I,
-                )
+        for country_name, country_data in countries.items():
+            if isinstance(country_data, dict):
+                entry = dict(country_data)
+                entry.setdefault("name", country_name)
+                country_entries.append(entry)
+
+    elif isinstance(countries, list):
+        country_entries = countries
+
+    else:
+        raise RuntimeError(
+            "Unexpected Torn Intel response structure"
+        )
+
+    for country_data in country_entries:
+        if not isinstance(country_data, dict):
+            continue
+
+        country_name = (
+            country_data.get("name")
+            or country_data.get("country")
+            or country_data.get("country_name")
+            or country_data.get("code")
+        )
+
+        if not country_name:
+            continue
+
+        country_name = normalize_country(
+            str(country_name)
+        )
+
+        if country_name not in WATCH:
+            continue
+
+        items = (
+            country_data.get("items")
+            or country_data.get("stock")
+            or []
+        )
+
+        if isinstance(items, dict):
+            item_entries = []
+
+            for item_name, item_data in items.items():
+                if isinstance(item_data, dict):
+                    entry = dict(item_data)
+                    entry.setdefault("name", item_name)
+                else:
+                    entry = {
+                        "name": item_name,
+                        "quantity": item_data,
+                    }
+
+                item_entries.append(entry)
+
+        elif isinstance(items, list):
+            item_entries = items
+
+        else:
+            continue
+
+        for item_data in item_entries:
+            if not isinstance(item_data, dict):
+                continue
+
+            item_name = (
+                item_data.get("name")
+                or item_data.get("item_name")
+                or item_data.get("item")
             )
 
-        for item in items:
+            if item_name not in WATCH[country_name]:
+                continue
 
-            key = f"{country}|{item}"
-            candidates = []
+            quantity = item_data.get("quantity")
 
-            for match in re.finditer(
-                re.escape(item),
-                text,
-                flags=re.I,
-            ):
+            if quantity is None:
+                quantity = item_data.get("stock")
 
-                prior = [
-                    p
-                    for p in country_positions
-                    if p <= match.start()
-                    and match.start() - p < 5000
-                ]
+            if quantity is None:
+                quantity = item_data.get("amount")
 
-                if not prior:
-                    continue
+            try:
+                quantity = int(quantity)
+            except (TypeError, ValueError):
+                continue
 
-                tail = text[
-                    match.end():
-                    match.end() + 180
-                ]
+            key = f"{country_name}|{item_name}"
+            stock[key] = quantity
 
-                numbers = re.findall(
-                    r"(?<![.$])\b([0-9][0-9,]*)\b",
-                    tail,
-                )
-
-                if numbers:
-                    distance = (
-                        match.start() - max(prior)
-                    )
-
-                    stock = int(
-                        numbers[0].replace(",", "")
-                    )
-
-                    candidates.append(
-                        (distance, stock)
-                    )
-
-            if candidates:
-                result[key] = min(candidates)[1]
-            else:
-                result[key] = None
-
-    return result
+    return stock
 
 
 def load_previous():
-
     if not LATEST.exists():
         return None
 
     try:
         return json.loads(
-            LATEST.read_text(
-                encoding="utf-8"
-            )
+            LATEST.read_text(encoding="utf-8")
         )
-
     except Exception:
         return None
 
 
 def append_csv(path, fields, row):
-
     exists = path.exists()
 
     with path.open(
@@ -179,7 +198,6 @@ def append_csv(path, fields, row):
         newline="",
         encoding="utf-8",
     ) as file:
-
         writer = csv.DictWriter(
             file,
             fieldnames=fields,
@@ -192,31 +210,39 @@ def append_csv(path, fields, row):
 
 
 def main():
-
     DATA_DIR.mkdir(exist_ok=True)
 
     timestamp = datetime.now(
         timezone.utc
     ).isoformat()
 
-    html = fetch_html()
-
-    text = clean_text(html)
-
-    stock = parse_stock(text)
+    data = fetch_data()
+    stock = parse_stock(data)
 
     found = sum(
         value is not None
         for value in stock.values()
     )
 
-    # Hvis nettsiden/parsing feiler,
-    # skal gammel state beholdes.
+    print(
+        f"Parsed {found}/{len(stock)} watched items"
+    )
+
+    # Fail closed:
+    # Ikke overskriv gammel state hvis API-formatet
+    # endrer seg eller parsing feiler.
     if found < 8:
+        print(
+            json.dumps(
+                data,
+                indent=2,
+                ensure_ascii=False,
+            )[:5000]
+        )
+
         raise RuntimeError(
-            f"Only parsed {found}/{len(stock)} "
-            "watched items. "
-            "Previous state preserved."
+            f"Only parsed {found}/{len(stock)} watched "
+            "items. Previous state preserved."
         )
 
     previous = load_previous()
@@ -230,7 +256,6 @@ def main():
 
     # Lagre alle observasjoner
     for key, value in stock.items():
-
         country, item = key.split("|", 1)
 
         append_csv(
@@ -253,16 +278,11 @@ def main():
             },
         )
 
-    # Finn ekte state-overganger
+    # Registrer bare ekte state-overganger
     if previous:
-
-        old_stock = previous.get(
-            "stock",
-            {}
-        )
+        old_stock = previous.get("stock", {})
 
         for key, new_value in stock.items():
-
             old_value = old_stock.get(key)
 
             if (
@@ -273,29 +293,25 @@ def main():
 
             transition = None
 
-            # positiv -> 0 = utsolgt
+            # positiv -> 0
             if (
                 old_value > 0
                 and new_value == 0
             ):
                 transition = "stockout"
 
-            # 0 -> positiv = restock
+            # 0 -> positiv
             elif (
                 old_value == 0
                 and new_value > 0
             ):
                 transition = "restock"
 
-            # positiv -> høyere positiv
-            # teller IKKE som restock
+            # positiv -> høyere positiv teller
+            # fortsatt IKKE som restock.
 
             if transition:
-
-                country, item = key.split(
-                    "|",
-                    1,
-                )
+                country, item = key.split("|", 1)
 
                 append_csv(
                     TRANSITIONS,
@@ -310,9 +326,7 @@ def main():
                     ],
                     {
                         "lower_bound":
-                            previous.get(
-                                "timestamp"
-                            ),
+                            previous.get("timestamp"),
                         "upper_bound":
                             timestamp,
                         "country":
