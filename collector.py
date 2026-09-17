@@ -27,11 +27,11 @@ WATCH = {
         "Camel Plushie",
     ],
     "Switzerland": ["Neumune Tablet"],
-  "China": [
-    "Panda Plushie",
-    "Peony",
-],
-    }
+    "China": [
+        "Panda Plushie",
+        "Peony",
+    ],
+}
 
 COUNTRY_CODES = {
     "sou": "South Africa",
@@ -49,7 +49,7 @@ def fetch_data():
         URL,
         headers={
             "Accept": "application/json",
-            "User-Agent": "TornForeignStockCollector/3.0",
+            "User-Agent": "TornForeignStockCollector/4.0",
         },
     )
 
@@ -143,30 +143,42 @@ def append_csv(path, fields, row):
         writer.writerow(row)
 
 
+def source_time(value):
+    if value is None:
+        return None
+
+    try:
+        return datetime.fromtimestamp(
+            int(value),
+            tz=timezone.utc,
+        ).isoformat()
+    except (TypeError, ValueError, OSError):
+        return None
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
 
-    timestamp = datetime.now(
+    poll_timestamp = datetime.now(
         timezone.utc
     ).isoformat()
 
     data = fetch_data()
-
-    stock, source_updates = parse_stock(data)
+    fetched_stock, source_updates = parse_stock(data)
 
     found = sum(
         value is not None
-        for value in stock.values()
+        for value in fetched_stock.values()
     )
 
     missing = [
         key
-        for key, value in stock.items()
+        for key, value in fetched_stock.items()
         if value is None
     ]
 
     print(
-        f"Parsed {found}/{len(stock)} watched items"
+        f"Parsed {found}/{len(fetched_stock)} watched items"
     )
 
     if missing:
@@ -175,34 +187,89 @@ def main():
             + ", ".join(missing)
         )
 
-    # Fail closed:
-    # Ikke endre gammel state hvis YATA-formatet
-    # eller datakilden feiler kraftig.
+    # Ved kraftig parse-/kildesvikt endrer vi ingenting.
     if found < 8:
         raise RuntimeError(
-            f"Only parsed {found}/{len(stock)} watched "
+            f"Only parsed {found}/{len(fetched_stock)} watched "
             "items. Previous state preserved."
         )
 
     previous = load_previous()
 
-    snapshot = {
-        "timestamp": timestamp,
-        "source": "YATA",
-        "source_url": URL,
-        "travel_slots": 28,
-        "source_updates": source_updates,
-        "stock": stock,
-    }
+    previous_stock = (
+        previous.get("stock", {})
+        if previous
+        else {}
+    )
 
-    # Lagre observasjoner
-    for key, value in stock.items():
+    previous_updates = (
+        previous.get("source_updates", {})
+        if previous
+        else {}
+    )
+
+    previous_observed = (
+        previous.get("observed_at", {})
+        if previous
+        else {}
+    )
+
+    # Bevar siste gyldige verdi dersom én vare mangler
+    # i den nye YATA-responsen.
+    stock = {}
+
+    for key, value in fetched_stock.items():
+        if value is None and key in previous_stock:
+            stock[key] = previous_stock[key]
+        else:
+            stock[key] = value
+
+    # Finn hvilke land som faktisk har fått ny
+    # kildeobservasjon siden forrige polling.
+    fresh_countries = set()
+
+    for country in WATCH:
+        new_update = source_updates.get(country)
+        old_update = previous_updates.get(country)
+
+        if new_update is None:
+            continue
+
+        if previous is None or new_update != old_update:
+            fresh_countries.add(country)
+
+    observed_at = dict(previous_observed)
+
+    for country in fresh_countries:
+        observed_at[country] = (
+            source_time(source_updates.get(country))
+            or poll_timestamp
+        )
+
+    # Første snapshot skal etablere state.
+    # Senere snapshots skal bare behandle land med
+    # en faktisk ny source_update som nye observasjoner.
+    for key, new_value in fetched_stock.items():
         country, item = key.split("|", 1)
+
+        if country not in fresh_countries:
+            continue
+
+        # Manglende verdi er IKKE 0 og skal ikke
+        # registreres som en observasjon.
+        if new_value is None:
+            continue
+
+        observation_time = (
+            source_time(source_updates.get(country))
+            or poll_timestamp
+        )
 
         append_csv(
             HISTORY,
             [
-                "timestamp",
+                "poll_timestamp",
+                "observation_timestamp",
                 "country",
                 "item",
                 "stock",
@@ -210,48 +277,52 @@ def main():
                 "source_update",
             ],
             {
-                "timestamp": timestamp,
+                "poll_timestamp": poll_timestamp,
+                "observation_timestamp": observation_time,
                 "country": country,
                 "item": item,
-                "stock": (
-                    ""
-                    if value is None
-                    else value
-                ),
+                "stock": new_value,
                 "source": "YATA",
                 "source_update":
                     source_updates.get(country, ""),
             },
         )
 
-    # Finn ekte state-overganger
+    # Registrer bare ekte 0 <-> positiv-overganger
+    # fra nye kildeobservasjoner.
     if previous:
-        old_stock = previous.get("stock", {})
+        for key, new_value in fetched_stock.items():
+            country, item = key.split("|", 1)
 
-        for key, new_value in stock.items():
-            old_value = old_stock.get(key)
+            if country not in fresh_countries:
+                continue
 
-            if (
-                old_value is None
-                or new_value is None
-            ):
+            if new_value is None:
+                continue
+
+            old_value = previous_stock.get(key)
+
+            if old_value is None:
                 continue
 
             transition = None
 
-            # positiv -> 0 = stockout
             if old_value > 0 and new_value == 0:
                 transition = "stockout"
 
-            # 0 -> positiv = restock
             elif old_value == 0 and new_value > 0:
                 transition = "restock"
 
-            # positiv -> høyere positiv
-            # teller IKKE som restock
-
             if transition:
-                country, item = key.split("|", 1)
+                lower_bound = (
+                    previous_observed.get(country)
+                    or previous.get("timestamp")
+                )
+
+                upper_bound = (
+                    source_time(source_updates.get(country))
+                    or poll_timestamp
+                )
 
                 append_csv(
                     TRANSITIONS,
@@ -264,20 +335,39 @@ def main():
                         "to_stock",
                         "type",
                         "source",
+                        "source_update",
                     ],
                     {
-                        "lower_bound":
-                            previous.get("timestamp"),
-                        "upper_bound":
-                            timestamp,
+                        "lower_bound": lower_bound,
+                        "upper_bound": upper_bound,
                         "country": country,
                         "item": item,
                         "from_stock": old_value,
                         "to_stock": new_value,
                         "type": transition,
                         "source": "YATA",
+                        "source_update":
+                            source_updates.get(country, ""),
                     },
                 )
+
+    # Hvis et land mangler source_update midlertidig,
+    # bevar forrige gyldige source_update.
+    merged_updates = dict(previous_updates)
+
+    for country, value in source_updates.items():
+        if value is not None:
+            merged_updates[country] = value
+
+    snapshot = {
+        "timestamp": poll_timestamp,
+        "source": "YATA",
+        "source_url": URL,
+        "travel_slots": 28,
+        "source_updates": merged_updates,
+        "observed_at": observed_at,
+        "stock": stock,
+    }
 
     LATEST.write_text(
         json.dumps(
@@ -289,9 +379,24 @@ def main():
     )
 
     print(
-        f"Collected {found}/{len(stock)} "
-        f"watched items at {timestamp}"
+        f"Collected {found}/{len(fetched_stock)} watched items"
     )
+
+    print(
+        f"Fresh countries: "
+        f"{len(fresh_countries)}/{len(WATCH)}"
+    )
+
+    if fresh_countries:
+        print(
+            "New source observations: "
+            + ", ".join(sorted(fresh_countries))
+        )
+    else:
+        print(
+            "YATA source timestamps unchanged; "
+            "no duplicate observations recorded."
+        )
 
 
 if __name__ == "__main__":
