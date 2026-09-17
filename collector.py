@@ -27,8 +27,10 @@ WATCH = {
         "Camel Plushie",
     ],
     "Switzerland": ["Neumune Tablet"],
-    "China": ["Blank Casino Chips"],
-}
+  "China": [
+    "Panda Plushie",
+    "Peony",
+],
 
 COUNTRY_CODES = {
     "sou": "South Africa",
