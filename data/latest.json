@@ -1,29 +1,30 @@
 {
-  "timestamp": "2026-09-17T21:12:18.485036+00:00",
+  "timestamp": "2026-09-17T21:22:06.360545+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789679461,
-    "United Kingdom": 1789679423,
-    "Switzerland": 1789679486,
-    "Japan": 1789679468,
-    "China": 1789679486,
-    "UAE": 1789679489,
-    "South Africa": 1789679534
+    "Canada": 1789680089,
+    "United Kingdom": 1789680049,
+    "Switzerland": 1789680120,
+    "Japan": 1789680023,
+    "China": 1789680115,
+    "UAE": 1789680115,
+    "South Africa": 1789680107
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 1741,
-    "South Africa|Smoke Grenade": 804,
-    "South Africa|Lion Plushie": 1737,
-    "South Africa|African Violet": 6791,
+    "South Africa|Xanax": 1739,
+    "South Africa|Smoke Grenade": 563,
+    "South Africa|Lion Plushie": 1058,
+    "South Africa|African Violet": 6696,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 3511,
-    "UAE|Camel Plushie": 1309,
+    "UAE|Tribulus Omanense": 3396,
+    "UAE|Camel Plushie": 585,
     "Switzerland|Neumune Tablet": 0,
-    "China|Blank Casino Chips": null
+    "China|Panda Plushie": 680,
+    "China|Peony": 6081
   }
 }
