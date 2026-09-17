@@ -31,6 +31,7 @@ WATCH = {
     "Panda Plushie",
     "Peony",
 ],
+    }
 
 COUNTRY_CODES = {
     "sou": "South Africa",
