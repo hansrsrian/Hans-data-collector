@@ -1,30 +1,39 @@
 {
-  "timestamp": "2026-09-17T21:22:06.360545+00:00",
+  "timestamp": "2026-09-17T21:28:54.679796+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789680089,
-    "United Kingdom": 1789680049,
-    "Switzerland": 1789680120,
-    "Japan": 1789680023,
-    "China": 1789680115,
-    "UAE": 1789680115,
-    "South Africa": 1789680107
+    "Canada": 1789680506,
+    "United Kingdom": 1789680303,
+    "Switzerland": 1789680512,
+    "Japan": 1789680500,
+    "China": 1789680450,
+    "UAE": 1789680498,
+    "South Africa": 1789680512
+  },
+  "observed_at": {
+    "United Kingdom": "2026-09-17T21:25:03+00:00",
+    "Canada": "2026-09-17T21:28:26+00:00",
+    "China": "2026-09-17T21:27:30+00:00",
+    "Switzerland": "2026-09-17T21:28:32+00:00",
+    "Japan": "2026-09-17T21:28:20+00:00",
+    "UAE": "2026-09-17T21:28:18+00:00",
+    "South Africa": "2026-09-17T21:28:32+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
     "South Africa|Xanax": 1739,
-    "South Africa|Smoke Grenade": 563,
-    "South Africa|Lion Plushie": 1058,
-    "South Africa|African Violet": 6696,
+    "South Africa|Smoke Grenade": 506,
+    "South Africa|Lion Plushie": 732,
+    "South Africa|African Violet": 6658,
     "Japan|Xanax": 0,
-    "Canada|Xanax": 0,
+    "Canada|Xanax": 2434,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 3396,
-    "UAE|Camel Plushie": 585,
+    "UAE|Tribulus Omanense": 3271,
+    "UAE|Camel Plushie": 211,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 680,
-    "China|Peony": 6081
+    "China|Panda Plushie": 344,
+    "China|Peony": 6003
   }
 }
