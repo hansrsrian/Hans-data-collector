@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-17T22:19:42.343671+00:00",
+  "timestamp": "2026-09-17T22:33:00.093434+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789683518,
-    "United Kingdom": 1789683573,
-    "Switzerland": 1789683579,
-    "Japan": 1789683535,
-    "China": 1789683554,
-    "UAE": 1789683497,
-    "South Africa": 1789683549
+    "Canada": 1789684295,
+    "United Kingdom": 1789684373,
+    "Switzerland": 1789684348,
+    "Japan": 1789684307,
+    "China": 1789684309,
+    "UAE": 1789684321,
+    "South Africa": 1789684255
   },
   "observed_at": {
-    "United Kingdom": "2026-09-17T22:19:33+00:00",
-    "Canada": "2026-09-17T22:18:38+00:00",
-    "China": "2026-09-17T22:19:14+00:00",
-    "Switzerland": "2026-09-17T22:19:39+00:00",
-    "Japan": "2026-09-17T22:18:55+00:00",
-    "UAE": "2026-09-17T22:18:17+00:00",
-    "South Africa": "2026-09-17T22:19:09+00:00"
+    "United Kingdom": "2026-09-17T22:32:53+00:00",
+    "Canada": "2026-09-17T22:31:35+00:00",
+    "China": "2026-09-17T22:31:49+00:00",
+    "Switzerland": "2026-09-17T22:32:28+00:00",
+    "Japan": "2026-09-17T22:31:47+00:00",
+    "UAE": "2026-09-17T22:32:01+00:00",
+    "South Africa": "2026-09-17T22:30:55+00:00"
   },
   "stock": {
-    "South Africa|Raw Ivory": 2500,
-    "South Africa|Xanax": 1665,
+    "South Africa|Raw Ivory": 1980,
+    "South Africa|Xanax": 1598,
     "South Africa|Smoke Grenade": 0,
-    "South Africa|Lion Plushie": 781,
-    "South Africa|African Violet": 5602,
+    "South Africa|Lion Plushie": 331,
+    "South Africa|African Violet": 5497,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 1791,
-    "UAE|Camel Plushie": 324,
+    "UAE|Tribulus Omanense": 1453,
+    "UAE|Camel Plushie": 0,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 838,
-    "China|Peony": 5092
+    "China|Panda Plushie": 343,
+    "China|Peony": 4904
   }
 }
