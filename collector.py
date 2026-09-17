@@ -1,11 +1,10 @@
 import csv
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-URL = "https://torn-intel.com/api/v1/public/foreign-stock"
+URL = "https://yata.yt/api/v1/travel/export/"
 
 DATA_DIR = Path("data")
 LATEST = DATA_DIR / "latest.json"
@@ -31,151 +30,83 @@ WATCH = {
     "China": ["Blank Casino Chips"],
 }
 
+COUNTRY_CODES = {
+    "sou": "South Africa",
+    "jap": "Japan",
+    "can": "Canada",
+    "uni": "United Kingdom",
+    "uae": "UAE",
+    "swi": "Switzerland",
+    "chi": "China",
+}
+
 
 def fetch_data():
-    api_key = os.environ.get("TORN_INTEL_KEY")
-
-    if not api_key:
-        raise RuntimeError(
-            "TORN_INTEL_KEY is not available in the environment"
-        )
-
     request = Request(
         URL,
         headers={
-            "X-Torn-Intel-Key": api_key,
             "Accept": "application/json",
-            "User-Agent": "TornForeignStockCollector/2.0",
+            "User-Agent": "TornForeignStockCollector/3.0",
         },
     )
 
     with urlopen(request, timeout=30) as response:
-        return json.loads(
-            response.read().decode("utf-8")
-        )
-
-
-def normalize_country(name):
-    aliases = {
-        "SA": "South Africa",
-        "South Africa": "South Africa",
-        "Japan": "Japan",
-        "Canada": "Canada",
-        "UK": "United Kingdom",
-        "United Kingdom": "United Kingdom",
-        "UAE": "UAE",
-        "United Arab Emirates": "UAE",
-        "Switzerland": "Switzerland",
-        "China": "China",
-    }
-
-    return aliases.get(name, name)
+        return json.loads(response.read().decode("utf-8"))
 
 
 def parse_stock(data):
-    stock = {
+    result = {
         f"{country}|{item}": None
         for country, items in WATCH.items()
         for item in items
     }
 
-    countries = data.get("countries", data)
+    source_updates = {}
 
-    if isinstance(countries, dict):
-        country_entries = []
+    stocks = data.get("stocks")
 
-        for country_name, country_data in countries.items():
-            if isinstance(country_data, dict):
-                entry = dict(country_data)
-                entry.setdefault("name", country_name)
-                country_entries.append(entry)
+    if not isinstance(stocks, dict):
+        raise RuntimeError("YATA response has no stocks object")
 
-    elif isinstance(countries, list):
-        country_entries = countries
+    for code, country_data in stocks.items():
+        country = COUNTRY_CODES.get(code)
 
-    else:
-        raise RuntimeError(
-            "Unexpected Torn Intel response structure"
-        )
+        if country not in WATCH:
+            continue
 
-    for country_data in country_entries:
         if not isinstance(country_data, dict):
             continue
 
-        country_name = (
-            country_data.get("name")
-            or country_data.get("country")
-            or country_data.get("country_name")
-            or country_data.get("code")
-        )
+        source_updates[country] = country_data.get("update")
 
-        if not country_name:
+        items = country_data.get("stocks", [])
+
+        if not isinstance(items, list):
             continue
 
-        country_name = normalize_country(
-            str(country_name)
-        )
+        wanted = {
+            name.lower(): name
+            for name in WATCH[country]
+        }
 
-        if country_name not in WATCH:
-            continue
-
-        items = (
-            country_data.get("items")
-            or country_data.get("stock")
-            or []
-        )
-
-        if isinstance(items, dict):
-            item_entries = []
-
-            for item_name, item_data in items.items():
-                if isinstance(item_data, dict):
-                    entry = dict(item_data)
-                    entry.setdefault("name", item_name)
-                else:
-                    entry = {
-                        "name": item_name,
-                        "quantity": item_data,
-                    }
-
-                item_entries.append(entry)
-
-        elif isinstance(items, list):
-            item_entries = items
-
-        else:
-            continue
-
-        for item_data in item_entries:
-            if not isinstance(item_data, dict):
+        for item in items:
+            if not isinstance(item, dict):
                 continue
 
-            item_name = (
-                item_data.get("name")
-                or item_data.get("item_name")
-                or item_data.get("item")
-            )
+            name = str(item.get("name", "")).strip()
+            canonical = wanted.get(name.lower())
 
-            if item_name not in WATCH[country_name]:
+            if canonical is None:
                 continue
-
-            quantity = item_data.get("quantity")
-
-            if quantity is None:
-                quantity = item_data.get("stock")
-
-            if quantity is None:
-                quantity = item_data.get("amount")
 
             try:
-                quantity = int(quantity)
+                quantity = int(item.get("quantity", 0))
             except (TypeError, ValueError):
                 continue
 
-            key = f"{country_name}|{item_name}"
-            stock[key] = quantity
+            result[f"{country}|{canonical}"] = quantity
 
-    return stock
+    return result, source_updates
 
 
 def load_previous():
@@ -217,29 +148,34 @@ def main():
     ).isoformat()
 
     data = fetch_data()
-    stock = parse_stock(data)
+
+    stock, source_updates = parse_stock(data)
 
     found = sum(
         value is not None
         for value in stock.values()
     )
 
+    missing = [
+        key
+        for key, value in stock.items()
+        if value is None
+    ]
+
     print(
         f"Parsed {found}/{len(stock)} watched items"
     )
 
-    # Fail closed:
-    # Ikke overskriv gammel state hvis API-formatet
-    # endrer seg eller parsing feiler.
-    if found < 8:
+    if missing:
         print(
-            json.dumps(
-                data,
-                indent=2,
-                ensure_ascii=False,
-            )[:5000]
+            "Missing targets: "
+            + ", ".join(missing)
         )
 
+    # Fail closed:
+    # Ikke endre gammel state hvis YATA-formatet
+    # eller datakilden feiler kraftig.
+    if found < 8:
         raise RuntimeError(
             f"Only parsed {found}/{len(stock)} watched "
             "items. Previous state preserved."
@@ -249,12 +185,14 @@ def main():
 
     snapshot = {
         "timestamp": timestamp,
-        "source": URL,
+        "source": "YATA",
+        "source_url": URL,
         "travel_slots": 28,
+        "source_updates": source_updates,
         "stock": stock,
     }
 
-    # Lagre alle observasjoner
+    # Lagre observasjoner
     for key, value in stock.items():
         country, item = key.split("|", 1)
 
@@ -265,6 +203,8 @@ def main():
                 "country",
                 "item",
                 "stock",
+                "source",
+                "source_update",
             ],
             {
                 "timestamp": timestamp,
@@ -275,10 +215,13 @@ def main():
                     if value is None
                     else value
                 ),
+                "source": "YATA",
+                "source_update":
+                    source_updates.get(country, ""),
             },
         )
 
-    # Registrer bare ekte state-overganger
+    # Finn ekte state-overganger
     if previous:
         old_stock = previous.get("stock", {})
 
@@ -293,22 +236,16 @@ def main():
 
             transition = None
 
-            # positiv -> 0
-            if (
-                old_value > 0
-                and new_value == 0
-            ):
+            # positiv -> 0 = stockout
+            if old_value > 0 and new_value == 0:
                 transition = "stockout"
 
-            # 0 -> positiv
-            elif (
-                old_value == 0
-                and new_value > 0
-            ):
+            # 0 -> positiv = restock
+            elif old_value == 0 and new_value > 0:
                 transition = "restock"
 
-            # positiv -> høyere positiv teller
-            # fortsatt IKKE som restock.
+            # positiv -> høyere positiv
+            # teller IKKE som restock
 
             if transition:
                 country, item = key.split("|", 1)
@@ -323,22 +260,19 @@ def main():
                         "from_stock",
                         "to_stock",
                         "type",
+                        "source",
                     ],
                     {
                         "lower_bound":
                             previous.get("timestamp"),
                         "upper_bound":
                             timestamp,
-                        "country":
-                            country,
-                        "item":
-                            item,
-                        "from_stock":
-                            old_value,
-                        "to_stock":
-                            new_value,
-                        "type":
-                            transition,
+                        "country": country,
+                        "item": item,
+                        "from_stock": old_value,
+                        "to_stock": new_value,
+                        "type": transition,
+                        "source": "YATA",
                     },
                 )
 
