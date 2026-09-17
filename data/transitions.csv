@@ -16,3 +16,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-17T22:31:49+00:00,2026-09-17T22:45:27+00:00,China,Panda Plushie,343,0,stockout,YATA,1789685127
 2026-09-17T22:44:47+00:00,2026-09-17T22:58:27+00:00,South Africa,Lion Plushie,0,2228,restock,YATA,1789685907
 2026-09-17T22:45:27+00:00,2026-09-17T22:58:07+00:00,China,Panda Plushie,0,2059,restock,YATA,1789685887
+2026-09-17T22:58:27+00:00,2026-09-17T23:15:22+00:00,South Africa,Smoke Grenade,0,2500,restock,YATA,1789686922
+2026-09-17T22:57:45+00:00,2026-09-17T23:15:16+00:00,Japan,Xanax,0,1791,restock,YATA,1789686916
