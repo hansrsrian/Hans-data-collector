@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-18T07:23:56.956391+00:00",
+  "timestamp": "2026-09-18T07:40:52.412965+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789716184,
-    "United Kingdom": 1789716224,
-    "Switzerland": 1789716223,
-    "Japan": 1789716178,
-    "China": 1789716235,
-    "UAE": 1789716228,
-    "South Africa": 1789716170
+    "Canada": 1789717174,
+    "United Kingdom": 1789717155,
+    "Switzerland": 1789717218,
+    "Japan": 1789717213,
+    "China": 1789717187,
+    "UAE": 1789717200,
+    "South Africa": 1789717227
   },
   "observed_at": {
-    "United Kingdom": "2026-09-18T07:23:44+00:00",
-    "Canada": "2026-09-18T07:23:04+00:00",
-    "China": "2026-09-18T07:23:55+00:00",
-    "Switzerland": "2026-09-18T07:23:43+00:00",
-    "Japan": "2026-09-18T07:22:58+00:00",
-    "UAE": "2026-09-18T07:23:48+00:00",
-    "South Africa": "2026-09-18T07:22:50+00:00"
+    "United Kingdom": "2026-09-18T07:39:15+00:00",
+    "Canada": "2026-09-18T07:39:34+00:00",
+    "China": "2026-09-18T07:39:47+00:00",
+    "Switzerland": "2026-09-18T07:40:18+00:00",
+    "Japan": "2026-09-18T07:40:13+00:00",
+    "UAE": "2026-09-18T07:40:00+00:00",
+    "South Africa": "2026-09-18T07:40:27+00:00"
   },
   "stock": {
-    "South Africa|Raw Ivory": 1153,
-    "South Africa|Xanax": 970,
+    "South Africa|Raw Ivory": 289,
+    "South Africa|Xanax": 938,
     "South Africa|Smoke Grenade": 0,
-    "South Africa|Lion Plushie": 251,
-    "South Africa|African Violet": 4091,
+    "South Africa|Lion Plushie": 2483,
+    "South Africa|African Violet": 3213,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 310,
-    "UAE|Camel Plushie": 0,
+    "UAE|Tribulus Omanense": 0,
+    "UAE|Camel Plushie": 2288,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 0,
-    "China|Peony": 2743
+    "China|Panda Plushie": 2028,
+    "China|Peony": 2519
   }
 }
