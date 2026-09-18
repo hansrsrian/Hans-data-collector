@@ -42,3 +42,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T01:58:38+00:00,2026-09-18T02:18:31+00:00,Japan,Xanax,754,0,stockout,YATA,1789697911
 2026-09-18T01:58:26+00:00,2026-09-18T02:17:21+00:00,United Kingdom,Xanax,167,0,stockout,YATA,1789697841
 2026-09-18T01:57:49+00:00,2026-09-18T02:18:19+00:00,China,Peony,104,0,stockout,YATA,1789697899
+2026-09-18T02:18:22+00:00,2026-09-18T02:35:17+00:00,South Africa,Raw Ivory,0,2500,restock,YATA,1789698917
+2026-09-18T02:18:22+00:00,2026-09-18T02:35:17+00:00,South Africa,African Violet,415,0,stockout,YATA,1789698917

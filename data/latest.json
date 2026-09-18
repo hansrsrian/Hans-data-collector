@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-18T02:19:22.030177+00:00",
+  "timestamp": "2026-09-18T02:36:25.111535+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789697916,
-    "United Kingdom": 1789697841,
-    "Switzerland": 1789697949,
-    "Japan": 1789697911,
-    "China": 1789697899,
-    "UAE": 1789697885,
-    "South Africa": 1789697902
+    "Canada": 1789698941,
+    "United Kingdom": 1789698966,
+    "Switzerland": 1789698984,
+    "Japan": 1789698959,
+    "China": 1789698912,
+    "UAE": 1789698925,
+    "South Africa": 1789698917
   },
   "observed_at": {
-    "United Kingdom": "2026-09-18T02:17:21+00:00",
-    "Canada": "2026-09-18T02:18:36+00:00",
-    "China": "2026-09-18T02:18:19+00:00",
-    "Switzerland": "2026-09-18T02:19:09+00:00",
-    "Japan": "2026-09-18T02:18:31+00:00",
-    "UAE": "2026-09-18T02:18:05+00:00",
-    "South Africa": "2026-09-18T02:18:22+00:00"
+    "United Kingdom": "2026-09-18T02:36:06+00:00",
+    "Canada": "2026-09-18T02:35:41+00:00",
+    "China": "2026-09-18T02:35:12+00:00",
+    "Switzerland": "2026-09-18T02:36:24+00:00",
+    "Japan": "2026-09-18T02:35:59+00:00",
+    "UAE": "2026-09-18T02:35:25+00:00",
+    "South Africa": "2026-09-18T02:35:17+00:00"
   },
   "stock": {
-    "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 1254,
-    "South Africa|Smoke Grenade": 553,
-    "South Africa|Lion Plushie": 1,
-    "South Africa|African Violet": 415,
+    "South Africa|Raw Ivory": 2500,
+    "South Africa|Xanax": 1227,
+    "South Africa|Smoke Grenade": 176,
+    "South Africa|Lion Plushie": 2344,
+    "South Africa|African Violet": 0,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 7672,
-    "UAE|Camel Plushie": 2396,
+    "UAE|Tribulus Omanense": 7500,
+    "UAE|Camel Plushie": 1342,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 2229,
+    "China|Panda Plushie": 1053,
     "China|Peony": 0
   }
 }
