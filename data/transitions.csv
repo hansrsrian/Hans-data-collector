@@ -170,3 +170,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T15:47:32+00:00,2026-09-18T16:00:35+00:00,South Africa,Raw Ivory,294,0,stockout,YATA,1789747235
 2026-09-18T15:47:32+00:00,2026-09-18T16:00:35+00:00,South Africa,Lion Plushie,0,1786,restock,YATA,1789747235
 2026-09-18T15:47:38+00:00,2026-09-18T16:00:55+00:00,Canada,Xanax,640,0,stockout,YATA,1789747255
+2026-09-18T16:00:35+00:00,2026-09-18T16:20:00+00:00,South Africa,African Violet,218,0,stockout,YATA,1789748400
+2026-09-18T15:59:58+00:00,2026-09-18T16:18:08+00:00,UAE,Camel Plushie,0,899,restock,YATA,1789748288
