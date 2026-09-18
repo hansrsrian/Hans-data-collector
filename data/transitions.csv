@@ -71,3 +71,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T05:49:49+00:00,2026-09-18T06:05:55+00:00,South Africa,Lion Plushie,0,1769,restock,YATA,1789711555
 2026-09-18T05:50:09+00:00,2026-09-18T06:05:35+00:00,UAE,Camel Plushie,0,1548,restock,YATA,1789711535
 2026-09-18T05:47:03+00:00,2026-09-18T06:05:42+00:00,Switzerland,Neumune Tablet,3,0,stockout,YATA,1789711542
+2026-09-18T06:05:59+00:00,2026-09-18T06:29:18+00:00,Canada,Xanax,329,0,stockout,YATA,1789712958
+2026-09-18T06:06:06+00:00,2026-09-18T06:30:09+00:00,China,Panda Plushie,902,0,stockout,YATA,1789713009
