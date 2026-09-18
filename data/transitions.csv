@@ -161,3 +161,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T14:40:51+00:00,2026-09-18T14:55:16+00:00,China,Panda Plushie,0,1932,restock,YATA,1789743316
 2026-09-18T14:54:44+00:00,2026-09-18T15:14:48+00:00,South Africa,Raw Ivory,0,1762,restock,YATA,1789744488
 2026-09-18T14:54:44+00:00,2026-09-18T15:14:48+00:00,South Africa,Smoke Grenade,0,2461,restock,YATA,1789744488
+2026-09-18T15:15:35+00:00,2026-09-18T15:32:08+00:00,China,Panda Plushie,381,0,stockout,YATA,1789745528
