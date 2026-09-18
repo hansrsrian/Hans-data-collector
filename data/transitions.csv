@@ -142,3 +142,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T13:18:56+00:00,2026-09-18T13:34:04+00:00,United Kingdom,Xanax,0,2174,restock,YATA,1789738444
 2026-09-18T13:18:08+00:00,2026-09-18T13:33:36+00:00,UAE,Camel Plushie,0,1602,restock,YATA,1789738416
 2026-09-18T13:18:50+00:00,2026-09-18T13:33:58+00:00,China,Panda Plushie,0,1811,restock,YATA,1789738438
+2026-09-18T13:34:06+00:00,2026-09-18T13:49:02+00:00,Canada,Xanax,55,0,stockout,YATA,1789739342
