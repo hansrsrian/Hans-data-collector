@@ -132,3 +132,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T11:59:35+00:00,2026-09-18T12:24:08+00:00,China,Panda Plushie,1404,0,stockout,YATA,1789734248
 2026-09-18T12:24:00+00:00,2026-09-18T12:44:52+00:00,UAE,Camel Plushie,397,0,stockout,YATA,1789735492
 2026-09-18T12:24:08+00:00,2026-09-18T12:45:37+00:00,China,Panda Plushie,0,1554,restock,YATA,1789735537
+2026-09-18T12:44:52+00:00,2026-09-18T12:58:01+00:00,UAE,Camel Plushie,0,1456,restock,YATA,1789736281
