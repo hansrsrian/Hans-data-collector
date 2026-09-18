@@ -157,3 +157,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T14:24:22+00:00,2026-09-18T14:41:09+00:00,UAE,Camel Plushie,0,2012,restock,YATA,1789742469
 2026-09-18T14:23:15+00:00,2026-09-18T14:40:51+00:00,China,Panda Plushie,1142,0,stockout,YATA,1789742451
 2026-09-18T14:23:15+00:00,2026-09-18T14:40:51+00:00,China,Peony,469,0,stockout,YATA,1789742451
+2026-09-18T14:40:42+00:00,2026-09-18T14:54:44+00:00,South Africa,Lion Plushie,0,2157,restock,YATA,1789743284
+2026-09-18T14:40:51+00:00,2026-09-18T14:55:16+00:00,China,Panda Plushie,0,1932,restock,YATA,1789743316
