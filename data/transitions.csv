@@ -75,3 +75,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T06:06:06+00:00,2026-09-18T06:30:09+00:00,China,Panda Plushie,902,0,stockout,YATA,1789713009
 2026-09-18T06:29:37+00:00,2026-09-18T06:49:13+00:00,Japan,Xanax,0,1262,restock,YATA,1789714153
 2026-09-18T06:30:09+00:00,2026-09-18T06:49:55+00:00,China,Panda Plushie,0,1802,restock,YATA,1789714195
+2026-09-18T06:50:03+00:00,2026-09-18T07:03:46+00:00,South Africa,Raw Ivory,0,1931,restock,YATA,1789715026
