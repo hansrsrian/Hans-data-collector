@@ -32,3 +32,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T00:17:41+00:00,2026-09-18T00:40:42+00:00,South Africa,Lion Plushie,902,0,stockout,YATA,1789692042
 2026-09-18T00:19:31+00:00,2026-09-18T00:40:23+00:00,UAE,Tribulus Omanense,0,9790,restock,YATA,1789692023
 2026-09-18T00:19:31+00:00,2026-09-18T00:40:23+00:00,UAE,Camel Plushie,0,1376,restock,YATA,1789692023
+2026-09-18T00:40:42+00:00,2026-09-18T00:56:18+00:00,South Africa,Lion Plushie,0,1932,restock,YATA,1789692978
+2026-09-18T00:39:33+00:00,2026-09-18T00:55:11+00:00,China,Panda Plushie,420,0,stockout,YATA,1789692911
