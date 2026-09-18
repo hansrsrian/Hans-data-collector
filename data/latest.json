@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-18T05:50:11.378010+00:00",
+  "timestamp": "2026-09-18T06:06:28.904830+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789710557,
-    "United Kingdom": 1789710556,
-    "Switzerland": 1789710423,
-    "Japan": 1789710496,
-    "China": 1789710590,
-    "UAE": 1789710609,
-    "South Africa": 1789710589
+    "Canada": 1789711559,
+    "United Kingdom": 1789711547,
+    "Switzerland": 1789711542,
+    "Japan": 1789711541,
+    "China": 1789711566,
+    "UAE": 1789711535,
+    "South Africa": 1789711555
   },
   "observed_at": {
-    "United Kingdom": "2026-09-18T05:49:16+00:00",
-    "Canada": "2026-09-18T05:49:17+00:00",
-    "China": "2026-09-18T05:49:50+00:00",
-    "Switzerland": "2026-09-18T05:47:03+00:00",
-    "Japan": "2026-09-18T05:48:16+00:00",
-    "UAE": "2026-09-18T05:50:09+00:00",
-    "South Africa": "2026-09-18T05:49:49+00:00"
+    "United Kingdom": "2026-09-18T06:05:47+00:00",
+    "Canada": "2026-09-18T06:05:59+00:00",
+    "China": "2026-09-18T06:06:06+00:00",
+    "Switzerland": "2026-09-18T06:05:42+00:00",
+    "Japan": "2026-09-18T06:05:41+00:00",
+    "UAE": "2026-09-18T06:05:35+00:00",
+    "South Africa": "2026-09-18T06:05:55+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 1102,
-    "South Africa|Smoke Grenade": 691,
-    "South Africa|Lion Plushie": 0,
-    "South Africa|African Violet": 6452,
+    "South Africa|Xanax": 1094,
+    "South Africa|Smoke Grenade": 525,
+    "South Africa|Lion Plushie": 1769,
+    "South Africa|African Violet": 5843,
     "Japan|Xanax": 0,
-    "Canada|Xanax": 1968,
-    "United Kingdom|Xanax": 1268,
-    "UAE|Tribulus Omanense": 2656,
-    "UAE|Camel Plushie": 0,
-    "Switzerland|Neumune Tablet": 3,
-    "China|Panda Plushie": 1628,
-    "China|Peony": 5750
+    "Canada|Xanax": 329,
+    "United Kingdom|Xanax": 1065,
+    "UAE|Tribulus Omanense": 2449,
+    "UAE|Camel Plushie": 1548,
+    "Switzerland|Neumune Tablet": 0,
+    "China|Panda Plushie": 902,
+    "China|Peony": 5437
   }
 }
