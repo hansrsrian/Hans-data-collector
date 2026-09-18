@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-18T19:09:53.879717+00:00",
+  "timestamp": "2026-09-18T19:25:50.217034+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789758592,
-    "United Kingdom": 1789758587,
-    "Switzerland": 1789758535,
-    "Japan": 1789758536,
-    "China": 1789758592,
-    "UAE": 1789758572,
-    "South Africa": 1789758504
+    "Canada": 1789759525,
+    "United Kingdom": 1789759532,
+    "Switzerland": 1789759487,
+    "Japan": 1789759546,
+    "China": 1789759515,
+    "UAE": 1789759493,
+    "South Africa": 1789759517
   },
   "observed_at": {
-    "United Kingdom": "2026-09-18T19:09:47+00:00",
-    "Canada": "2026-09-18T19:09:52+00:00",
-    "China": "2026-09-18T19:09:52+00:00",
-    "Switzerland": "2026-09-18T19:08:55+00:00",
-    "Japan": "2026-09-18T19:08:56+00:00",
-    "UAE": "2026-09-18T19:09:32+00:00",
-    "South Africa": "2026-09-18T19:08:24+00:00"
+    "United Kingdom": "2026-09-18T19:25:32+00:00",
+    "Canada": "2026-09-18T19:25:25+00:00",
+    "China": "2026-09-18T19:25:15+00:00",
+    "Switzerland": "2026-09-18T19:24:47+00:00",
+    "Japan": "2026-09-18T19:25:46+00:00",
+    "UAE": "2026-09-18T19:24:53+00:00",
+    "South Africa": "2026-09-18T19:25:17+00:00"
   },
   "stock": {
-    "South Africa|Raw Ivory": 1172,
-    "South Africa|Xanax": 2419,
-    "South Africa|Smoke Grenade": 2426,
-    "South Africa|Lion Plushie": 670,
-    "South Africa|African Violet": 6634,
+    "South Africa|Raw Ivory": 610,
+    "South Africa|Xanax": 2411,
+    "South Africa|Smoke Grenade": 2220,
+    "South Africa|Lion Plushie": 86,
+    "South Africa|African Violet": 6487,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
     "UAE|Tribulus Omanense": 0,
-    "UAE|Camel Plushie": 0,
+    "UAE|Camel Plushie": 1338,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 1422,
-    "China|Peony": 2572
+    "China|Panda Plushie": 583,
+    "China|Peony": 2298
   }
 }

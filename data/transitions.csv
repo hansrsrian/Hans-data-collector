@@ -204,3 +204,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T18:50:24+00:00,2026-09-18T19:09:32+00:00,UAE,Tribulus Omanense,168,0,stockout,YATA,1789758572
 2026-09-18T18:50:24+00:00,2026-09-18T19:09:32+00:00,UAE,Camel Plushie,365,0,stockout,YATA,1789758572
 2026-09-18T18:51:35+00:00,2026-09-18T19:09:52+00:00,China,Panda Plushie,0,1422,restock,YATA,1789758592
+2026-09-18T19:09:32+00:00,2026-09-18T19:24:53+00:00,UAE,Camel Plushie,0,1338,restock,YATA,1789759493
