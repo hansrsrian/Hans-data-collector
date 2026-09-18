@@ -49,3 +49,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T02:50:56+00:00,2026-09-18T03:42:30+00:00,South Africa,African Violet,0,9741,restock,YATA,1789702950
 2026-09-18T02:50:01+00:00,2026-09-18T03:41:24+00:00,Canada,Xanax,0,129,restock,YATA,1789702884
 2026-09-18T02:50:09+00:00,2026-09-18T03:43:08+00:00,China,Peony,0,8821,restock,YATA,1789702988
+2026-09-18T03:41:24+00:00,2026-09-18T03:55:44+00:00,Canada,Xanax,129,0,stockout,YATA,1789703744
