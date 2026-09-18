@@ -118,3 +118,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-18T10:57:29+00:00,2026-09-18T11:17:21+00:00,South Africa,Raw Ivory,0,1712,restock,YATA,1789730241
 2026-09-18T10:57:29+00:00,2026-09-18T11:17:21+00:00,South Africa,Lion Plushie,0,1676,restock,YATA,1789730241
 2026-09-18T10:56:51+00:00,2026-09-18T11:17:16+00:00,Canada,Xanax,228,0,stockout,YATA,1789730236
+2026-09-18T11:17:21+00:00,2026-09-18T11:32:56+00:00,South Africa,Smoke Grenade,0,2338,restock,YATA,1789731176
+2026-09-18T11:15:35+00:00,2026-09-18T11:31:27+00:00,United Kingdom,Xanax,70,0,stockout,YATA,1789731087
+2026-09-18T11:17:04+00:00,2026-09-18T11:32:17+00:00,China,Panda Plushie,608,0,stockout,YATA,1789731137
