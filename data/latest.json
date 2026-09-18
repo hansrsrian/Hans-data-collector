@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-18T01:16:27.620528+00:00",
+  "timestamp": "2026-09-18T01:31:19.073182+00:00",
   "source": "YATA",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789694147,
-    "United Kingdom": 1789694166,
-    "Switzerland": 1789694181,
-    "Japan": 1789694166,
-    "China": 1789694045,
-    "UAE": 1789694125,
-    "South Africa": 1789694118
+    "Canada": 1789695011,
+    "United Kingdom": 1789695017,
+    "Switzerland": 1789695030,
+    "Japan": 1789695003,
+    "China": 1789695066,
+    "UAE": 1789694965,
+    "South Africa": 1789694988
   },
   "observed_at": {
-    "United Kingdom": "2026-09-18T01:16:06+00:00",
-    "Canada": "2026-09-18T01:15:47+00:00",
-    "China": "2026-09-18T01:14:05+00:00",
-    "Switzerland": "2026-09-18T01:16:21+00:00",
-    "Japan": "2026-09-18T01:16:06+00:00",
-    "UAE": "2026-09-18T01:15:25+00:00",
-    "South Africa": "2026-09-18T01:15:18+00:00"
+    "United Kingdom": "2026-09-18T01:30:17+00:00",
+    "Canada": "2026-09-18T01:30:11+00:00",
+    "China": "2026-09-18T01:31:06+00:00",
+    "Switzerland": "2026-09-18T01:30:30+00:00",
+    "Japan": "2026-09-18T01:30:03+00:00",
+    "UAE": "2026-09-18T01:29:25+00:00",
+    "South Africa": "2026-09-18T01:29:48+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 1324,
-    "South Africa|Smoke Grenade": 1288,
-    "South Africa|Lion Plushie": 816,
-    "South Africa|African Violet": 1654,
+    "South Africa|Xanax": 1285,
+    "South Africa|Smoke Grenade": 1146,
+    "South Africa|Lion Plushie": 0,
+    "South Africa|African Violet": 1535,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
-    "United Kingdom|Xanax": 736,
-    "UAE|Tribulus Omanense": 8996,
-    "UAE|Camel Plushie": 2500,
+    "United Kingdom|Xanax": 535,
+    "UAE|Tribulus Omanense": 8873,
+    "UAE|Camel Plushie": 1528,
     "Switzerland|Neumune Tablet": 0,
-    "China|Panda Plushie": 2181,
-    "China|Peony": 391
+    "China|Panda Plushie": 1463,
+    "China|Peony": 352
   }
 }
