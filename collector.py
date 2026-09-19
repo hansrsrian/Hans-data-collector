@@ -24,6 +24,15 @@ WATCH = {
     "Switzerland": ["Neumune Tablet"],
     "China": ["Blank Casino Chips", "Panda Plushie", "Pangolin Scales"],
 }
+ITEM_IDS = {
+    "China": {327: "Blank Casino Chips"},
+}
+ITEM_ALIASES = {
+    "China": {
+        "blank casino chips": "Blank Casino Chips",
+        "blank tokens": "Blank Casino Chips",
+    },
+}
 COUNTRY_CODES = {
     "sou": "South Africa", "jap": "Japan", "can": "Canada",
     "uni": "United Kingdom", "uae": "UAE", "swi": "Switzerland", "chi": "China",
@@ -62,6 +71,28 @@ def source_time(value):
         return None
 
 
+def canonical_item(country, item):
+    """Resolve watched items by stable ID first, then known aliases/name."""
+    if country not in WATCH or not isinstance(item, dict):
+        return None
+
+    # Blank Casino Chips was renamed from Blank Tokens. Some providers may
+    # expose the stable Torn item ID even when the display name is stale.
+    for field in ("id", "item_id", "itemID", "itemId"):
+        item_id = nonnegative_integer(item.get(field))
+        canonical = ITEM_IDS.get(country, {}).get(item_id)
+        if canonical is not None:
+            return canonical
+
+    name = str(item.get("name", "")).strip().lower()
+    canonical = ITEM_ALIASES.get(country, {}).get(name)
+    if canonical is not None:
+        return canonical
+
+    wanted = {name.lower(): name for name in WATCH[country]}
+    return wanted.get(name)
+
+
 def parse_stock(data):
     result = {f"{country}|{item}": None for country, items in WATCH.items() for item in items}
     updates = {}
@@ -76,11 +107,8 @@ def parse_stock(data):
         items = entry.get("stocks", [])
         if not isinstance(items, list):
             continue
-        wanted = {name.lower(): name for name in WATCH[country]}
         for item in items:
-            if not isinstance(item, dict):
-                continue
-            canonical = wanted.get(str(item.get("name", "")).strip().lower())
+            canonical = canonical_item(country, item)
             if canonical is not None:
                 result[f"{country}|{canonical}"] = nonnegative_integer(item.get("quantity"))
     return result, updates
@@ -121,11 +149,8 @@ def log_raw(provider, payload, timestamp):
         country = COUNTRY_CODES.get(code)
         if country not in WATCH or not isinstance(entry, dict) or not isinstance(entry.get("stocks"), list):
             continue
-        wanted = {name.lower(): name for name in WATCH[country]}
         for item in entry["stocks"]:
-            if not isinstance(item, dict):
-                continue
-            canonical = wanted.get(str(item.get("name", "")).strip().lower())
+            canonical = canonical_item(country, item)
             if canonical is None:
                 continue
             observation = {

@@ -11,6 +11,7 @@ from unittest.mock import patch
 import collector as c
 
 KEY = 'China|Panda Plushie'
+BCC_KEY = 'China|Blank Casino Chips'
 
 
 def provider(quantity, update):
@@ -132,6 +133,38 @@ class CollectorTests(unittest.TestCase):
 
     def test_watch_list(self):
         self.assertEqual(c.WATCH['China'], ['Blank Casino Chips', 'Panda Plushie', 'Pangolin Scales'])
+
+    def test_bcc_matches_item_id_alias_and_ignores_mexico(self):
+        by_id = {'stocks': {
+            'chi': {'update': 100, 'stocks': [
+                {'id': 327, 'name': 'Legacy provider label', 'quantity': 77},
+            ]},
+            'mex': {'update': 100, 'stocks': [
+                {'id': 327, 'name': 'Blank Casino Chips', 'quantity': 999},
+            ]},
+        }}
+        values, updates = c.parse_stock(by_id)
+        self.assertEqual(values[BCC_KEY], 77)
+        self.assertEqual(updates['China'], 100)
+
+        alias = {'stocks': {'chi': {'update': 101, 'stocks': [
+            {'name': 'Blank Tokens', 'quantity': '55'},
+        ]}}}
+        self.assertEqual(c.parse_stock(alias)[0][BCC_KEY], 55)
+
+        mexico_only = {'stocks': {'mex': {'update': 102, 'stocks': [
+            {'id': 327, 'name': 'Blank Tokens', 'quantity': 999},
+        ]}}}
+        self.assertIsNone(c.parse_stock(mexico_only)[0][BCC_KEY])
+
+        c.log_raw('Prometheus', alias, 'collection-time')
+        observations = json.loads(c.OBSERVATIONS.read_text())['observations']
+        self.assertEqual(observations, [{
+            'country': 'China',
+            'item': 'Blank Casino Chips',
+            'source_update': 101,
+            'quantity': '55',
+        }])
 
     def test_each_source_failure_falls_back(self):
         for failure in ['YATA', 'Prometheus']:
