@@ -270,3 +270,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T01:16:52+00:00,2026-09-19T01:33:15+00:00,South Africa,African Violet,0,9544,restock,Prometheus,1789781595
 2026-09-19T01:17:49+00:00,2026-09-19T01:33:15+00:00,Canada,Xanax,0,486,restock,Prometheus,1789781595
 2026-09-19T01:17:48+00:00,2026-09-19T01:33:20+00:00,UAE,Camel Plushie,0,1984,restock,Prometheus,1789781600
+2026-09-19T01:17:41+00:00,2026-09-19T01:33:12+00:00,Japan,Xanax,0,2450,restock,Prometheus,1789781592
+2026-09-19T01:33:05+00:00,2026-09-19T01:46:59+00:00,China,Pangolin Scales,536,0,stockout,YATA,1789782419
