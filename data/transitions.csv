@@ -495,3 +495,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T20:57:29+00:00,2026-09-19T21:16:51+00:00,Canada,Xanax,1054,0,stockout,Prometheus,1789852611
 2026-09-19T20:56:50+00:00,2026-09-19T21:16:52+00:00,UAE,Camel Plushie,352,0,stockout,Prometheus,1789852612
 2026-09-19T20:57:09+00:00,2026-09-19T21:16:44+00:00,China,Panda Plushie,1000,0,stockout,Prometheus,1789852604
+2026-09-19T21:16:52+00:00,2026-09-19T21:31:19+00:00,UAE,Camel Plushie,0,1530,restock,Prometheus,1789853479
+2026-09-19T21:15:28+00:00,2026-09-19T21:31:15+00:00,Switzerland,Neumune Tablet,0,3,restock,Prometheus,1789853475
+2026-09-19T21:16:44+00:00,2026-09-19T21:31:17+00:00,China,Panda Plushie,0,2408,restock,YATA,1789853477
+2026-09-19T21:16:44+00:00,2026-09-19T21:31:17+00:00,China,Pangolin Scales,0,3867,restock,YATA,1789853477
