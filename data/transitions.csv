@@ -286,3 +286,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T03:21:21+00:00,2026-09-19T03:38:07+00:00,Canada,Xanax,0,2295,restock,Prometheus,1789789087
 2026-09-19T03:03:06+00:00,2026-09-19T03:21:03+00:00,UAE,Tribulus Omanense,325,0,stockout,Prometheus,1789788063
 2026-09-19T03:37:22+00:00,2026-09-19T03:51:38+00:00,China,Pangolin Scales,207,0,stockout,Prometheus,1789789898
+2026-09-19T03:51:18+00:00,2026-09-19T04:07:40+00:00,South Africa,Raw Ivory,458,0,stockout,Prometheus,1789790860
+2026-09-19T03:51:18+00:00,2026-09-19T04:07:40+00:00,South Africa,Smoke Grenade,22,0,stockout,Prometheus,1789790860
+2026-09-19T03:50:50+00:00,2026-09-19T04:07:41+00:00,Japan,Xanax,0,1354,restock,Prometheus,1789790861
+2026-09-19T03:50:17+00:00,2026-09-19T04:07:59+00:00,UAE,Camel Plushie,778,0,stockout,Prometheus,1789790879
