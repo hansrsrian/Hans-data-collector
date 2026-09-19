@@ -486,3 +486,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T20:15:12+00:00,2026-09-19T20:32:20+00:00,South Africa,Raw Ivory,177,0,stockout,Prometheus,1789849940
 2026-09-19T20:15:04+00:00,2026-09-19T20:32:21+00:00,UAE,Camel Plushie,0,1636,restock,YATA,1789849941
 2026-09-19T20:15:24+00:00,2026-09-19T20:32:07+00:00,China,Panda Plushie,0,2214,restock,Prometheus,1789849927
+2026-09-19T20:32:24+00:00,2026-09-19T20:44:49+00:00,Canada,Xanax,0,2258,restock,Prometheus,1789850689
