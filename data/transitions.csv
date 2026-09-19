@@ -383,3 +383,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T11:38:01+00:00,2026-09-19T11:50:56+00:00,United Kingdom,Xanax,0,2287,restock,Prometheus,1789818656
 2026-09-19T11:37:39+00:00,2026-09-19T11:50:44+00:00,UAE,Tribulus Omanense,0,9661,restock,Prometheus,1789818644
 2026-09-19T11:37:39+00:00,2026-09-19T11:50:44+00:00,UAE,Camel Plushie,336,0,stockout,Prometheus,1789818644
+2026-09-19T11:50:51+00:00,2026-09-19T12:07:38+00:00,Japan,Xanax,542,0,stockout,Prometheus,1789819658
+2026-09-19T11:50:56+00:00,2026-09-19T12:07:43+00:00,Canada,Xanax,1230,0,stockout,Prometheus,1789819663
+2026-09-19T11:50:44+00:00,2026-09-19T12:07:38+00:00,UAE,Camel Plushie,0,1598,restock,YATA,1789819658
