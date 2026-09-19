@@ -468,3 +468,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T18:34:14+00:00,2026-09-19T18:48:14+00:00,Japan,Xanax,733,0,stockout,Prometheus,1789843694
 2026-09-19T18:34:08+00:00,2026-09-19T18:48:46+00:00,Canada,Xanax,654,0,stockout,Prometheus,1789843726
 2026-09-19T18:33:17+00:00,2026-09-19T18:48:26+00:00,UAE,Camel Plushie,0,1286,restock,YATA,1789843706
+2026-09-19T18:48:57+00:00,2026-09-19T19:02:37+00:00,South Africa,Lion Plushie,97,0,stockout,Prometheus,1789844557
