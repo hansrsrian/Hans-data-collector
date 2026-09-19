@@ -490,3 +490,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-19T20:44:28+00:00,2026-09-19T20:57:16+00:00,South Africa,Lion Plushie,280,0,stockout,Prometheus,1789851436
 2026-09-19T20:44:51+00:00,2026-09-19T20:57:29+00:00,Japan,Xanax,0,927,restock,Prometheus,1789851449
 2026-09-19T20:44:38+00:00,2026-09-19T20:57:09+00:00,China,Pangolin Scales,217,0,stockout,YATA,1789851429
+2026-09-19T20:57:16+00:00,2026-09-19T21:16:53+00:00,South Africa,Lion Plushie,0,1774,restock,YATA,1789852613
+2026-09-19T20:57:29+00:00,2026-09-19T21:16:32+00:00,Japan,Xanax,927,0,stockout,Prometheus,1789852592
+2026-09-19T20:57:29+00:00,2026-09-19T21:16:51+00:00,Canada,Xanax,1054,0,stockout,Prometheus,1789852611
+2026-09-19T20:56:50+00:00,2026-09-19T21:16:52+00:00,UAE,Camel Plushie,352,0,stockout,Prometheus,1789852612
+2026-09-19T20:57:09+00:00,2026-09-19T21:16:44+00:00,China,Panda Plushie,1000,0,stockout,Prometheus,1789852604
