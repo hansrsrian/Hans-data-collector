@@ -1,0 +1,46 @@
+name: Neumune Probe
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: neumune-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test Neumune probe
+        run: python -m unittest test_neumune_probe.py
+
+      - name: Probe Neumune
+        run: python neumune_probe.py
+
+      - name: Save Neumune changes
+        if: ${{ always() }}
+        run: |
+          git config user.name "data-collector-bot"
+          git config user.email "data-collector-bot@users.noreply.github.com"
+          git add data/neumune_events.csv data/neumune_probe_state.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No Neumune state change"
+            exit 0
+          fi
+          git commit -m "Neumune measurement"
+          git pull --rebase origin main
+          git push
