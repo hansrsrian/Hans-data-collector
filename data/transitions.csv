@@ -669,3 +669,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-20T13:18:39+00:00,2026-09-20T13:33:25+00:00,Japan,Xanax,0,2207,restock,YATA,1789911205
 2026-09-20T13:18:40+00:00,2026-09-20T13:33:12+00:00,UAE,Camel Plushie,0,2052,restock,YATA,1789911192
 2026-09-20T13:18:49+00:00,2026-09-20T13:33:30+00:00,Switzerland,Neumune Tablet,0,2,restock,Prometheus,1789911210
+2026-09-20T13:33:30+00:00,2026-09-20T13:46:29+00:00,Switzerland,Neumune Tablet,2,0,stockout,Prometheus,1789911989
+2026-09-20T13:33:26+00:00,2026-09-20T13:46:31+00:00,China,Panda Plushie,482,0,stockout,Prometheus,1789911991
