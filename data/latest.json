@@ -1,50 +1,50 @@
 {
-  "timestamp": "2026-09-20T19:05:40.287677+00:00",
+  "timestamp": "2026-09-20T19:20:39.620081+00:00",
   "source": "mixed",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1789931140,
-    "United Kingdom": 1789931127,
-    "Switzerland": 1789931117,
-    "Japan": 1789931088,
-    "China": 1789931130,
-    "UAE": 1789931108,
-    "South Africa": 1789931139
+    "Canada": 1789932020,
+    "United Kingdom": 1789932018,
+    "Switzerland": 1789932036,
+    "Japan": 1789931995,
+    "China": 1789932032,
+    "UAE": 1789932015,
+    "South Africa": 1789932019
   },
   "observed_at": {
-    "United Kingdom": "2026-09-20T19:05:27+00:00",
-    "Canada": "2026-09-20T19:05:40+00:00",
-    "China": "2026-09-20T19:05:30+00:00",
-    "Switzerland": "2026-09-20T19:05:17+00:00",
-    "Japan": "2026-09-20T19:04:48+00:00",
-    "UAE": "2026-09-20T19:05:08+00:00",
-    "South Africa": "2026-09-20T19:05:39+00:00"
+    "United Kingdom": "2026-09-20T19:20:18+00:00",
+    "Canada": "2026-09-20T19:20:20+00:00",
+    "China": "2026-09-20T19:20:32+00:00",
+    "Switzerland": "2026-09-20T19:20:36+00:00",
+    "Japan": "2026-09-20T19:19:55+00:00",
+    "UAE": "2026-09-20T19:20:15+00:00",
+    "South Africa": "2026-09-20T19:20:19+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 932,
-    "South Africa|Smoke Grenade": 941,
-    "South Africa|Lion Plushie": 0,
-    "South Africa|African Violet": 2066,
+    "South Africa|Xanax": 894,
+    "South Africa|Smoke Grenade": 707,
+    "South Africa|Lion Plushie": 2411,
+    "South Africa|African Violet": 1129,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
     "UAE|Tribulus Omanense": 0,
-    "UAE|Camel Plushie": 2500,
+    "UAE|Camel Plushie": 721,
     "Switzerland|Neumune Tablet": 0,
     "China|Blank Casino Chips": null,
-    "China|Panda Plushie": 1058,
-    "China|Pangolin Scales": 56
+    "China|Panda Plushie": 134,
+    "China|Pangolin Scales": 0
   },
   "sources": {
-    "South Africa": "Prometheus",
+    "South Africa": "YATA",
     "Japan": "Prometheus",
-    "Canada": "Prometheus",
+    "Canada": "YATA",
     "United Kingdom": "Prometheus",
-    "UAE": "Prometheus",
-    "Switzerland": "YATA",
-    "China": "Prometheus"
+    "UAE": "YATA",
+    "Switzerland": "Prometheus",
+    "China": "YATA"
   },
   "source_urls": {
     "YATA": "https://yata.yt/api/v1/travel/export/",
