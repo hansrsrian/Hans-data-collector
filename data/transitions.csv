@@ -987,3 +987,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-21T17:26:19+00:00,2026-09-21T17:42:50+00:00,South Africa,Lion Plushie,0,1345,restock,Prometheus,1790012570
 2026-09-21T17:26:46+00:00,2026-09-21T17:42:42+00:00,China,Pangolin Scales,0,3816,restock,Prometheus,1790012562
 2026-09-21T17:26:42+00:00,2026-09-21T17:42:17+00:00,UAE,Camel Plushie,1227,0,stockout,Prometheus,1790012537
+2026-09-21T17:55:22+00:00,2026-09-21T18:18:01+00:00,UAE,Tribulus Omanense,295,0,stockout,Prometheus,1790014681
+2026-09-21T17:55:22+00:00,2026-09-21T18:18:01+00:00,UAE,Camel Plushie,0,586,restock,Prometheus,1790014681
