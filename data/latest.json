@@ -1,50 +1,50 @@
 {
-  "timestamp": "2026-09-21T15:17:13.266441+00:00",
+  "timestamp": "2026-09-21T15:32:58.444180+00:00",
   "source": "mixed",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1790003794,
-    "United Kingdom": 1790003826,
-    "Switzerland": 1790003828,
-    "Japan": 1790003832,
-    "China": 1790003827,
-    "UAE": 1790003828,
-    "South Africa": 1790003798
+    "Canada": 1790004770,
+    "United Kingdom": 1790004760,
+    "Switzerland": 1790004774,
+    "Japan": 1790004774,
+    "China": 1790004772,
+    "UAE": 1790004746,
+    "South Africa": 1790004775
   },
   "observed_at": {
-    "United Kingdom": "2026-09-21T15:17:06+00:00",
-    "Canada": "2026-09-21T15:16:34+00:00",
-    "China": "2026-09-21T15:17:07+00:00",
-    "Switzerland": "2026-09-21T15:17:08+00:00",
-    "Japan": "2026-09-21T15:17:12+00:00",
-    "UAE": "2026-09-21T15:17:08+00:00",
-    "South Africa": "2026-09-21T15:16:38+00:00"
+    "United Kingdom": "2026-09-21T15:32:40+00:00",
+    "Canada": "2026-09-21T15:32:50+00:00",
+    "China": "2026-09-21T15:32:52+00:00",
+    "Switzerland": "2026-09-21T15:32:54+00:00",
+    "Japan": "2026-09-21T15:32:54+00:00",
+    "UAE": "2026-09-21T15:32:26+00:00",
+    "South Africa": "2026-09-21T15:32:55+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 1677,
-    "South Africa|Smoke Grenade": 1260,
-    "South Africa|Lion Plushie": 0,
-    "South Africa|African Violet": 188,
+    "South Africa|Xanax": 1665,
+    "South Africa|Smoke Grenade": 911,
+    "South Africa|Lion Plushie": 1758,
+    "South Africa|African Violet": 0,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
-    "UAE|Tribulus Omanense": 6769,
-    "UAE|Camel Plushie": 1730,
+    "UAE|Tribulus Omanense": 6502,
+    "UAE|Camel Plushie": 552,
     "Switzerland|Neumune Tablet": 0,
     "China|Blank Casino Chips": null,
-    "China|Panda Plushie": 0,
-    "China|Pangolin Scales": 0
+    "China|Panda Plushie": 1990,
+    "China|Pangolin Scales": 4719
   },
   "sources": {
     "South Africa": "Prometheus",
     "Japan": "Prometheus",
-    "Canada": "YATA",
+    "Canada": "Prometheus",
     "United Kingdom": "Prometheus",
     "UAE": "Prometheus",
     "Switzerland": "Prometheus",
-    "China": "Prometheus"
+    "China": "YATA"
   },
   "source_urls": {
     "YATA": "https://yata.yt/api/v1/travel/export/",
