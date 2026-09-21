@@ -822,3 +822,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-21T02:58:25+00:00,2026-09-21T03:20:08+00:00,United Kingdom,Xanax,0,2500,restock,Prometheus,1789960808
 2026-09-21T03:19:58+00:00,2026-09-21T03:38:57+00:00,UAE,Tribulus Omanense,0,9727,restock,Prometheus,1789961937
 2026-09-21T03:20:07+00:00,2026-09-21T03:39:18+00:00,China,Pangolin Scales,0,3682,restock,Prometheus,1789961958
+2026-09-21T03:54:55+00:00,2026-09-21T04:15:35+00:00,South Africa,African Violet,113,0,stockout,Prometheus,1789964135
+2026-09-21T03:54:38+00:00,2026-09-21T04:15:37+00:00,UAE,Camel Plushie,279,0,stockout,Prometheus,1789964137
