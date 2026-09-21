@@ -2,65 +2,58 @@
   "items": {
     "South Africa|Raw Ivory": {
       "confirmed": 0,
-      "last_update": 1790002657,
-      "confirmed_at": "2026-09-21T14:57:37+00:00"
+      "last_update": 1790003798,
+      "confirmed_at": "2026-09-21T15:16:38+00:00"
     },
     "South Africa|Xanax": {
-      "confirmed": 1700,
-      "last_update": 1790002657,
-      "confirmed_at": "2026-09-21T14:57:37+00:00"
+      "confirmed": 1677,
+      "last_update": 1790003798,
+      "confirmed_at": "2026-09-21T15:16:38+00:00"
     },
     "South Africa|Smoke Grenade": {
-      "confirmed": 1774,
-      "last_update": 1790002657,
-      "confirmed_at": "2026-09-21T14:57:37+00:00"
+      "confirmed": 1260,
+      "last_update": 1790003798,
+      "confirmed_at": "2026-09-21T15:16:38+00:00"
     },
     "South Africa|Lion Plushie": {
-      "confirmed": 1077,
-      "last_update": 1790002657,
-      "confirmed_at": "2026-09-21T14:57:37+00:00"
+      "confirmed": 0,
+      "last_update": 1790003798,
+      "confirmed_at": "2026-09-21T15:16:38+00:00"
     },
     "South Africa|African Violet": {
-      "confirmed": 966,
-      "last_update": 1790002657,
-      "confirmed_at": "2026-09-21T14:57:37+00:00"
+      "confirmed": 188,
+      "last_update": 1790003798,
+      "confirmed_at": "2026-09-21T15:16:38+00:00"
     },
     "Japan|Xanax": {
       "confirmed": 0,
-      "last_update": 1790002649,
-      "confirmed_at": "2026-09-21T14:57:29+00:00"
+      "last_update": 1790003832,
+      "confirmed_at": "2026-09-21T15:17:12+00:00"
     },
     "Canada|Xanax": {
       "confirmed": 0,
-      "last_update": 1790002626,
-      "confirmed_at": "2026-09-21T14:57:06+00:00"
+      "last_update": 1790003794,
+      "confirmed_at": "2026-09-21T15:16:34+00:00"
     },
     "United Kingdom|Xanax": {
       "confirmed": 0,
-      "last_update": 1790002655,
-      "confirmed_at": "2026-09-21T14:57:35+00:00"
+      "last_update": 1790003826,
+      "confirmed_at": "2026-09-21T15:17:06+00:00"
     },
     "UAE|Tribulus Omanense": {
-      "confirmed": 7872,
-      "last_update": 1790002647,
-      "confirmed_at": "2026-09-21T14:57:27+00:00"
+      "confirmed": 6769,
+      "last_update": 1790003828,
+      "confirmed_at": "2026-09-21T15:17:08+00:00"
     },
     "UAE|Camel Plushie": {
-      "confirmed": 1232,
-      "last_update": 1790002647,
-      "confirmed_at": "2026-09-21T14:43:35+00:00",
-      "candidate": {
-        "update": 1790002647,
-        "quantity": 0,
-        "source": "Prometheus",
-        "lower_bound": "2026-09-21T14:43:35+00:00",
-        "from_stock": 1232
-      }
+      "confirmed": 1730,
+      "last_update": 1790003828,
+      "confirmed_at": "2026-09-21T15:17:08+00:00"
     },
     "Switzerland|Neumune Tablet": {
       "confirmed": 0,
-      "last_update": 1790002660,
-      "confirmed_at": "2026-09-21T14:57:40+00:00"
+      "last_update": 1790003828,
+      "confirmed_at": "2026-09-21T15:17:08+00:00"
     },
     "China|Blank Casino Chips": {
       "confirmed": null,
@@ -68,34 +61,34 @@
       "confirmed_at": "2026-09-18T20:26:15+00:00"
     },
     "China|Panda Plushie": {
-      "confirmed": 1375,
-      "last_update": 1790002660,
-      "confirmed_at": "2026-09-21T14:57:40+00:00"
+      "confirmed": 0,
+      "last_update": 1790003827,
+      "confirmed_at": "2026-09-21T15:17:07+00:00"
     },
     "China|Pangolin Scales": {
-      "confirmed": 747,
-      "last_update": 1790002660,
-      "confirmed_at": "2026-09-21T14:57:40+00:00"
+      "confirmed": 0,
+      "last_update": 1790003827,
+      "confirmed_at": "2026-09-21T15:17:07+00:00"
     }
   },
   "provider_updates": {
     "YATA": {
-      "Canada": 1790002571,
-      "United Kingdom": 1790002655,
-      "Switzerland": 1790002632,
-      "Japan": 1790002649,
-      "China": 1790002603,
-      "UAE": 1790002598,
-      "South Africa": 1790002639
+      "Canada": 1790003794,
+      "United Kingdom": 1790003807,
+      "Switzerland": 1790003785,
+      "Japan": 1790003799,
+      "China": 1790003774,
+      "UAE": 1790003774,
+      "South Africa": 1790003761
     },
     "Prometheus": {
-      "United Kingdom": 1790002652,
-      "Switzerland": 1790002660,
-      "Japan": 1790002625,
-      "China": 1790002660,
-      "UAE": 1790002647,
-      "South Africa": 1790002657,
-      "Canada": 1790002626
+      "United Kingdom": 1790003826,
+      "Switzerland": 1790003828,
+      "Japan": 1790003832,
+      "China": 1790003827,
+      "UAE": 1790003828,
+      "South Africa": 1790003798,
+      "Canada": 1790003794
     }
   }
 }
