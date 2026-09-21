@@ -22,9 +22,10 @@ minimum-eight-items guard. If all providers fail, the collector exits with an
 error and preserves the latest snapshot and confirmation state. The workflow
 still commits polling-health logs from failed runs.
 
-China watches **Blank Casino Chips**, **Panda Plushie**, and **Pangolin Scales**.
-Peony is no longer collected; its existing historical rows remain intact. An item
-absent from both providers stays unknown (`null`) until actually observed.
+China watches **Blank Casino Chips**, **Panda Plushie**, **Pangolin Scales**, and
+**Peony**. Hawaii watches **Shark Fin**. UAE also watches **Natural Pearls** in
+addition to **Tribulus Omanense** and **Camel Plushie**. An item absent from both
+providers stays unknown (`null`) until actually observed.
 
 ## Compatibility and logs
 

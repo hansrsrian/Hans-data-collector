@@ -20,9 +20,10 @@ WATCH = {
     "Japan": ["Xanax"],
     "Canada": ["Xanax"],
     "United Kingdom": ["Xanax"],
-    "UAE": ["Tribulus Omanense", "Camel Plushie"],
+    "UAE": ["Tribulus Omanense", "Camel Plushie", "Natural Pearls"],
     "Switzerland": ["Neumune Tablet"],
-    "China": ["Blank Casino Chips", "Panda Plushie", "Pangolin Scales"],
+    "Hawaii": ["Shark Fin"],
+    "China": ["Blank Casino Chips", "Panda Plushie", "Pangolin Scales", "Peony"],
 }
 ITEM_IDS = {
     "China": {327: "Blank Casino Chips"},
@@ -35,7 +36,8 @@ ITEM_ALIASES = {
 }
 COUNTRY_CODES = {
     "sou": "South Africa", "jap": "Japan", "can": "Canada",
-    "uni": "United Kingdom", "uae": "UAE", "swi": "Switzerland", "chi": "China",
+    "uni": "United Kingdom", "uae": "UAE", "swi": "Switzerland",
+    "haw": "Hawaii", "chi": "China",
 }
 HISTORY_FIELDS = ["poll_timestamp", "observation_timestamp", "country", "item", "stock", "source", "source_update"]
 TRANSITION_FIELDS = ["lower_bound", "upper_bound", "country", "item", "from_stock", "to_stock", "type", "source", "source_update"]

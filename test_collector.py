@@ -132,7 +132,35 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(c.parse_stock(payload('0'))[0][KEY], 0)
 
     def test_watch_list(self):
-        self.assertEqual(c.WATCH['China'], ['Blank Casino Chips', 'Panda Plushie', 'Pangolin Scales'])
+        self.assertEqual(
+            c.WATCH['China'],
+            ['Blank Casino Chips', 'Panda Plushie', 'Pangolin Scales', 'Peony'],
+        )
+        self.assertEqual(
+            c.WATCH['UAE'],
+            ['Tribulus Omanense', 'Camel Plushie', 'Natural Pearls'],
+        )
+        self.assertEqual(c.WATCH['Hawaii'], ['Shark Fin'])
+
+    def test_new_profit_items_parse(self):
+        data = {'stocks': {
+            'chi': {'update': 101, 'stocks': [
+                {'name': 'Peony', 'quantity': 321},
+            ]},
+            'haw': {'update': 102, 'stocks': [
+                {'name': 'Shark Fin', 'quantity': 654},
+            ]},
+            'uae': {'update': 103, 'stocks': [
+                {'name': 'Natural Pearls', 'quantity': 987},
+            ]},
+        }}
+        values, updates = c.parse_stock(data)
+        self.assertEqual(values['China|Peony'], 321)
+        self.assertEqual(values['Hawaii|Shark Fin'], 654)
+        self.assertEqual(values['UAE|Natural Pearls'], 987)
+        self.assertEqual(updates['China'], 101)
+        self.assertEqual(updates['Hawaii'], 102)
+        self.assertEqual(updates['UAE'], 103)
 
     def test_bcc_matches_item_id_alias_and_ignores_mexico(self):
         by_id = {'stocks': {
@@ -220,6 +248,8 @@ class CollectorTests(unittest.TestCase):
                 'observations': [
                     {'country': 'China', 'item': 'Panda Plushie', 'source_update': 100,
                      'quantity': 0, 'nextRestock': 'later'},
+                    {'country': 'China', 'item': 'Peony', 'source_update': 100,
+                     'quantity': 100},
                     {'country': 'China', 'item': 'Pangolin Scales', 'source_update': 100,
                      'quantity': 42},
                 ],
@@ -243,7 +273,7 @@ class CollectorTests(unittest.TestCase):
     def test_observation_log_handles_missing_or_malformed_data(self):
         for data in [None, {}, {'stocks': None}, {'stocks': {'chi': None}},
                      {'stocks': {'chi': {'stocks': None}}},
-                     {'stocks': {'chi': {'stocks': [None, {}, {'name': 'Peony'}]}}}]:
+                     {'stocks': {'chi': {'stocks': [None, {}, {'name': 'Tiger Bone Powder'}]}}}]:
             c.log_raw('YATA', data, 'collection-time')
         records = [json.loads(line) for line in c.OBSERVATIONS.read_text().splitlines()]
         self.assertEqual(len(records), 6)
