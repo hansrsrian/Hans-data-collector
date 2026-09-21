@@ -806,3 +806,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-21T01:35:53+00:00,2026-09-21T01:52:04+00:00,South Africa,Lion Plushie,0,2120,restock,Prometheus,1789955524
 2026-09-21T01:36:17+00:00,2026-09-21T01:51:45+00:00,UAE,Camel Plushie,0,1650,restock,Prometheus,1789955505
 2026-09-21T01:36:34+00:00,2026-09-21T01:51:46+00:00,China,Pangolin Scales,0,4564,restock,Prometheus,1789955506
+2026-09-21T01:52:04+00:00,2026-09-21T02:08:09+00:00,South Africa,Smoke Grenade,6,0,stockout,YATA,1789956489
