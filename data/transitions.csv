@@ -1304,3 +1304,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-22T18:21:31+00:00,2026-09-22T18:40:55+00:00,South Africa,Lion Plushie,780,0,stockout,Prometheus,1790102455
 2026-09-22T18:21:27+00:00,2026-09-22T18:41:00+00:00,UAE,Camel Plushie,770,0,stockout,YATA,1790102460
 2026-09-22T18:21:43+00:00,2026-09-22T18:40:56+00:00,China,Panda Plushie,911,0,stockout,Prometheus,1790102456
+2026-09-22T18:40:55+00:00,2026-09-22T18:56:08+00:00,South Africa,Lion Plushie,0,1923,restock,Prometheus,1790103368
+2026-09-22T18:40:55+00:00,2026-09-22T18:56:08+00:00,South Africa,African Violet,15,0,stockout,Prometheus,1790103368
+2026-09-22T18:41:00+00:00,2026-09-22T18:55:57+00:00,UAE,Camel Plushie,0,2032,restock,Prometheus,1790103357
+2026-09-22T18:41:09+00:00,2026-09-22T18:55:47+00:00,Switzerland,Neumune Tablet,0,3,restock,Prometheus,1790103347
+2026-09-22T18:41:09+00:00,2026-09-22T18:56:11+00:00,Hawaii,Shark Fin,0,980,restock,Prometheus,1790103371
+2026-09-22T18:40:56+00:00,2026-09-22T18:56:02+00:00,China,Panda Plushie,0,2060,restock,Prometheus,1790103362
