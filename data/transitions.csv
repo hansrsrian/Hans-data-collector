@@ -1310,3 +1310,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-22T18:41:09+00:00,2026-09-22T18:55:47+00:00,Switzerland,Neumune Tablet,0,3,restock,Prometheus,1790103347
 2026-09-22T18:41:09+00:00,2026-09-22T18:56:11+00:00,Hawaii,Shark Fin,0,980,restock,Prometheus,1790103371
 2026-09-22T18:40:56+00:00,2026-09-22T18:56:02+00:00,China,Panda Plushie,0,2060,restock,Prometheus,1790103362
+2026-09-22T18:56:02+00:00,2026-09-22T19:14:42+00:00,United Kingdom,Xanax,0,2000,restock,Prometheus,1790104482
+2026-09-22T18:55:47+00:00,2026-09-22T19:14:48+00:00,Switzerland,Neumune Tablet,3,0,stockout,Prometheus,1790104488
+2026-09-22T18:56:11+00:00,2026-09-22T19:14:34+00:00,Hawaii,Shark Fin,980,0,stockout,Prometheus,1790104474
+2026-09-22T18:56:02+00:00,2026-09-22T19:13:47+00:00,China,Pangolin Scales,86,0,stockout,Prometheus,1790104427
