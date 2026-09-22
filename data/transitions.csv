@@ -1365,3 +1365,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-22T23:03:00+00:00,2026-09-22T23:19:32+00:00,Japan,Xanax,0,1602,restock,YATA,1790119172
 2026-09-22T23:03:03+00:00,2026-09-22T23:19:19+00:00,China,Panda Plushie,0,2257,restock,Prometheus,1790119159
 2026-09-22T22:49:17+00:00,2026-09-22T23:03:03+00:00,China,Pangolin Scales,729,0,stockout,Prometheus,1790118183
+2026-09-22T23:19:32+00:00,2026-09-22T23:34:04+00:00,Japan,Xanax,1602,0,stockout,YATA,1790120044
+2026-09-22T23:19:00+00:00,2026-09-22T23:34:02+00:00,UAE,Tribulus Omanense,54,0,stockout,Prometheus,1790120042
+2026-09-22T23:19:00+00:00,2026-09-22T23:34:02+00:00,UAE,Camel Plushie,70,0,stockout,Prometheus,1790120042
+2026-09-22T23:19:19+00:00,2026-09-22T23:33:53+00:00,China,Pangolin Scales,0,4568,restock,Prometheus,1790120033
