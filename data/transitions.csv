@@ -1121,3 +1121,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-22T05:13:48+00:00,2026-09-22T05:31:30+00:00,South Africa,Smoke Grenade,0,2348,restock,Prometheus,1790055090
 2026-09-22T05:14:14+00:00,2026-09-22T05:31:24+00:00,China,Panda Plushie,409,0,stockout,Prometheus,1790055084
 2026-09-22T05:14:14+00:00,2026-09-22T05:31:24+00:00,China,Peony,0,9755,restock,Prometheus,1790055084
+2026-09-22T05:31:30+00:00,2026-09-22T05:46:10+00:00,South Africa,Raw Ivory,470,0,stockout,Prometheus,1790055970
+2026-09-22T05:31:24+00:00,2026-09-22T05:46:56+00:00,China,Panda Plushie,0,1742,restock,Prometheus,1790056016
+2026-09-22T05:31:24+00:00,2026-09-22T05:46:56+00:00,China,Pangolin Scales,116,0,stockout,Prometheus,1790056016
