@@ -587,3 +587,5 @@ collection_timestamp,source,success,parsed_items,fresh_countries,error
 2026-09-22T03:17:57.033395+00:00,Prometheus,True,16,8,
 2026-09-22T03:34:41.695481+00:00,YATA,True,16,8,
 2026-09-22T03:34:41.695481+00:00,Prometheus,True,16,8,
+2026-09-22T03:50:05.988310+00:00,YATA,False,0,0,TimeoutError: The read operation timed out
+2026-09-22T03:50:05.988310+00:00,Prometheus,True,16,8,
