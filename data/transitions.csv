@@ -1359,3 +1359,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-22T22:20:20+00:00,2026-09-22T22:35:37+00:00,UAE,Camel Plushie,457,0,stockout,Prometheus,1790116537
 2026-09-22T22:35:37+00:00,2026-09-22T22:49:16+00:00,UAE,Camel Plushie,0,2027,restock,Prometheus,1790117356
 2026-09-22T22:35:29+00:00,2026-09-22T22:48:43+00:00,Hawaii,Shark Fin,0,978,restock,Prometheus,1790117323
+2026-09-22T22:49:18+00:00,2026-09-22T23:03:02+00:00,South Africa,Lion Plushie,0,1641,restock,YATA,1790118182
+2026-09-22T22:48:43+00:00,2026-09-22T23:03:00+00:00,Hawaii,Shark Fin,978,0,stockout,Prometheus,1790118180
+2026-09-22T22:49:17+00:00,2026-09-22T23:03:03+00:00,China,Panda Plushie,577,0,stockout,Prometheus,1790118183
