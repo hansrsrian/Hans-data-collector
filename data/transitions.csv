@@ -1376,3 +1376,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-22T23:59:44+00:00,2026-09-23T00:25:25+00:00,UAE,Tribulus Omanense,0,9986,restock,Prometheus,1790123125
 2026-09-22T23:59:44+00:00,2026-09-23T00:25:25+00:00,UAE,Natural Pearls,679,0,stockout,Prometheus,1790123125
 2026-09-22T23:59:44+00:00,2026-09-23T00:25:04+00:00,Hawaii,Shark Fin,2700,0,stockout,Prometheus,1790123104
+2026-09-23T00:24:08+00:00,2026-09-23T00:45:24+00:00,South Africa,Smoke Grenade,87,0,stockout,Prometheus,1790124324
+2026-09-23T00:24:08+00:00,2026-09-23T00:45:24+00:00,South Africa,Lion Plushie,400,0,stockout,Prometheus,1790124324
+2026-09-23T00:25:33+00:00,2026-09-23T00:46:07+00:00,China,Pangolin Scales,81,0,stockout,Prometheus,1790124367
