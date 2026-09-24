@@ -1957,3 +1957,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-24T22:51:57+00:00,2026-09-24T23:10:25+00:00,South Africa,Raw Ivory,361,0,stockout,Prometheus,1790291425
 2026-09-24T22:53:03+00:00,2026-09-24T23:09:07+00:00,Switzerland,Neumune Tablet,3,0,stockout,Prometheus,1790291347
 2026-09-24T22:53:10+00:00,2026-09-24T23:09:51+00:00,Hawaii,Shark Fin,1323,0,stockout,Prometheus,1790291391
+2026-09-24T23:10:25+00:00,2026-09-24T23:26:32+00:00,South Africa,Lion Plushie,551,0,stockout,YATA,1790292392
+2026-09-24T23:10:29+00:00,2026-09-24T23:26:50+00:00,Japan,Xanax,0,2206,restock,Prometheus,1790292410
+2026-09-24T23:09:38+00:00,2026-09-24T23:26:02+00:00,UAE,Camel Plushie,123,0,stockout,Prometheus,1790292362
