@@ -1740,3 +1740,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-24T05:32:50+00:00,2026-09-24T05:46:47+00:00,UAE,Tribulus Omanense,221,0,stockout,YATA,1790228807
 2026-09-24T05:32:50+00:00,2026-09-24T05:46:47+00:00,UAE,Camel Plushie,451,0,stockout,YATA,1790228807
 2026-09-24T05:33:17+00:00,2026-09-24T05:47:46+00:00,China,Panda Plushie,337,0,stockout,Prometheus,1790228866
+2026-09-24T05:48:02+00:00,2026-09-24T06:01:16+00:00,South Africa,Raw Ivory,0,1964,restock,YATA,1790229676
+2026-09-24T05:46:47+00:00,2026-09-24T06:02:20+00:00,UAE,Camel Plushie,0,1870,restock,Prometheus,1790229740
+2026-09-24T05:47:46+00:00,2026-09-24T06:02:09+00:00,China,Panda Plushie,0,1912,restock,Prometheus,1790229729
+2026-09-24T05:47:46+00:00,2026-09-24T06:02:09+00:00,China,Peony,0,9466,restock,Prometheus,1790229729
