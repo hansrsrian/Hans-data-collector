@@ -1707,3 +1707,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-24T02:04:03+00:00,2026-09-24T02:23:00+00:00,UAE,Camel Plushie,0,2145,restock,Prometheus,1790216580
 2026-09-24T02:03:04+00:00,2026-09-24T02:22:16+00:00,Hawaii,Shark Fin,1016,0,stockout,Prometheus,1790216536
 2026-09-24T02:04:02+00:00,2026-09-24T02:22:44+00:00,China,Pangolin Scales,0,3790,restock,Prometheus,1790216564
+2026-09-24T02:22:56+00:00,2026-09-24T02:41:01+00:00,South Africa,Smoke Grenade,0,2445,restock,Prometheus,1790217661
