@@ -1748,3 +1748,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-24T06:01:16+00:00,2026-09-24T06:26:49+00:00,South Africa,African Violet,539,0,stockout,YATA,1790231209
 2026-09-24T06:02:17+00:00,2026-09-24T06:26:38+00:00,Hawaii,Shark Fin,0,966,restock,Prometheus,1790231198
 2026-09-24T06:02:09+00:00,2026-09-24T06:27:16+00:00,China,Pangolin Scales,578,0,stockout,Prometheus,1790231236
+2026-09-24T06:26:49+00:00,2026-09-24T06:48:49+00:00,South Africa,Smoke Grenade,0,2432,restock,YATA,1790232529
+2026-09-24T06:26:49+00:00,2026-09-24T06:48:49+00:00,South Africa,Lion Plushie,0,814,restock,YATA,1790232529
+2026-09-24T06:27:13+00:00,2026-09-24T06:49:24+00:00,Japan,Xanax,0,313,restock,Prometheus,1790232564
+2026-09-24T06:25:37+00:00,2026-09-24T06:49:34+00:00,UAE,Natural Pearls,478,0,stockout,Prometheus,1790232574
+2026-09-24T06:26:38+00:00,2026-09-24T06:49:35+00:00,Hawaii,Shark Fin,966,0,stockout,Prometheus,1790232575
+2026-09-24T06:27:16+00:00,2026-09-24T06:48:55+00:00,China,Pangolin Scales,0,3968,restock,Prometheus,1790232535
