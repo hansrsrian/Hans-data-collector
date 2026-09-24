@@ -1954,3 +1954,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-24T22:37:54+00:00,2026-09-24T22:52:59+00:00,UAE,Tribulus Omanense,0,9862,restock,Prometheus,1790290379
 2026-09-24T22:38:16+00:00,2026-09-24T22:53:03+00:00,Switzerland,Neumune Tablet,0,3,restock,Prometheus,1790290383
 2026-09-24T22:38:13+00:00,2026-09-24T22:53:10+00:00,Hawaii,Shark Fin,0,1323,restock,Prometheus,1790290390
+2026-09-24T22:51:57+00:00,2026-09-24T23:10:25+00:00,South Africa,Raw Ivory,361,0,stockout,Prometheus,1790291425
+2026-09-24T22:53:03+00:00,2026-09-24T23:09:07+00:00,Switzerland,Neumune Tablet,3,0,stockout,Prometheus,1790291347
+2026-09-24T22:53:10+00:00,2026-09-24T23:09:51+00:00,Hawaii,Shark Fin,1323,0,stockout,Prometheus,1790291391
