@@ -1987,3 +1987,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-25T01:46:21+00:00,2026-09-25T01:59:32+00:00,Hawaii,Shark Fin,813,0,stockout,YATA,1790301572
 2026-09-25T01:59:37+00:00,2026-09-25T02:18:48+00:00,South Africa,Lion Plushie,258,0,stockout,Prometheus,1790302728
 2026-09-25T01:59:45+00:00,2026-09-25T02:19:12+00:00,Japan,Xanax,42,0,stockout,Prometheus,1790302752
+2026-09-25T02:18:48+00:00,2026-09-25T02:35:52+00:00,South Africa,Lion Plushie,0,1481,restock,YATA,1790303752
