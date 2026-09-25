@@ -2015,3 +2015,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-25T04:53:40+00:00,2026-09-25T05:11:03+00:00,South Africa,Lion Plushie,1291,0,stockout,Prometheus,1790313063
 2026-09-25T04:53:03+00:00,2026-09-25T05:09:58+00:00,UAE,Camel Plushie,0,2018,restock,YATA,1790312998
 2026-09-25T04:53:29+00:00,2026-09-25T05:11:32+00:00,China,Panda Plushie,766,0,stockout,Prometheus,1790313092
+2026-09-25T05:11:03+00:00,2026-09-25T05:28:19+00:00,South Africa,Lion Plushie,0,2111,restock,Prometheus,1790314099
+2026-09-25T05:09:58+00:00,2026-09-25T05:28:53+00:00,UAE,Tribulus Omanense,177,0,stockout,Prometheus,1790314133
+2026-09-25T05:09:58+00:00,2026-09-25T05:28:53+00:00,UAE,Natural Pearls,200,0,stockout,Prometheus,1790314133
+2026-09-25T05:11:32+00:00,2026-09-25T05:28:13+00:00,China,Panda Plushie,0,2368,restock,YATA,1790314093
