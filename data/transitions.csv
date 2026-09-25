@@ -1996,3 +1996,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-25T03:07:12+00:00,2026-09-25T03:24:51+00:00,South Africa,African Violet,14,0,stockout,Prometheus,1790306691
 2026-09-25T03:06:58+00:00,2026-09-25T03:25:12+00:00,Hawaii,Shark Fin,1136,0,stockout,Prometheus,1790306712
 2026-09-25T03:07:10+00:00,2026-09-25T03:24:52+00:00,China,Pangolin Scales,0,2954,restock,Prometheus,1790306692
+2026-09-25T03:43:28+00:00,2026-09-25T03:57:21+00:00,South Africa,Lion Plushie,649,0,stockout,Prometheus,1790308641
+2026-09-25T03:41:51+00:00,2026-09-25T03:57:25+00:00,Japan,Xanax,0,1126,restock,YATA,1790308645
+2026-09-25T03:43:12+00:00,2026-09-25T03:57:18+00:00,China,Peony,0,9854,restock,YATA,1790308638
