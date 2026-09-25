@@ -1992,3 +1992,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-25T02:35:33+00:00,2026-09-25T02:51:08+00:00,China,Pangolin Scales,194,0,stockout,YATA,1790304668
 2026-09-25T02:35:33+00:00,2026-09-25T02:51:08+00:00,China,Peony,199,0,stockout,YATA,1790304668
 2026-09-25T02:51:25+00:00,2026-09-25T03:07:12+00:00,South Africa,Raw Ivory,237,0,stockout,Prometheus,1790305632
+2026-09-25T03:07:12+00:00,2026-09-25T03:24:51+00:00,South Africa,Smoke Grenade,144,0,stockout,Prometheus,1790306691
+2026-09-25T03:07:12+00:00,2026-09-25T03:24:51+00:00,South Africa,African Violet,14,0,stockout,Prometheus,1790306691
+2026-09-25T03:06:58+00:00,2026-09-25T03:25:12+00:00,Hawaii,Shark Fin,1136,0,stockout,Prometheus,1790306712
+2026-09-25T03:07:10+00:00,2026-09-25T03:24:52+00:00,China,Pangolin Scales,0,2954,restock,Prometheus,1790306692
