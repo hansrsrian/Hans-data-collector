@@ -1983,3 +1983,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-25T01:18:47+00:00,2026-09-25T01:33:14+00:00,Hawaii,Shark Fin,0,3022,restock,Prometheus,1790299994
 2026-09-25T01:33:12+00:00,2026-09-25T01:47:05+00:00,Japan,Xanax,0,1311,restock,Prometheus,1790300825
 2026-09-25T01:33:10+00:00,2026-09-25T01:47:10+00:00,China,Pangolin Scales,0,4059,restock,Prometheus,1790300830
+2026-09-25T01:47:06+00:00,2026-09-25T01:59:37+00:00,South Africa,Raw Ivory,0,2076,restock,Prometheus,1790301577
+2026-09-25T01:46:21+00:00,2026-09-25T01:59:32+00:00,Hawaii,Shark Fin,813,0,stockout,YATA,1790301572
