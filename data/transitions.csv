@@ -2524,3 +2524,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-26T23:21:13+00:00,2026-09-26T23:35:26+00:00,South Africa,Lion Plushie,767,0,stockout,Prometheus,1790465726
 2026-09-26T23:21:25+00:00,2026-09-26T23:35:48+00:00,United Kingdom,Xanax,11,0,stockout,Prometheus,1790465748
 2026-09-26T23:21:18+00:00,2026-09-26T23:35:52+00:00,UAE,Natural Pearls,0,3602,restock,Prometheus,1790465752
+2026-09-26T23:35:26+00:00,2026-09-26T23:49:07+00:00,South Africa,Raw Ivory,2049,0,stockout,Prometheus,1790466547
+2026-09-26T23:35:26+00:00,2026-09-26T23:49:07+00:00,South Africa,African Violet,617,0,stockout,Prometheus,1790466547
+2026-09-26T23:35:51+00:00,2026-09-26T23:49:23+00:00,China,Panda Plushie,0,29,restock,Prometheus,1790466563
+2026-09-26T23:35:51+00:00,2026-09-26T23:49:23+00:00,China,Pangolin Scales,0,969,restock,Prometheus,1790466563
