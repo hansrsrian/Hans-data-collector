@@ -2280,3 +2280,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-26T02:21:26+00:00,2026-09-26T02:37:31+00:00,China,Pangolin Scales,745,0,stockout,Prometheus,1790390251
 2026-09-26T02:52:05+00:00,2026-09-26T03:10:48+00:00,South Africa,Raw Ivory,454,0,stockout,Prometheus,1790392248
 2026-09-26T02:53:03+00:00,2026-09-26T03:10:50+00:00,China,Pangolin Scales,0,4253,restock,Prometheus,1790392250
+2026-09-26T03:10:48+00:00,2026-09-26T03:29:07+00:00,South Africa,Smoke Grenade,89,0,stockout,Prometheus,1790393347
+2026-09-26T03:10:38+00:00,2026-09-26T03:29:11+00:00,Hawaii,Shark Fin,472,0,stockout,Prometheus,1790393351
