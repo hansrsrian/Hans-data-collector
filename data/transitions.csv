@@ -2384,3 +2384,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-26T11:56:07+00:00,2026-09-26T12:20:20+00:00,South Africa,African Violet,1743,0,stockout,Prometheus,1790425220
 2026-09-26T11:55:22+00:00,2026-09-26T12:20:48+00:00,UAE,Tribulus Omanense,0,9171,restock,YATA,1790425248
 2026-09-26T11:56:10+00:00,2026-09-26T12:20:42+00:00,China,Pangolin Scales,1497,0,stockout,Prometheus,1790425242
+2026-09-26T11:56:10+00:00,2026-09-26T12:20:42+00:00,China,Peony,0,9712,restock,Prometheus,1790425242
