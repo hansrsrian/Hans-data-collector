@@ -2666,3 +2666,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T10:37:34+00:00,2026-09-27T10:51:39+00:00,UAE,Tribulus Omanense,1380,0,stockout,Prometheus,1790506299
 2026-09-27T10:37:34+00:00,2026-09-27T10:51:39+00:00,UAE,Camel Plushie,0,1226,restock,Prometheus,1790506299
 2026-09-27T10:37:34+00:00,2026-09-27T10:51:39+00:00,UAE,Natural Pearls,0,3581,restock,Prometheus,1790506299
+2026-09-27T10:51:39+00:00,2026-09-27T11:08:24+00:00,UAE,Camel Plushie,1226,0,stockout,Prometheus,1790507304
+2026-09-27T10:51:47+00:00,2026-09-27T11:08:22+00:00,China,Pangolin Scales,0,302,restock,Prometheus,1790507302
