@@ -2820,3 +2820,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T23:13:25+00:00,2026-09-27T23:30:00+00:00,South Africa,Xanax,0,2066,restock,YATA,1790551800
 2026-09-27T23:13:25+00:00,2026-09-27T23:30:00+00:00,South Africa,Lion Plushie,1271,0,stockout,YATA,1790551800
 2026-09-27T23:13:25+00:00,2026-09-27T23:30:00+00:00,South Africa,African Violet,0,6877,restock,YATA,1790551800
+2026-09-27T23:30:01+00:00,2026-09-27T23:44:08+00:00,UAE,Camel Plushie,0,59,restock,YATA,1790552648
+2026-09-27T23:30:01+00:00,2026-09-27T23:44:08+00:00,UAE,Natural Pearls,1351,0,stockout,YATA,1790552648
