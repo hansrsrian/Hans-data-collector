@@ -1,12 +1,12 @@
 {
-  "collection_timestamp": "2026-09-27T11:18:39.534584+00:00",
-  "observation_timestamp": "2026-09-27T11:18:14+00:00",
-  "stock": 3,
-  "event_type": "restock",
+  "collection_timestamp": "2026-09-27T11:30:38.356323+00:00",
+  "observation_timestamp": "2026-09-27T11:30:40+00:00",
+  "stock": 0,
+  "event_type": "stockout",
   "source": "Prometheus",
-  "source_update": 1790507894,
+  "source_update": 1790508640,
   "yata_stock": 0,
-  "yata_update": 1790507838,
-  "prometheus_stock": 3,
-  "prometheus_update": 1790507894
+  "yata_update": 1790508596,
+  "prometheus_stock": 0,
+  "prometheus_update": 1790508640
 }
