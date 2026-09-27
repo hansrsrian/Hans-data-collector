@@ -2791,3 +2791,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T21:00:46+00:00,2026-09-27T21:20:39+00:00,UAE,Natural Pearls,2493,0,stockout,Prometheus,1790544039
 2026-09-27T21:01:03+00:00,2026-09-27T21:20:36+00:00,China,Pangolin Scales,0,2174,restock,Prometheus,1790544036
 2026-09-27T21:01:03+00:00,2026-09-27T21:20:36+00:00,China,Peony,3035,0,stockout,Prometheus,1790544036
+2026-09-27T21:20:32+00:00,2026-09-27T21:36:23+00:00,South Africa,Xanax,51,0,stockout,YATA,1790544983
+2026-09-27T21:20:36+00:00,2026-09-27T21:36:33+00:00,China,Pangolin Scales,2174,0,stockout,Prometheus,1790544993

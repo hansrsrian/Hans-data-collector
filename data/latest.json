@@ -1,34 +1,34 @@
 {
-  "timestamp": "2026-09-27T21:20:26.704330+00:00",
+  "timestamp": "2026-09-27T21:36:40.429112+00:00",
   "source": "mixed",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1790544017,
-    "United Kingdom": 1790544040,
-    "Switzerland": 1790544036,
-    "Japan": 1790544042,
-    "China": 1790544036,
-    "UAE": 1790544039,
-    "South Africa": 1790544032,
-    "Hawaii": 1790544040
+    "Canada": 1790544999,
+    "United Kingdom": 1790544993,
+    "Switzerland": 1790545004,
+    "Japan": 1790544996,
+    "China": 1790544993,
+    "UAE": 1790544999,
+    "South Africa": 1790544983,
+    "Hawaii": 1790545001
   },
   "observed_at": {
-    "United Kingdom": "2026-09-27T21:20:40+00:00",
-    "Canada": "2026-09-27T21:20:17+00:00",
-    "China": "2026-09-27T21:20:36+00:00",
-    "Switzerland": "2026-09-27T21:20:36+00:00",
-    "Japan": "2026-09-27T21:20:42+00:00",
-    "UAE": "2026-09-27T21:20:39+00:00",
-    "South Africa": "2026-09-27T21:20:32+00:00",
-    "Hawaii": "2026-09-27T21:20:40+00:00"
+    "United Kingdom": "2026-09-27T21:36:33+00:00",
+    "Canada": "2026-09-27T21:36:39+00:00",
+    "China": "2026-09-27T21:36:33+00:00",
+    "Switzerland": "2026-09-27T21:36:44+00:00",
+    "Japan": "2026-09-27T21:36:36+00:00",
+    "UAE": "2026-09-27T21:36:39+00:00",
+    "South Africa": "2026-09-27T21:36:23+00:00",
+    "Hawaii": "2026-09-27T21:36:41+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 51,
-    "South Africa|Smoke Grenade": 1788,
+    "South Africa|Xanax": 0,
+    "South Africa|Smoke Grenade": 874,
     "South Africa|Lion Plushie": 0,
-    "South Africa|African Violet": 7911,
+    "South Africa|African Violet": 5454,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
     "United Kingdom|Xanax": 0,
@@ -39,18 +39,18 @@
     "Hawaii|Shark Fin": 0,
     "China|Blank Casino Chips": null,
     "China|Panda Plushie": 0,
-    "China|Pangolin Scales": 2174,
+    "China|Pangolin Scales": 0,
     "China|Peony": 0
   },
   "sources": {
-    "South Africa": "Prometheus",
-    "Japan": "Prometheus",
+    "South Africa": "YATA",
+    "Japan": "YATA",
     "Canada": "YATA",
     "United Kingdom": "Prometheus",
     "UAE": "Prometheus",
     "Switzerland": "Prometheus",
     "China": "Prometheus",
-    "Hawaii": "Prometheus"
+    "Hawaii": "YATA"
   },
   "source_urls": {
     "YATA": "https://yata.yt/api/v1/travel/export/",
