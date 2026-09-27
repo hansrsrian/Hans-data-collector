@@ -2572,3 +2572,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T02:35:12+00:00,2026-09-27T02:51:22+00:00,Hawaii,Shark Fin,0,1994,restock,Prometheus,1790477482
 2026-09-27T02:35:15+00:00,2026-09-27T02:51:43+00:00,China,Pangolin Scales,2103,0,stockout,Prometheus,1790477503
 2026-09-27T02:35:15+00:00,2026-09-27T02:51:43+00:00,China,Peony,748,0,stockout,Prometheus,1790477503
+2026-09-27T02:51:44+00:00,2026-09-27T03:06:44+00:00,South Africa,Raw Ivory,852,0,stockout,Prometheus,1790478404
+2026-09-27T02:51:44+00:00,2026-09-27T03:06:44+00:00,South Africa,Smoke Grenade,0,2163,restock,Prometheus,1790478404
+2026-09-27T02:51:39+00:00,2026-09-27T03:06:20+00:00,Canada,Xanax,243,0,stockout,Prometheus,1790478380
+2026-09-27T02:50:02+00:00,2026-09-27T03:06:34+00:00,UAE,Natural Pearls,0,4798,restock,Prometheus,1790478394
+2026-09-27T02:51:22+00:00,2026-09-27T03:06:18+00:00,Hawaii,Shark Fin,1994,0,stockout,Prometheus,1790478378
