@@ -2620,3 +2620,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T06:22:46+00:00,2026-09-27T06:43:52+00:00,UAE,Tribulus Omanense,0,6987,restock,Prometheus,1790491432
 2026-09-27T06:22:46+00:00,2026-09-27T06:43:52+00:00,UAE,Natural Pearls,464,0,stockout,Prometheus,1790491432
 2026-09-27T06:22:44+00:00,2026-09-27T06:43:55+00:00,China,Panda Plushie,1,0,stockout,Prometheus,1790491435
+2026-09-27T06:43:46+00:00,2026-09-27T06:59:25+00:00,South Africa,Smoke Grenade,0,2179,restock,Prometheus,1790492365
+2026-09-27T06:43:46+00:00,2026-09-27T06:59:25+00:00,South Africa,Lion Plushie,0,1462,restock,Prometheus,1790492365
+2026-09-27T06:43:46+00:00,2026-09-27T06:59:24+00:00,United Kingdom,Xanax,43,0,stockout,Prometheus,1790492364
+2026-09-27T06:43:52+00:00,2026-09-27T06:59:29+00:00,UAE,Camel Plushie,1,0,stockout,Prometheus,1790492369
+2026-09-27T06:43:52+00:00,2026-09-27T06:59:29+00:00,UAE,Natural Pearls,0,4853,restock,Prometheus,1790492369
+2026-09-27T06:43:55+00:00,2026-09-27T06:59:13+00:00,China,Peony,1540,0,stockout,Prometheus,1790492353
