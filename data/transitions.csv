@@ -2796,3 +2796,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T21:36:23+00:00,2026-09-27T21:50:13+00:00,South Africa,Raw Ivory,0,2180,restock,Prometheus,1790545813
 2026-09-27T21:36:23+00:00,2026-09-27T21:50:13+00:00,South Africa,Smoke Grenade,874,0,stockout,Prometheus,1790545813
 2026-09-27T21:36:23+00:00,2026-09-27T21:50:13+00:00,South Africa,Lion Plushie,0,485,restock,Prometheus,1790545813
+2026-09-27T21:50:13+00:00,2026-09-27T22:05:13+00:00,South Africa,Lion Plushie,485,0,stockout,Prometheus,1790546713
+2026-09-27T21:36:39+00:00,2026-09-27T21:50:15+00:00,Canada,Xanax,0,2500,restock,Prometheus,1790545815
+2026-09-27T21:50:15+00:00,2026-09-27T22:05:03+00:00,UAE,Natural Pearls,0,2047,restock,Prometheus,1790546703
