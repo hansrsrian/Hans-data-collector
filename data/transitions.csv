@@ -2696,3 +2696,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T12:57:16+00:00,2026-09-27T13:17:13+00:00,UAE,Tribulus Omanense,0,4210,restock,Prometheus,1790515033
 2026-09-27T12:57:14+00:00,2026-09-27T13:17:11+00:00,China,Peony,1807,0,stockout,Prometheus,1790515031
 2026-09-27T13:17:13+00:00,2026-09-27T13:32:54+00:00,UAE,Natural Pearls,613,0,stockout,Prometheus,1790515974
+2026-09-27T13:33:14+00:00,2026-09-27T13:47:24+00:00,South Africa,Xanax,58,0,stockout,Prometheus,1790516844
+2026-09-27T13:33:14+00:00,2026-09-27T13:47:24+00:00,South Africa,African Violet,874,0,stockout,Prometheus,1790516844
+2026-09-27T13:32:54+00:00,2026-09-27T13:47:37+00:00,UAE,Tribulus Omanense,527,0,stockout,Prometheus,1790516857
