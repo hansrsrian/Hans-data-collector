@@ -2799,3 +2799,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T21:50:13+00:00,2026-09-27T22:05:13+00:00,South Africa,Lion Plushie,485,0,stockout,Prometheus,1790546713
 2026-09-27T21:36:39+00:00,2026-09-27T21:50:15+00:00,Canada,Xanax,0,2500,restock,Prometheus,1790545815
 2026-09-27T21:50:15+00:00,2026-09-27T22:05:03+00:00,UAE,Natural Pearls,0,2047,restock,Prometheus,1790546703
+2026-09-27T22:05:13+00:00,2026-09-27T22:23:26+00:00,South Africa,Raw Ivory,71,0,stockout,Prometheus,1790547806
+2026-09-27T22:05:13+00:00,2026-09-27T22:23:26+00:00,South Africa,African Violet,1066,0,stockout,Prometheus,1790547806
+2026-09-27T22:05:03+00:00,2026-09-27T22:23:23+00:00,UAE,Tribulus Omanense,0,5826,restock,Prometheus,1790547803
+2026-09-27T22:05:09+00:00,2026-09-27T22:23:31+00:00,China,Peony,0,6971,restock,Prometheus,1790547811
