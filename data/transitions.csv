@@ -2630,3 +2630,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T06:59:25+00:00,2026-09-27T07:19:50+00:00,South Africa,African Violet,1720,0,stockout,Prometheus,1790493590
 2026-09-27T06:59:29+00:00,2026-09-27T07:19:41+00:00,UAE,Tribulus Omanense,3415,0,stockout,YATA,1790493581
 2026-09-27T06:59:13+00:00,2026-09-27T07:19:52+00:00,China,Pangolin Scales,0,208,restock,Prometheus,1790493592
+2026-09-27T07:19:50+00:00,2026-09-27T07:36:08+00:00,South Africa,Smoke Grenade,512,0,stockout,Prometheus,1790494568
+2026-09-27T07:19:52+00:00,2026-09-27T07:36:09+00:00,China,Pangolin Scales,208,0,stockout,Prometheus,1790494569
