@@ -2648,3 +2648,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-27T08:57:27+00:00,2026-09-27T09:17:35+00:00,United Kingdom,Xanax,0,2362,restock,Prometheus,1790500655
 2026-09-27T08:57:14+00:00,2026-09-27T09:17:42+00:00,UAE,Tribulus Omanense,2141,0,stockout,Prometheus,1790500662
 2026-09-27T08:57:14+00:00,2026-09-27T09:17:42+00:00,UAE,Natural Pearls,1516,0,stockout,Prometheus,1790500662
+2026-09-27T09:17:38+00:00,2026-09-27T09:34:13+00:00,China,Peony,0,7097,restock,Prometheus,1790501653
