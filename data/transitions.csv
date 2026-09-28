@@ -2960,3 +2960,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-28T10:59:40+00:00,2026-09-28T11:21:27+00:00,Switzerland,Neumune Tablet,3,0,stockout,Prometheus,1790594487
 2026-09-28T11:00:10+00:00,2026-09-28T11:21:52+00:00,China,Pangolin Scales,0,2832,restock,Prometheus,1790594512
 2026-09-28T11:00:10+00:00,2026-09-28T11:21:52+00:00,China,Peony,2916,0,stockout,Prometheus,1790594512
+2026-09-28T11:21:11+00:00,2026-09-28T11:42:42+00:00,South Africa,Raw Ivory,1849,0,stockout,Prometheus,1790595762
+2026-09-28T11:21:11+00:00,2026-09-28T11:42:42+00:00,South Africa,Smoke Grenade,0,934,restock,Prometheus,1790595762
+2026-09-28T11:21:11+00:00,2026-09-28T11:42:42+00:00,South Africa,Lion Plushie,1,0,stockout,Prometheus,1790595762
+2026-09-28T11:21:48+00:00,2026-09-28T11:42:39+00:00,UAE,Camel Plushie,93,0,stockout,YATA,1790595759
+2026-09-28T11:21:48+00:00,2026-09-28T11:42:39+00:00,UAE,Natural Pearls,213,0,stockout,YATA,1790595759
+2026-09-28T11:21:52+00:00,2026-09-28T11:42:41+00:00,China,Pangolin Scales,2832,0,stockout,Prometheus,1790595761
