@@ -2914,3 +2914,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-28T07:24:36+00:00,2026-09-28T07:45:06+00:00,UAE,Natural Pearls,0,3699,restock,Prometheus,1790581506
 2026-09-28T07:01:13+00:00,2026-09-28T07:24:37+00:00,China,Panda Plushie,0,1415,restock,Prometheus,1790580277
 2026-09-28T07:24:37+00:00,2026-09-28T07:45:04+00:00,China,Peony,0,6969,restock,Prometheus,1790581504
+2026-09-28T07:45:07+00:00,2026-09-28T08:00:47+00:00,South Africa,Raw Ivory,0,954,restock,YATA,1790582447
+2026-09-28T07:45:06+00:00,2026-09-28T08:00:42+00:00,UAE,Tribulus Omanense,2190,0,stockout,Prometheus,1790582442
+2026-09-28T07:45:06+00:00,2026-09-28T08:00:42+00:00,UAE,Camel Plushie,602,0,stockout,Prometheus,1790582442
+2026-09-28T07:45:04+00:00,2026-09-28T08:00:50+00:00,China,Panda Plushie,994,0,stockout,Prometheus,1790582450
