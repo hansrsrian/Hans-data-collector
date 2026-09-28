@@ -2949,3 +2949,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-28T10:02:21+00:00,2026-09-28T10:25:19+00:00,UAE,Tribulus Omanense,0,9741,restock,Prometheus,1790591119
 2026-09-28T10:25:19+00:00,2026-09-28T10:45:33+00:00,China,Pangolin Scales,0,853,restock,Prometheus,1790592333
 2026-09-28T10:25:19+00:00,2026-09-28T10:45:33+00:00,China,Peony,0,6385,restock,Prometheus,1790592333
+2026-09-28T10:45:38+00:00,2026-09-28T11:00:06+00:00,UAE,Tribulus Omanense,2551,0,stockout,Prometheus,1790593206
+2026-09-28T10:45:38+00:00,2026-09-28T11:00:06+00:00,UAE,Camel Plushie,0,489,restock,Prometheus,1790593206
+2026-09-28T10:45:08+00:00,2026-09-28T10:59:40+00:00,Switzerland,Neumune Tablet,0,3,restock,YATA,1790593180
+2026-09-28T10:45:33+00:00,2026-09-28T11:00:10+00:00,China,Pangolin Scales,853,0,stockout,Prometheus,1790593210
