@@ -2909,3 +2909,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-28T06:41:20+00:00,2026-09-28T07:01:14+00:00,UAE,Camel Plushie,0,2280,restock,Prometheus,1790578874
 2026-09-28T07:01:14+00:00,2026-09-28T07:24:36+00:00,UAE,Natural Pearls,1083,0,stockout,Prometheus,1790580276
 2026-09-28T07:00:58+00:00,2026-09-28T07:24:23+00:00,Switzerland,Neumune Tablet,3,0,stockout,YATA,1790580263
+2026-09-28T07:24:35+00:00,2026-09-28T07:45:07+00:00,South Africa,Smoke Grenade,728,0,stockout,Prometheus,1790581507
+2026-09-28T07:24:35+00:00,2026-09-28T07:45:07+00:00,South Africa,African Violet,1536,0,stockout,Prometheus,1790581507
+2026-09-28T07:24:36+00:00,2026-09-28T07:45:06+00:00,UAE,Natural Pearls,0,3699,restock,Prometheus,1790581506
+2026-09-28T07:01:13+00:00,2026-09-28T07:24:37+00:00,China,Panda Plushie,0,1415,restock,Prometheus,1790580277
+2026-09-28T07:24:37+00:00,2026-09-28T07:45:04+00:00,China,Peony,0,6969,restock,Prometheus,1790581504
