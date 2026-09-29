@@ -3160,3 +3160,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-29T02:33:43+00:00,2026-09-29T02:49:33+00:00,South Africa,Raw Ivory,125,0,stockout,YATA,1790650173
 2026-09-29T02:33:43+00:00,2026-09-29T02:49:33+00:00,South Africa,Lion Plushie,488,0,stockout,YATA,1790650173
 2026-09-29T02:33:31+00:00,2026-09-29T02:49:43+00:00,China,Panda Plushie,0,2011,restock,YATA,1790650183
+2026-09-29T02:49:33+00:00,2026-09-29T03:05:06+00:00,South Africa,Lion Plushie,0,2032,restock,YATA,1790651106
+2026-09-29T02:49:09+00:00,2026-09-29T03:04:38+00:00,UAE,Camel Plushie,5,0,stockout,Prometheus,1790651078
+2026-09-29T02:49:54+00:00,2026-09-29T03:05:19+00:00,Hawaii,Shark Fin,0,4290,restock,Prometheus,1790651119
