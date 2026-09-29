@@ -3234,3 +3234,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-29T09:25:07+00:00,2026-09-29T09:46:53+00:00,Hawaii,Shark Fin,0,844,restock,Prometheus,1790675213
 2026-09-29T09:25:12+00:00,2026-09-29T09:46:32+00:00,China,Panda Plushie,443,0,stockout,Prometheus,1790675192
 2026-09-29T09:25:12+00:00,2026-09-29T09:46:32+00:00,China,Pangolin Scales,0,3352,restock,Prometheus,1790675192
+2026-09-29T09:46:28+00:00,2026-09-29T10:01:14+00:00,South Africa,Smoke Grenade,0,2472,restock,YATA,1790676074
+2026-09-29T09:46:28+00:00,2026-09-29T10:01:14+00:00,South Africa,Lion Plushie,0,2136,restock,YATA,1790676074
+2026-09-29T09:46:40+00:00,2026-09-29T10:01:17+00:00,UAE,Camel Plushie,963,0,stockout,Prometheus,1790676077
+2026-09-29T09:46:53+00:00,2026-09-29T10:01:20+00:00,Hawaii,Shark Fin,844,0,stockout,Prometheus,1790676080
+2026-09-29T09:46:32+00:00,2026-09-29T10:00:48+00:00,China,Panda Plushie,0,1640,restock,Prometheus,1790676048
