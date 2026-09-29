@@ -3227,3 +3227,10 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-29T09:01:42+00:00,2026-09-29T09:25:03+00:00,UAE,Tribulus Omanense,631,0,stockout,Prometheus,1790673903
 2026-09-29T09:01:57+00:00,2026-09-29T09:25:12+00:00,China,Panda Plushie,0,443,restock,Prometheus,1790673912
 2026-09-29T09:01:57+00:00,2026-09-29T09:25:12+00:00,China,Pangolin Scales,678,0,stockout,Prometheus,1790673912
+2026-09-29T09:24:18+00:00,2026-09-29T09:46:28+00:00,South Africa,Raw Ivory,0,1508,restock,Prometheus,1790675188
+2026-09-29T09:24:18+00:00,2026-09-29T09:46:28+00:00,South Africa,Lion Plushie,1985,0,stockout,Prometheus,1790675188
+2026-09-29T09:25:03+00:00,2026-09-29T09:46:40+00:00,UAE,Camel Plushie,0,963,restock,YATA,1790675200
+2026-09-29T09:25:03+00:00,2026-09-29T09:46:40+00:00,UAE,Natural Pearls,0,3986,restock,YATA,1790675200
+2026-09-29T09:25:07+00:00,2026-09-29T09:46:53+00:00,Hawaii,Shark Fin,0,844,restock,Prometheus,1790675213
+2026-09-29T09:25:12+00:00,2026-09-29T09:46:32+00:00,China,Panda Plushie,443,0,stockout,Prometheus,1790675192
+2026-09-29T09:25:12+00:00,2026-09-29T09:46:32+00:00,China,Pangolin Scales,0,3352,restock,Prometheus,1790675192
