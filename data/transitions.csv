@@ -3401,3 +3401,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-29T23:33:34+00:00,2026-09-29T23:48:31+00:00,South Africa,Smoke Grenade,925,0,stockout,YATA,1790725711
 2026-09-29T23:33:20+00:00,2026-09-29T23:48:23+00:00,UAE,Camel Plushie,0,1698,restock,Prometheus,1790725703
 2026-09-29T23:33:18+00:00,2026-09-29T23:48:51+00:00,China,Pangolin Scales,145,0,stockout,Prometheus,1790725731
+2026-09-29T23:48:31+00:00,2026-09-30T00:03:13+00:00,South Africa,Smoke Grenade,0,506,restock,YATA,1790726593
+2026-09-29T23:48:31+00:00,2026-09-30T00:03:13+00:00,South Africa,African Violet,6666,0,stockout,YATA,1790726593
+2026-09-29T23:48:53+00:00,2026-09-30T00:03:14+00:00,Hawaii,Shark Fin,466,0,stockout,YATA,1790726594
