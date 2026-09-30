@@ -3617,3 +3617,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-30T18:46:10+00:00,2026-09-30T19:03:26+00:00,UAE,Tribulus Omanense,0,9999,restock,Prometheus,1790795006
 2026-09-30T18:46:10+00:00,2026-09-30T19:03:26+00:00,UAE,Camel Plushie,0,460,restock,Prometheus,1790795006
 2026-09-30T18:46:10+00:00,2026-09-30T19:03:26+00:00,UAE,Natural Pearls,229,0,stockout,Prometheus,1790795006
+2026-09-30T19:03:04+00:00,2026-09-30T19:22:38+00:00,South Africa,Xanax,49,0,stockout,Prometheus,1790796158
