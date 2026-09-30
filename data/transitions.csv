@@ -3430,3 +3430,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-30T01:35:23+00:00,2026-09-30T01:52:49+00:00,UAE,Natural Pearls,0,4930,restock,Prometheus,1790733169
 2026-09-30T01:35:17+00:00,2026-09-30T01:49:55+00:00,Switzerland,Neumune Tablet,0,3,restock,Prometheus,1790732995
 2026-09-30T01:35:55+00:00,2026-09-30T01:52:55+00:00,China,Panda Plushie,0,1642,restock,YATA,1790733175
+2026-09-30T01:52:49+00:00,2026-09-30T02:10:52+00:00,UAE,Tribulus Omanense,206,0,stockout,Prometheus,1790734252
+2026-09-30T01:52:49+00:00,2026-09-30T02:10:52+00:00,UAE,Camel Plushie,93,0,stockout,Prometheus,1790734252
+2026-09-30T01:49:55+00:00,2026-09-30T02:10:49+00:00,Switzerland,Neumune Tablet,3,0,stockout,Prometheus,1790734249
