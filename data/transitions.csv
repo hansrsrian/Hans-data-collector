@@ -3527,3 +3527,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-09-30T09:53:47+00:00,2026-09-30T10:17:32+00:00,UAE,Camel Plushie,1124,0,stockout,YATA,1790763452
 2026-09-30T09:55:20+00:00,2026-09-30T10:17:52+00:00,China,Panda Plushie,0,797,restock,Prometheus,1790763472
 2026-09-30T09:55:20+00:00,2026-09-30T10:17:52+00:00,China,Pangolin Scales,0,4311,restock,Prometheus,1790763472
+2026-09-30T10:17:32+00:00,2026-09-30T10:37:27+00:00,UAE,Camel Plushie,0,1250,restock,Prometheus,1790764647
+2026-09-30T10:17:52+00:00,2026-09-30T10:37:38+00:00,China,Panda Plushie,797,0,stockout,Prometheus,1790764658
