@@ -4148,3 +4148,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-02T19:23:18+00:00,2026-10-02T19:42:51+00:00,UAE,Camel Plushie,763,0,stockout,YATA,1790970171
 2026-10-02T19:23:18+00:00,2026-10-02T19:42:51+00:00,UAE,Natural Pearls,0,4894,restock,YATA,1790970171
 2026-10-02T19:23:45+00:00,2026-10-02T19:43:43+00:00,China,Panda Plushie,0,1629,restock,YATA,1790970223
+2026-10-02T19:43:52+00:00,2026-10-02T19:58:47+00:00,South Africa,Smoke Grenade,146,0,stockout,Prometheus,1790971127
+2026-10-02T19:44:11+00:00,2026-10-02T19:59:12+00:00,Japan,Xanax,0,281,restock,Prometheus,1790971152
+2026-10-02T19:42:51+00:00,2026-10-02T19:57:21+00:00,UAE,Camel Plushie,0,1961,restock,Prometheus,1790971041
