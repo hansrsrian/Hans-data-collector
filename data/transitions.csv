@@ -4134,3 +4134,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-02T17:57:03+00:00,2026-10-02T18:22:17+00:00,China,Pangolin Scales,0,2175,restock,Prometheus,1790965337
 2026-10-02T18:22:47+00:00,2026-10-02T18:45:28+00:00,South Africa,Raw Ivory,687,0,stockout,Prometheus,1790966728
 2026-10-02T18:22:47+00:00,2026-10-02T18:45:28+00:00,South Africa,African Violet,356,0,stockout,Prometheus,1790966728
+2026-10-02T18:45:28+00:00,2026-10-02T19:01:32+00:00,Canada,Xanax,0,2053,restock,YATA,1790967692
+2026-10-02T18:45:31+00:00,2026-10-02T19:01:52+00:00,UAE,Tribulus Omanense,0,9233,restock,Prometheus,1790967712
+2026-10-02T18:45:24+00:00,2026-10-02T19:01:43+00:00,Hawaii,Shark Fin,0,1089,restock,YATA,1790967703
+2026-10-02T18:44:53+00:00,2026-10-02T19:01:57+00:00,China,Pangolin Scales,117,0,stockout,Prometheus,1790967717
