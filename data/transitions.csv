@@ -4076,3 +4076,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-02T12:23:52+00:00,2026-10-02T12:49:06+00:00,UAE,Natural Pearls,0,4829,restock,Prometheus,1790945346
 2026-10-02T12:24:05+00:00,2026-10-02T12:48:36+00:00,China,Panda Plushie,0,894,restock,Prometheus,1790945316
 2026-10-02T12:24:05+00:00,2026-10-02T12:48:36+00:00,China,Pangolin Scales,0,1659,restock,Prometheus,1790945316
+2026-10-02T12:48:36+00:00,2026-10-02T13:06:26+00:00,China,Pangolin Scales,1659,0,stockout,Prometheus,1790946386
