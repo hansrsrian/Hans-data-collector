@@ -3966,3 +3966,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-02T02:42:48+00:00,2026-10-02T02:58:23+00:00,South Africa,Raw Ivory,103,0,stockout,Prometheus,1790909903
 2026-10-02T02:42:48+00:00,2026-10-02T02:58:23+00:00,South Africa,Lion Plushie,525,0,stockout,Prometheus,1790909903
 2026-10-02T02:42:59+00:00,2026-10-02T02:58:50+00:00,Japan,Xanax,0,1336,restock,YATA,1790909930
+2026-10-02T03:21:05+00:00,2026-10-02T03:42:20+00:00,South Africa,Smoke Grenade,0,2328,restock,Prometheus,1790912540
+2026-10-02T02:58:50+00:00,2026-10-02T03:21:27+00:00,Japan,Xanax,1336,0,stockout,Prometheus,1790911287
+2026-10-02T03:20:49+00:00,2026-10-02T03:42:13+00:00,Hawaii,Shark Fin,0,2746,restock,Prometheus,1790912533
