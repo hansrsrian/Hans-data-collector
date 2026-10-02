@@ -4054,3 +4054,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-02T10:42:15+00:00,2026-10-02T10:58:10+00:00,China,Panda Plushie,496,0,stockout,Prometheus,1790938690
 2026-10-02T10:42:15+00:00,2026-10-02T10:58:10+00:00,China,Pangolin Scales,68,0,stockout,Prometheus,1790938690
 2026-10-02T10:42:15+00:00,2026-10-02T10:58:10+00:00,China,Peony,938,0,stockout,Prometheus,1790938690
+2026-10-02T10:58:10+00:00,2026-10-02T11:19:57+00:00,China,Panda Plushie,0,920,restock,Prometheus,1790939997
+2026-10-02T10:58:10+00:00,2026-10-02T11:19:57+00:00,China,Pangolin Scales,0,3329,restock,Prometheus,1790939997
