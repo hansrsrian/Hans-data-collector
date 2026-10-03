@@ -4214,3 +4214,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-03T02:12:16+00:00,2026-10-03T02:40:16+00:00,Japan,Xanax,0,912,restock,Prometheus,1790995216
 2026-10-03T02:12:18+00:00,2026-10-03T02:40:10+00:00,UAE,Camel Plushie,1206,0,stockout,YATA,1790995210
 2026-10-03T02:12:13+00:00,2026-10-03T02:40:07+00:00,China,Pangolin Scales,0,3652,restock,Prometheus,1790995207
+2026-10-03T02:40:16+00:00,2026-10-03T03:06:27+00:00,Japan,Xanax,912,0,stockout,Prometheus,1790996787
+2026-10-03T02:40:10+00:00,2026-10-03T03:06:28+00:00,UAE,Camel Plushie,0,1419,restock,Prometheus,1790996788
+2026-10-03T02:40:14+00:00,2026-10-03T03:06:30+00:00,Hawaii,Shark Fin,246,0,stockout,Prometheus,1790996790
