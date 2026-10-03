@@ -4196,3 +4196,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-02T23:51:00+00:00,2026-10-03T00:12:02+00:00,UAE,Camel Plushie,876,0,stockout,Prometheus,1790986322
 2026-10-03T00:39:06+00:00,2026-10-03T00:59:08+00:00,South Africa,Smoke Grenade,236,0,stockout,YATA,1790989148
 2026-10-03T00:12:05+00:00,2026-10-03T00:40:00+00:00,Hawaii,Shark Fin,0,1998,restock,Prometheus,1790988000
+2026-10-03T00:59:14+00:00,2026-10-03T01:19:49+00:00,Canada,Xanax,80,0,stockout,Prometheus,1790990389
+2026-10-03T00:58:35+00:00,2026-10-03T01:19:46+00:00,UAE,Tribulus Omanense,51,0,stockout,Prometheus,1790990386
+2026-10-03T00:58:35+00:00,2026-10-03T01:19:46+00:00,UAE,Camel Plushie,0,1432,restock,Prometheus,1790990386
+2026-10-03T00:58:58+00:00,2026-10-03T01:19:51+00:00,Hawaii,Shark Fin,259,0,stockout,Prometheus,1790990391
