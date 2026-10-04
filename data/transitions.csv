@@ -4310,3 +4310,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-03T18:45:04+00:00,2026-10-04T02:21:36+00:00,Japan,Xanax,0,1,restock,Prometheus,1791080496
 2026-10-03T18:45:04+00:00,2026-10-04T02:20:26+00:00,Canada,Xanax,307,0,stockout,Prometheus,1791080426
 2026-10-03T14:48:09+00:00,2026-10-03T18:45:09+00:00,UAE,Tribulus Omanense,0,4629,restock,Prometheus,1791053109
+2026-10-04T02:21:14+00:00,2026-10-04T04:18:30+00:00,South Africa,Smoke Grenade,543,0,stockout,Prometheus,1791087510
+2026-10-04T02:21:14+00:00,2026-10-04T04:18:30+00:00,South Africa,African Violet,0,7719,restock,Prometheus,1791087510
+2026-10-04T02:20:26+00:00,2026-10-04T04:18:37+00:00,Canada,Xanax,0,2418,restock,Prometheus,1791087517
+2026-10-04T02:21:39+00:00,2026-10-04T04:18:21+00:00,Hawaii,Shark Fin,0,3431,restock,Prometheus,1791087501
