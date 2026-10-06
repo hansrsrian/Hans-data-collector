@@ -4804,3 +4804,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-06T18:24:40+00:00,2026-10-06T18:49:44+00:00,UAE,Natural Pearls,134,0,stockout,Prometheus,1791312584
 2026-10-06T18:24:44+00:00,2026-10-06T18:49:39+00:00,China,Panda Plushie,1526,0,stockout,YATA,1791312579
 2026-10-06T18:24:44+00:00,2026-10-06T18:49:39+00:00,China,Pangolin Scales,2124,0,stockout,YATA,1791312579
+2026-10-06T18:49:40+00:00,2026-10-06T19:04:20+00:00,South Africa,African Violet,183,0,stockout,Prometheus,1791313460
+2026-10-06T18:49:44+00:00,2026-10-06T19:04:46+00:00,UAE,Camel Plushie,0,1648,restock,Prometheus,1791313486
+2026-10-06T18:49:39+00:00,2026-10-06T19:04:28+00:00,China,Panda Plushie,0,2233,restock,YATA,1791313468
+2026-10-06T18:49:39+00:00,2026-10-06T19:04:28+00:00,China,Peony,168,0,stockout,YATA,1791313468
