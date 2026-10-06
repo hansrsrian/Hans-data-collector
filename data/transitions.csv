@@ -4678,3 +4678,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-06T06:54:20+00:00,2026-10-06T07:17:02+00:00,China,Pangolin Scales,1045,0,stockout,Prometheus,1791271022
 2026-10-06T07:17:01+00:00,2026-10-06T07:37:08+00:00,South Africa,African Violet,172,0,stockout,Prometheus,1791272228
 2026-10-06T07:17:02+00:00,2026-10-06T07:36:41+00:00,China,Pangolin Scales,0,4716,restock,Prometheus,1791272201
+2026-10-06T07:37:08+00:00,2026-10-06T07:56:11+00:00,South Africa,Smoke Grenade,0,2417,restock,Prometheus,1791273371
+2026-10-06T07:37:13+00:00,2026-10-06T07:56:11+00:00,UAE,Camel Plushie,647,0,stockout,Prometheus,1791273371
