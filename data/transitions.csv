@@ -4957,3 +4957,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-07T08:26:13+00:00,2026-10-07T08:48:51+00:00,China,Panda Plushie,0,1527,restock,Prometheus,1791362931
 2026-10-07T08:26:13+00:00,2026-10-07T08:48:51+00:00,China,Pangolin Scales,0,2856,restock,Prometheus,1791362931
 2026-10-07T08:26:13+00:00,2026-10-07T08:48:51+00:00,China,Peony,143,0,stockout,Prometheus,1791362931
+2026-10-07T08:49:43+00:00,2026-10-07T09:05:30+00:00,South Africa,Smoke Grenade,302,0,stockout,YATA,1791363930
+2026-10-07T08:48:51+00:00,2026-10-07T09:06:17+00:00,China,Panda Plushie,1527,0,stockout,Prometheus,1791363977
