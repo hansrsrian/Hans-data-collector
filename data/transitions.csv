@@ -4905,3 +4905,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-07T02:59:56+00:00,2026-10-07T03:23:33+00:00,China,Panda Plushie,0,1886,restock,Prometheus,1791343413
 2026-10-07T02:59:56+00:00,2026-10-07T03:23:33+00:00,China,Pangolin Scales,0,3653,restock,Prometheus,1791343413
 2026-10-07T02:59:56+00:00,2026-10-07T03:23:33+00:00,China,Peony,0,9355,restock,Prometheus,1791343413
+2026-10-07T03:45:26+00:00,2026-10-07T04:01:49+00:00,UAE,Tribulus Omanense,312,0,stockout,Prometheus,1791345709
+2026-10-07T03:45:26+00:00,2026-10-07T04:01:49+00:00,UAE,Camel Plushie,0,1881,restock,Prometheus,1791345709
