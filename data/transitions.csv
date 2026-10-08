@@ -5293,3 +5293,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-08T15:46:47+00:00,2026-10-08T16:04:20+00:00,South Africa,Raw Ivory,0,2024,restock,Prometheus,1791475460
 2026-10-08T15:46:43+00:00,2026-10-08T16:03:00+00:00,United Kingdom,Xanax,0,2366,restock,Prometheus,1791475380
 2026-10-08T15:46:43+00:00,2026-10-08T16:03:53+00:00,China,Pangolin Scales,0,2914,restock,Prometheus,1791475433
+2026-10-08T16:04:20+00:00,2026-10-08T16:31:03+00:00,South Africa,Smoke Grenade,37,0,stockout,Prometheus,1791477063
+2026-10-08T16:04:18+00:00,2026-10-08T16:31:00+00:00,UAE,Natural Pearls,192,0,stockout,YATA,1791477060
+2026-10-08T16:03:53+00:00,2026-10-08T16:31:01+00:00,China,Pangolin Scales,2914,0,stockout,Prometheus,1791477061
+2026-10-08T16:03:53+00:00,2026-10-08T16:31:01+00:00,China,Peony,0,8780,restock,Prometheus,1791477061
