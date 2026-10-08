@@ -5200,3 +5200,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-08T07:01:04+00:00,2026-10-08T07:26:17+00:00,Switzerland,Neumune Tablet,3,0,stockout,Prometheus,1791444377
 2026-10-08T07:01:20+00:00,2026-10-08T07:26:03+00:00,Hawaii,Shark Fin,0,135,restock,Prometheus,1791444363
 2026-10-08T07:01:18+00:00,2026-10-08T07:25:59+00:00,China,Pangolin Scales,0,4596,restock,Prometheus,1791444359
+2026-10-08T07:25:47+00:00,2026-10-08T07:49:50+00:00,South Africa,Lion Plushie,729,0,stockout,Prometheus,1791445790
+2026-10-08T07:26:03+00:00,2026-10-08T07:49:48+00:00,Hawaii,Shark Fin,135,0,stockout,Prometheus,1791445788
