@@ -5618,3 +5618,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-09T21:01:30+00:00,2026-10-09T21:23:48+00:00,Canada,Xanax,699,0,stockout,Prometheus,1791581028
 2026-10-09T21:01:02+00:00,2026-10-09T21:23:33+00:00,UAE,Natural Pearls,0,4962,restock,YATA,1791581013
 2026-10-09T21:01:42+00:00,2026-10-09T21:23:46+00:00,Hawaii,Shark Fin,1743,0,stockout,YATA,1791581026
+2026-10-09T21:43:59+00:00,2026-10-09T22:00:16+00:00,South Africa,Xanax,0,2497,restock,Prometheus,1791583216
+2026-10-09T21:23:51+00:00,2026-10-09T21:44:26+00:00,United Kingdom,Xanax,0,2432,restock,Prometheus,1791582266
+2026-10-09T21:23:33+00:00,2026-10-09T21:44:13+00:00,UAE,Tribulus Omanense,700,0,stockout,Prometheus,1791582253
+2026-10-09T21:23:49+00:00,2026-10-09T21:44:13+00:00,China,Pangolin Scales,0,2734,restock,Prometheus,1791582253
+2026-10-09T21:23:49+00:00,2026-10-09T21:44:13+00:00,China,Peony,0,9577,restock,Prometheus,1791582253
