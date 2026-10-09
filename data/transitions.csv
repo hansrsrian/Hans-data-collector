@@ -5427,3 +5427,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-09T04:26:32+00:00,2026-10-09T04:49:40+00:00,Hawaii,Shark Fin,0,2115,restock,Prometheus,1791521380
 2026-10-09T04:25:59+00:00,2026-10-09T04:49:35+00:00,China,Panda Plushie,0,1609,restock,Prometheus,1791521375
 2026-10-09T04:25:59+00:00,2026-10-09T04:49:35+00:00,China,Peony,284,0,stockout,Prometheus,1791521375
+2026-10-09T04:49:35+00:00,2026-10-09T05:06:18+00:00,South Africa,Raw Ivory,553,0,stockout,Prometheus,1791522378
+2026-10-09T04:49:35+00:00,2026-10-09T05:06:18+00:00,South Africa,Lion Plushie,1065,0,stockout,Prometheus,1791522378
