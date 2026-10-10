@@ -5667,3 +5667,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-10T02:58:39+00:00,2026-10-10T03:20:34+00:00,Japan,Xanax,482,0,stockout,Prometheus,1791602434
 2026-10-10T02:58:15+00:00,2026-10-10T03:19:23+00:00,Canada,Xanax,0,2427,restock,Prometheus,1791602363
 2026-10-10T02:58:39+00:00,2026-10-10T03:20:48+00:00,Hawaii,Shark Fin,2041,0,stockout,Prometheus,1791602448
+2026-10-10T03:42:07+00:00,2026-10-10T03:59:33+00:00,South Africa,Lion Plushie,838,0,stockout,YATA,1791604773
+2026-10-10T03:42:14+00:00,2026-10-10T03:59:09+00:00,UAE,Natural Pearls,169,0,stockout,Prometheus,1791604749
