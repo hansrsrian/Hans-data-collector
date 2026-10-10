@@ -1,46 +1,46 @@
 {
-  "timestamp": "2026-10-10T14:35:49.164511+00:00",
+  "timestamp": "2026-10-10T14:53:15.573217+00:00",
   "source": "mixed",
   "source_url": "https://yata.yt/api/v1/travel/export/",
   "travel_slots": 28,
   "source_updates": {
-    "Canada": 1791642946,
-    "United Kingdom": 1791642919,
-    "Switzerland": 1791642946,
-    "Japan": 1791642931,
-    "China": 1791642938,
-    "UAE": 1791642931,
-    "South Africa": 1791642925,
-    "Hawaii": 1791642928
+    "Canada": 1791643988,
+    "United Kingdom": 1791643982,
+    "Switzerland": 1791643991,
+    "Japan": 1791643979,
+    "China": 1791643991,
+    "UAE": 1791643959,
+    "South Africa": 1791643989,
+    "Hawaii": 1791643977
   },
   "observed_at": {
-    "United Kingdom": "2026-10-10T14:35:19+00:00",
-    "Canada": "2026-10-10T14:35:46+00:00",
-    "China": "2026-10-10T14:35:38+00:00",
-    "Switzerland": "2026-10-10T14:35:46+00:00",
-    "Japan": "2026-10-10T14:35:31+00:00",
-    "UAE": "2026-10-10T14:35:31+00:00",
-    "South Africa": "2026-10-10T14:35:25+00:00",
-    "Hawaii": "2026-10-10T14:35:28+00:00"
+    "United Kingdom": "2026-10-10T14:53:02+00:00",
+    "Canada": "2026-10-10T14:53:08+00:00",
+    "China": "2026-10-10T14:53:11+00:00",
+    "Switzerland": "2026-10-10T14:53:11+00:00",
+    "Japan": "2026-10-10T14:52:59+00:00",
+    "UAE": "2026-10-10T14:52:39+00:00",
+    "South Africa": "2026-10-10T14:53:09+00:00",
+    "Hawaii": "2026-10-10T14:52:57+00:00"
   },
   "stock": {
     "South Africa|Raw Ivory": 0,
-    "South Africa|Xanax": 136,
-    "South Africa|Smoke Grenade": 1579,
-    "South Africa|Lion Plushie": 401,
-    "South Africa|African Violet": 0,
+    "South Africa|Xanax": 79,
+    "South Africa|Smoke Grenade": 1252,
+    "South Africa|Lion Plushie": 0,
+    "South Africa|African Violet": 9278,
     "Japan|Xanax": 0,
     "Canada|Xanax": 0,
-    "United Kingdom|Xanax": 1134,
-    "UAE|Tribulus Omanense": 7788,
-    "UAE|Camel Plushie": 0,
-    "UAE|Natural Pearls": 153,
+    "United Kingdom|Xanax": 1021,
+    "UAE|Tribulus Omanense": 7174,
+    "UAE|Camel Plushie": 1678,
+    "UAE|Natural Pearls": 0,
     "Switzerland|Neumune Tablet": 0,
     "Hawaii|Shark Fin": 0,
     "China|Blank Casino Chips": null,
-    "China|Panda Plushie": 0,
-    "China|Pangolin Scales": 0,
-    "China|Peony": 4993
+    "China|Panda Plushie": 1901,
+    "China|Pangolin Scales": 3070,
+    "China|Peony": 4348
   },
   "sources": {
     "South Africa": "YATA",
@@ -50,7 +50,7 @@
     "UAE": "Prometheus",
     "Switzerland": "Prometheus",
     "China": "Prometheus",
-    "Hawaii": "Prometheus"
+    "Hawaii": "YATA"
   },
   "source_urls": {
     "YATA": "https://yata.yt/api/v1/travel/export/",
