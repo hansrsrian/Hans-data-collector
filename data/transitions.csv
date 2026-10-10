@@ -5854,3 +5854,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-10T19:14:28+00:00,2026-10-10T19:33:26+00:00,Hawaii,Shark Fin,975,0,stockout,Prometheus,1791660806
 2026-10-10T19:14:21+00:00,2026-10-10T19:33:14+00:00,China,Panda Plushie,501,0,stockout,YATA,1791660794
 2026-10-10T19:14:21+00:00,2026-10-10T19:33:14+00:00,China,Pangolin Scales,1172,0,stockout,YATA,1791660794
+2026-10-10T19:33:26+00:00,2026-10-10T19:49:38+00:00,UAE,Tribulus Omanense,0,9862,restock,YATA,1791661778
+2026-10-10T19:33:14+00:00,2026-10-10T19:49:54+00:00,China,Panda Plushie,0,1431,restock,Prometheus,1791661794
