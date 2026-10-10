@@ -5694,3 +5694,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-10T05:57:29+00:00,2026-10-10T06:25:08+00:00,South Africa,Xanax,98,0,stockout,Prometheus,1791613508
 2026-10-10T05:57:22+00:00,2026-10-10T06:24:55+00:00,UAE,Tribulus Omanense,906,0,stockout,Prometheus,1791613495
 2026-10-10T05:58:29+00:00,2026-10-10T06:25:02+00:00,China,Peony,0,9644,restock,YATA,1791613502
+2026-10-10T06:25:02+00:00,2026-10-10T06:51:31+00:00,China,Pangolin Scales,580,0,stockout,YATA,1791615091
