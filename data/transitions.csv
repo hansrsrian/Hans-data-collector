@@ -6116,3 +6116,10 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-11T18:13:31+00:00,2026-10-11T18:39:13+00:00,United Kingdom,Xanax,229,0,stockout,Prometheus,1791743953
 2026-10-11T18:13:27+00:00,2026-10-11T18:39:12+00:00,China,Panda Plushie,2014,0,stockout,Prometheus,1791743952
 2026-10-11T18:13:27+00:00,2026-10-11T18:39:12+00:00,China,Pangolin Scales,105,0,stockout,Prometheus,1791743952
+2026-10-11T18:39:12+00:00,2026-10-11T18:58:52+00:00,South Africa,Raw Ivory,363,0,stockout,Prometheus,1791745132
+2026-10-11T18:39:12+00:00,2026-10-11T18:58:52+00:00,South Africa,Lion Plushie,0,1363,restock,Prometheus,1791745132
+2026-10-11T18:39:12+00:00,2026-10-11T18:58:52+00:00,South Africa,African Violet,358,0,stockout,Prometheus,1791745132
+2026-10-11T18:39:17+00:00,2026-10-11T18:59:23+00:00,Japan,Xanax,0,1264,restock,Prometheus,1791745163
+2026-10-11T18:39:23+00:00,2026-10-11T18:59:23+00:00,Canada,Xanax,0,1627,restock,Prometheus,1791745163
+2026-10-11T18:39:12+00:00,2026-10-11T18:59:09+00:00,China,Panda Plushie,0,2137,restock,Prometheus,1791745149
+2026-10-11T18:39:12+00:00,2026-10-11T18:59:09+00:00,China,Pangolin Scales,0,3104,restock,Prometheus,1791745149
