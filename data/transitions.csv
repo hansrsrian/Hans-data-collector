@@ -6098,3 +6098,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-11T16:55:39+00:00,2026-10-11T17:14:39+00:00,UAE,Tribulus Omanense,179,0,stockout,YATA,1791738879
 2026-10-11T16:55:39+00:00,2026-10-11T17:14:39+00:00,UAE,Natural Pearls,0,4693,restock,YATA,1791738879
 2026-10-11T16:55:10+00:00,2026-10-11T17:16:25+00:00,China,Panda Plushie,775,0,stockout,Prometheus,1791738985
+2026-10-11T17:14:39+00:00,2026-10-11T17:35:35+00:00,UAE,Camel Plushie,368,0,stockout,Prometheus,1791740135
+2026-10-11T17:16:25+00:00,2026-10-11T17:35:58+00:00,Hawaii,Shark Fin,0,985,restock,Prometheus,1791740158
+2026-10-11T17:16:25+00:00,2026-10-11T17:35:51+00:00,China,Panda Plushie,0,1150,restock,YATA,1791740151
+2026-10-11T17:16:25+00:00,2026-10-11T17:35:51+00:00,China,Pangolin Scales,0,3362,restock,YATA,1791740151
