@@ -6135,3 +6135,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-11T19:19:30+00:00,2026-10-11T19:38:59+00:00,China,Pangolin Scales,1542,0,stockout,Prometheus,1791747539
 2026-10-11T19:54:49+00:00,2026-10-11T20:14:38+00:00,China,Panda Plushie,0,937,restock,YATA,1791749678
 2026-10-11T19:54:49+00:00,2026-10-11T20:14:38+00:00,China,Pangolin Scales,0,3667,restock,YATA,1791749678
+2026-10-11T20:14:38+00:00,2026-10-11T20:35:34+00:00,China,Panda Plushie,937,0,stockout,Prometheus,1791750934
