@@ -6015,3 +6015,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-11T09:55:28+00:00,2026-10-11T10:15:51+00:00,South Africa,Smoke Grenade,0,2368,restock,Prometheus,1791713751
 2026-10-11T09:55:19+00:00,2026-10-11T10:16:02+00:00,UAE,Camel Plushie,1119,0,stockout,Prometheus,1791713762
 2026-10-11T09:55:32+00:00,2026-10-11T10:16:10+00:00,Hawaii,Shark Fin,0,2143,restock,Prometheus,1791713770
+2026-10-11T10:15:51+00:00,2026-10-11T10:36:14+00:00,South Africa,Raw Ivory,450,0,stockout,Prometheus,1791714974
+2026-10-11T10:15:41+00:00,2026-10-11T10:36:15+00:00,Canada,Xanax,0,1452,restock,Prometheus,1791714975
+2026-10-11T10:16:02+00:00,2026-10-11T10:36:09+00:00,UAE,Camel Plushie,0,1264,restock,Prometheus,1791714969
+2026-10-11T10:16:02+00:00,2026-10-11T10:36:09+00:00,UAE,Natural Pearls,144,0,stockout,Prometheus,1791714969
+2026-10-11T10:16:10+00:00,2026-10-11T10:36:02+00:00,Hawaii,Shark Fin,2143,0,stockout,Prometheus,1791714962
