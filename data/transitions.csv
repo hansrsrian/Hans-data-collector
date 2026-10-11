@@ -5945,3 +5945,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-11T03:44:19+00:00,2026-10-11T04:01:10+00:00,UAE,Camel Plushie,332,0,stockout,YATA,1791691270
 2026-10-11T03:44:19+00:00,2026-10-11T04:01:10+00:00,UAE,Natural Pearls,0,4972,restock,YATA,1791691270
 2026-10-11T03:45:06+00:00,2026-10-11T04:01:09+00:00,China,Panda Plushie,0,1922,restock,YATA,1791691269
+2026-10-11T04:01:10+00:00,2026-10-11T04:22:50+00:00,UAE,Camel Plushie,0,1342,restock,Prometheus,1791692570
+2026-10-11T04:00:52+00:00,2026-10-11T04:23:40+00:00,Hawaii,Shark Fin,0,2743,restock,Prometheus,1791692620
