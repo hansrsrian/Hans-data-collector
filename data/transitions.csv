@@ -6429,3 +6429,10 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-12T23:01:08+00:00,2026-10-12T23:23:30+00:00,South Africa,Lion Plushie,888,0,stockout,Prometheus,1791847410
 2026-10-12T22:43:40+00:00,2026-10-12T23:01:08+00:00,UAE,Natural Pearls,303,0,stockout,YATA,1791846068
 2026-10-12T23:00:35+00:00,2026-10-12T23:23:40+00:00,China,Panda Plushie,479,0,stockout,Prometheus,1791847420
+2026-10-12T23:23:30+00:00,2026-10-12T23:43:54+00:00,South Africa,Lion Plushie,0,1222,restock,Prometheus,1791848634
+2026-10-12T23:23:30+00:00,2026-10-12T23:43:54+00:00,South Africa,African Violet,0,9886,restock,Prometheus,1791848634
+2026-10-12T23:23:40+00:00,2026-10-12T23:43:42+00:00,United Kingdom,Xanax,0,2243,restock,Prometheus,1791848622
+2026-10-12T23:23:46+00:00,2026-10-12T23:44:20+00:00,UAE,Tribulus Omanense,178,0,stockout,Prometheus,1791848660
+2026-10-12T23:23:46+00:00,2026-10-12T23:44:20+00:00,UAE,Natural Pearls,0,4488,restock,Prometheus,1791848660
+2026-10-12T23:23:44+00:00,2026-10-12T23:44:34+00:00,Hawaii,Shark Fin,0,2050,restock,Prometheus,1791848674
+2026-10-12T23:23:40+00:00,2026-10-12T23:44:23+00:00,China,Panda Plushie,0,1449,restock,Prometheus,1791848663
