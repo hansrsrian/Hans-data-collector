@@ -6271,3 +6271,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-12T08:56:38+00:00,2026-10-12T09:22:44+00:00,South Africa,Raw Ivory,0,1419,restock,YATA,1791796964
 2026-10-12T08:56:38+00:00,2026-10-12T09:23:42+00:00,Canada,Xanax,63,0,stockout,Prometheus,1791797022
 2026-10-12T08:56:49+00:00,2026-10-12T09:23:24+00:00,China,Pangolin Scales,0,1068,restock,Prometheus,1791797004
+2026-10-12T09:22:44+00:00,2026-10-12T09:50:28+00:00,South Africa,African Violet,918,0,stockout,Prometheus,1791798628
+2026-10-12T09:23:24+00:00,2026-10-12T09:50:25+00:00,China,Panda Plushie,2322,0,stockout,Prometheus,1791798625
+2026-10-12T09:23:24+00:00,2026-10-12T09:50:25+00:00,China,Pangolin Scales,1068,0,stockout,Prometheus,1791798625
