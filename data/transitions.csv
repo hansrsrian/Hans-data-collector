@@ -6193,3 +6193,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-12T01:30:17+00:00,2026-10-12T01:53:34+00:00,Japan,Xanax,0,1112,restock,Prometheus,1791770014
 2026-10-12T01:30:16+00:00,2026-10-12T01:53:12+00:00,Hawaii,Shark Fin,3151,0,stockout,Prometheus,1791769992
 2026-10-12T01:30:10+00:00,2026-10-12T01:53:09+00:00,China,Pangolin Scales,367,0,stockout,YATA,1791769989
+2026-10-12T01:53:34+00:00,2026-10-12T02:14:37+00:00,Japan,Xanax,1112,0,stockout,Prometheus,1791771277
+2026-10-12T01:53:21+00:00,2026-10-12T02:13:53+00:00,Canada,Xanax,1,0,stockout,Prometheus,1791771233
+2026-10-12T01:53:09+00:00,2026-10-12T02:14:11+00:00,China,Pangolin Scales,0,3692,restock,Prometheus,1791771251
