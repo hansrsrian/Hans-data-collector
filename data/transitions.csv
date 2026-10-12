@@ -6209,3 +6209,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-12T02:59:52+00:00,2026-10-12T03:25:00+00:00,South Africa,African Violet,353,0,stockout,Prometheus,1791775500
 2026-10-12T03:25:18+00:00,2026-10-12T03:52:53+00:00,Canada,Xanax,0,2358,restock,Prometheus,1791777173
 2026-10-12T03:00:02+00:00,2026-10-12T03:25:15+00:00,Hawaii,Shark Fin,1682,0,stockout,Prometheus,1791775515
+2026-10-12T03:51:57+00:00,2026-10-12T04:13:40+00:00,South Africa,Xanax,1,0,stockout,Prometheus,1791778420
+2026-10-12T03:52:48+00:00,2026-10-12T04:13:36+00:00,Japan,Xanax,0,1358,restock,Prometheus,1791778416
+2026-10-12T03:52:28+00:00,2026-10-12T04:13:30+00:00,UAE,Camel Plushie,1109,0,stockout,Prometheus,1791778410
