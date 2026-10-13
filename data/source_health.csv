@@ -3527,3 +3527,5 @@ collection_timestamp,source,success,parsed_items,fresh_countries,error
 2026-10-13T15:48:09.704272+00:00,Prometheus,True,16,8,
 2026-10-13T16:06:40.601207+00:00,YATA,True,16,8,
 2026-10-13T16:06:40.601207+00:00,Prometheus,False,0,0,RemoteDisconnected: Remote end closed connection without response
+2026-10-13T16:32:28.413415+00:00,YATA,True,16,8,
+2026-10-13T16:32:28.413415+00:00,Prometheus,True,16,8,
