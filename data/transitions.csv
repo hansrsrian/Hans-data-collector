@@ -6438,3 +6438,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-12T23:23:40+00:00,2026-10-12T23:44:23+00:00,China,Panda Plushie,0,1449,restock,Prometheus,1791848663
 2026-10-12T23:44:13+00:00,2026-10-13T00:01:21+00:00,Japan,Xanax,0,1149,restock,Prometheus,1791849681
 2026-10-12T23:44:19+00:00,2026-10-13T00:01:13+00:00,Canada,Xanax,0,663,restock,Prometheus,1791849673
+2026-10-13T00:01:21+00:00,2026-10-13T00:37:13+00:00,Japan,Xanax,1149,0,stockout,Prometheus,1791851833
+2026-10-13T00:01:13+00:00,2026-10-13T00:36:59+00:00,Canada,Xanax,663,0,stockout,YATA,1791851819
+2026-10-13T00:00:21+00:00,2026-10-13T00:37:14+00:00,UAE,Tribulus Omanense,0,9999,restock,Prometheus,1791851834
+2026-10-13T00:01:18+00:00,2026-10-13T00:37:13+00:00,Hawaii,Shark Fin,227,0,stockout,Prometheus,1791851833
