@@ -6482,3 +6482,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-13T05:01:41+00:00,2026-10-13T05:25:57+00:00,Hawaii,Shark Fin,0,1149,restock,Prometheus,1791869157
 2026-10-13T05:01:32+00:00,2026-10-13T05:25:54+00:00,China,Panda Plushie,0,797,restock,Prometheus,1791869154
 2026-10-13T05:01:32+00:00,2026-10-13T05:25:54+00:00,China,Pangolin Scales,0,3627,restock,Prometheus,1791869154
+2026-10-13T05:26:16+00:00,2026-10-13T05:50:28+00:00,South Africa,Xanax,0,2400,restock,Prometheus,1791870628
+2026-10-13T05:25:39+00:00,2026-10-13T05:50:17+00:00,Canada,Xanax,0,1724,restock,Prometheus,1791870617
+2026-10-13T05:25:57+00:00,2026-10-13T05:50:14+00:00,Hawaii,Shark Fin,1149,0,stockout,YATA,1791870614
+2026-10-13T05:25:54+00:00,2026-10-13T05:50:48+00:00,China,Panda Plushie,797,0,stockout,Prometheus,1791870648
