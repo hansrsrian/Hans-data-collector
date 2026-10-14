@@ -6730,3 +6730,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-14T08:38:59+00:00,2026-10-14T09:14:03+00:00,South Africa,Raw Ivory,19,0,stockout,Prometheus,1791969243
 2026-10-14T08:38:31+00:00,2026-10-14T09:14:06+00:00,Hawaii,Shark Fin,0,1306,restock,Prometheus,1791969246
 2026-10-14T08:39:14+00:00,2026-10-14T09:13:54+00:00,China,Peony,0,9105,restock,Prometheus,1791969234
+2026-10-14T09:13:43+00:00,2026-10-14T09:53:03+00:00,United Kingdom,Xanax,109,0,stockout,Prometheus,1791971583
+2026-10-14T09:14:06+00:00,2026-10-14T09:52:45+00:00,Hawaii,Shark Fin,1306,0,stockout,Prometheus,1791971565
+2026-10-14T09:13:54+00:00,2026-10-14T09:52:57+00:00,China,Pangolin Scales,4429,0,stockout,Prometheus,1791971577
