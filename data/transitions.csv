@@ -6718,3 +6718,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-14T06:37:57+00:00,2026-10-14T07:22:42+00:00,Canada,Xanax,0,2035,restock,YATA,1791962562
 2026-10-14T06:37:53+00:00,2026-10-14T07:19:48+00:00,UAE,Natural Pearls,470,0,stockout,YATA,1791962388
 2026-10-14T06:37:56+00:00,2026-10-14T07:22:45+00:00,China,Pangolin Scales,0,727,restock,Prometheus,1791962565
+2026-10-14T07:22:39+00:00,2026-10-14T08:03:01+00:00,South Africa,Raw Ivory,0,1887,restock,Prometheus,1791964981
+2026-10-14T07:22:39+00:00,2026-10-14T08:03:01+00:00,South Africa,Smoke Grenade,0,2060,restock,Prometheus,1791964981
+2026-10-14T07:19:48+00:00,2026-10-14T08:03:24+00:00,UAE,Tribulus Omanense,169,0,stockout,Prometheus,1791965004
+2026-10-14T07:19:48+00:00,2026-10-14T08:03:24+00:00,UAE,Natural Pearls,0,4567,restock,Prometheus,1791965004
+2026-10-14T07:22:48+00:00,2026-10-14T08:02:54+00:00,Hawaii,Shark Fin,0,1846,restock,YATA,1791964974
