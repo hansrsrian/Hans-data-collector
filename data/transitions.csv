@@ -6931,3 +6931,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-15T14:02:29+00:00,2026-10-15T14:39:35+00:00,China,Peony,0,9424,restock,Prometheus,1792075175
 2026-10-15T14:39:33+00:00,2026-10-15T15:16:00+00:00,South Africa,Smoke Grenade,0,2472,restock,YATA,1792077360
 2026-10-15T14:39:33+00:00,2026-10-15T15:16:00+00:00,South Africa,Lion Plushie,0,732,restock,YATA,1792077360
+2026-10-15T15:16:00+00:00,2026-10-15T15:55:37+00:00,South Africa,Raw Ivory,302,0,stockout,Prometheus,1792079737
+2026-10-15T15:16:27+00:00,2026-10-15T15:56:17+00:00,China,Pangolin Scales,0,3348,restock,YATA,1792079777
