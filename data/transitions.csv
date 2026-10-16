@@ -7115,3 +7115,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-16T16:14:03+00:00,2026-10-16T16:53:15+00:00,South Africa,African Violet,0,8707,restock,YATA,1792169595
 2026-10-16T16:14:07+00:00,2026-10-16T16:53:04+00:00,United Kingdom,Xanax,0,2361,restock,Prometheus,1792169584
 2026-10-16T16:14:14+00:00,2026-10-16T16:53:20+00:00,China,Pangolin Scales,1854,0,stockout,Prometheus,1792169600
+2026-10-16T16:53:20+00:00,2026-10-16T17:21:28+00:00,China,Panda Plushie,1467,0,stockout,Prometheus,1792171288
+2026-10-16T16:53:20+00:00,2026-10-16T17:21:28+00:00,China,Pangolin Scales,0,2717,restock,Prometheus,1792171288
