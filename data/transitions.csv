@@ -7048,3 +7048,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-16T07:09:44+00:00,2026-10-16T07:50:29+00:00,South Africa,Xanax,0,2369,restock,Prometheus,1792137029
 2026-10-16T07:09:44+00:00,2026-10-16T07:50:29+00:00,South Africa,Lion Plushie,1721,0,stockout,Prometheus,1792137029
 2026-10-16T07:10:27+00:00,2026-10-16T07:50:29+00:00,Japan,Xanax,1653,0,stockout,YATA,1792137029
+2026-10-16T07:50:29+00:00,2026-10-16T08:19:07+00:00,South Africa,Lion Plushie,0,542,restock,Prometheus,1792138747
+2026-10-16T07:50:21+00:00,2026-10-16T08:19:14+00:00,Canada,Xanax,72,0,stockout,Prometheus,1792138754
+2026-10-16T07:50:30+00:00,2026-10-16T08:18:48+00:00,United Kingdom,Xanax,116,0,stockout,Prometheus,1792138728
+2026-10-16T07:50:21+00:00,2026-10-16T08:18:47+00:00,UAE,Tribulus Omanense,204,0,stockout,Prometheus,1792138727
