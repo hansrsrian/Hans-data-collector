@@ -7000,3 +7000,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-15T23:59:08+00:00,2026-10-16T00:40:51+00:00,South Africa,Smoke Grenade,0,2433,restock,YATA,1792111251
 2026-10-15T23:59:19+00:00,2026-10-16T00:40:44+00:00,Japan,Xanax,1511,0,stockout,YATA,1792111244
 2026-10-15T23:57:46+00:00,2026-10-16T00:40:55+00:00,China,Pangolin Scales,0,2665,restock,Prometheus,1792111255
+2026-10-15T23:59:19+00:00,2026-10-16T00:41:07+00:00,UAE,Tribulus Omanense,1012,0,stockout,Prometheus,1792111267
+2026-10-16T00:41:07+00:00,2026-10-16T01:15:52+00:00,UAE,Natural Pearls,102,0,stockout,Prometheus,1792113352
