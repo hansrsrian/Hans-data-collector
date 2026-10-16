@@ -7076,3 +7076,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-16T11:14:28+00:00,2026-10-16T11:51:44+00:00,Japan,Xanax,0,56,restock,Prometheus,1792151504
 2026-10-16T11:14:17+00:00,2026-10-16T11:52:10+00:00,China,Panda Plushie,2229,0,stockout,YATA,1792151530
 2026-10-16T11:14:17+00:00,2026-10-16T11:52:10+00:00,China,Pangolin Scales,2701,0,stockout,YATA,1792151530
+2026-10-16T11:51:44+00:00,2026-10-16T12:24:46+00:00,Japan,Xanax,56,0,stockout,Prometheus,1792153486
+2026-10-16T11:52:17+00:00,2026-10-16T12:24:18+00:00,Canada,Xanax,330,0,stockout,Prometheus,1792153458
+2026-10-16T11:52:10+00:00,2026-10-16T12:24:21+00:00,China,Panda Plushie,0,368,restock,YATA,1792153461
+2026-10-16T11:52:10+00:00,2026-10-16T12:24:21+00:00,China,Pangolin Scales,0,3806,restock,YATA,1792153461
