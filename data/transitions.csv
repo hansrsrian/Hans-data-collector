@@ -7080,3 +7080,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-16T11:52:17+00:00,2026-10-16T12:24:18+00:00,Canada,Xanax,330,0,stockout,Prometheus,1792153458
 2026-10-16T11:52:10+00:00,2026-10-16T12:24:21+00:00,China,Panda Plushie,0,368,restock,YATA,1792153461
 2026-10-16T11:52:10+00:00,2026-10-16T12:24:21+00:00,China,Pangolin Scales,0,3806,restock,YATA,1792153461
+2026-10-16T12:24:52+00:00,2026-10-16T13:13:16+00:00,UAE,Tribulus Omanense,1560,0,stockout,Prometheus,1792156396
+2026-10-16T12:24:52+00:00,2026-10-16T13:13:16+00:00,UAE,Natural Pearls,620,0,stockout,Prometheus,1792156396
+2026-10-16T12:24:21+00:00,2026-10-16T13:13:17+00:00,China,Panda Plushie,368,0,stockout,YATA,1792156397
+2026-10-16T12:24:21+00:00,2026-10-16T13:13:17+00:00,China,Pangolin Scales,3806,0,stockout,YATA,1792156397
