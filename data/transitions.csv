@@ -7192,3 +7192,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-17T01:19:47+00:00,2026-10-17T01:52:38+00:00,UAE,Natural Pearls,0,4863,restock,Prometheus,1792201958
 2026-10-17T01:19:34+00:00,2026-10-17T01:52:51+00:00,Hawaii,Shark Fin,478,0,stockout,Prometheus,1792201971
 2026-10-17T01:18:55+00:00,2026-10-17T01:53:00+00:00,China,Pangolin Scales,1575,0,stockout,Prometheus,1792201980
+2026-10-17T01:53:00+00:00,2026-10-17T02:22:34+00:00,China,Pangolin Scales,0,4514,restock,Prometheus,1792203754
