@@ -7176,3 +7176,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-16T23:37:10+00:00,2026-10-16T23:59:55+00:00,Canada,Xanax,0,2214,restock,Prometheus,1792195195
 2026-10-16T23:38:49+00:00,2026-10-16T23:59:57+00:00,Hawaii,Shark Fin,1755,0,stockout,Prometheus,1792195197
 2026-10-16T23:38:44+00:00,2026-10-17T00:00:00+00:00,China,Panda Plushie,0,1868,restock,Prometheus,1792195200
+2026-10-16T23:59:59+00:00,2026-10-17T00:41:56+00:00,South Africa,Xanax,0,2062,restock,Prometheus,1792197716
+2026-10-16T23:59:59+00:00,2026-10-17T00:41:56+00:00,South Africa,Smoke Grenade,82,0,stockout,Prometheus,1792197716
+2026-10-16T23:59:59+00:00,2026-10-17T00:41:56+00:00,South Africa,African Violet,0,9428,restock,Prometheus,1792197716
+2026-10-16T23:59:53+00:00,2026-10-17T00:43:09+00:00,Japan,Xanax,0,11,restock,Prometheus,1792197789
