@@ -7235,3 +7235,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-17T07:16:53+00:00,2026-10-17T07:49:06+00:00,Canada,Xanax,282,0,stockout,Prometheus,1792223346
 2026-10-17T07:17:25+00:00,2026-10-17T07:49:51+00:00,Hawaii,Shark Fin,2866,0,stockout,Prometheus,1792223391
 2026-10-17T07:17:27+00:00,2026-10-17T07:49:18+00:00,China,Pangolin Scales,0,2272,restock,Prometheus,1792223358
+2026-10-17T07:49:40+00:00,2026-10-17T08:12:50+00:00,South Africa,Raw Ivory,513,0,stockout,Prometheus,1792224770
+2026-10-17T07:49:40+00:00,2026-10-17T08:12:50+00:00,South Africa,Lion Plushie,1107,0,stockout,Prometheus,1792224770
+2026-10-17T07:49:25+00:00,2026-10-17T08:12:52+00:00,Japan,Xanax,265,0,stockout,Prometheus,1792224772
+2026-10-17T07:49:30+00:00,2026-10-17T08:12:49+00:00,United Kingdom,Xanax,0,2428,restock,YATA,1792224769
+2026-10-17T07:49:31+00:00,2026-10-17T08:12:20+00:00,UAE,Camel Plushie,1358,0,stockout,YATA,1792224740
+2026-10-17T07:49:42+00:00,2026-10-17T08:12:51+00:00,Switzerland,Neumune Tablet,0,1,restock,Prometheus,1792224771
