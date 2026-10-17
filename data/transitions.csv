@@ -7198,3 +7198,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-17T02:21:30+00:00,2026-10-17T02:55:25+00:00,UAE,Tribulus Omanense,0,9522,restock,Prometheus,1792205725
 2026-10-17T02:21:30+00:00,2026-10-17T02:55:25+00:00,UAE,Camel Plushie,1990,0,stockout,Prometheus,1792205725
 2026-10-17T02:22:25+00:00,2026-10-17T02:56:19+00:00,Hawaii,Shark Fin,0,426,restock,Prometheus,1792205779
+2026-10-17T02:56:19+00:00,2026-10-17T03:27:10+00:00,Japan,Xanax,465,0,stockout,Prometheus,1792207630
+2026-10-17T02:55:28+00:00,2026-10-17T03:27:27+00:00,Canada,Xanax,0,1887,restock,Prometheus,1792207647
