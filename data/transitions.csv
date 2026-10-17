@@ -7246,3 +7246,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-17T08:12:20+00:00,2026-10-17T08:48:00+00:00,UAE,Camel Plushie,0,1236,restock,Prometheus,1792226880
 2026-10-17T08:12:51+00:00,2026-10-17T08:47:44+00:00,Switzerland,Neumune Tablet,1,0,stockout,Prometheus,1792226864
 2026-10-17T08:12:50+00:00,2026-10-17T08:47:57+00:00,China,Pangolin Scales,346,0,stockout,Prometheus,1792226877
+2026-10-17T08:47:48+00:00,2026-10-17T09:10:59+00:00,South Africa,Lion Plushie,0,1892,restock,Prometheus,1792228259
+2026-10-17T08:48:00+00:00,2026-10-17T09:10:25+00:00,UAE,Camel Plushie,1236,0,stockout,Prometheus,1792228225
+2026-10-17T08:47:57+00:00,2026-10-17T09:10:53+00:00,China,Panda Plushie,732,0,stockout,Prometheus,1792228253
+2026-10-17T08:47:57+00:00,2026-10-17T09:10:53+00:00,China,Pangolin Scales,0,2277,restock,Prometheus,1792228253
