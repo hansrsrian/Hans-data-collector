@@ -7241,3 +7241,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-17T07:49:30+00:00,2026-10-17T08:12:49+00:00,United Kingdom,Xanax,0,2428,restock,YATA,1792224769
 2026-10-17T07:49:31+00:00,2026-10-17T08:12:20+00:00,UAE,Camel Plushie,1358,0,stockout,YATA,1792224740
 2026-10-17T07:49:42+00:00,2026-10-17T08:12:51+00:00,Switzerland,Neumune Tablet,0,1,restock,Prometheus,1792224771
+2026-10-17T08:12:50+00:00,2026-10-17T08:47:48+00:00,South Africa,Xanax,0,2491,restock,Prometheus,1792226868
+2026-10-17T08:12:50+00:00,2026-10-17T08:47:48+00:00,South Africa,African Violet,0,9741,restock,Prometheus,1792226868
+2026-10-17T08:12:20+00:00,2026-10-17T08:48:00+00:00,UAE,Camel Plushie,0,1236,restock,Prometheus,1792226880
+2026-10-17T08:12:51+00:00,2026-10-17T08:47:44+00:00,Switzerland,Neumune Tablet,1,0,stockout,Prometheus,1792226864
+2026-10-17T08:12:50+00:00,2026-10-17T08:47:57+00:00,China,Pangolin Scales,346,0,stockout,Prometheus,1792226877
