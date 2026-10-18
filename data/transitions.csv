@@ -7355,3 +7355,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-17T23:21:33+00:00,2026-10-18T01:20:14+00:00,South Africa,Raw Ivory,552,0,stockout,YATA,1792286414
 2026-10-17T23:21:33+00:00,2026-10-18T01:20:14+00:00,South Africa,Xanax,0,1968,restock,YATA,1792286414
 2026-10-17T23:21:32+00:00,2026-10-18T01:20:59+00:00,Hawaii,Shark Fin,0,2909,restock,Prometheus,1792286459
+2026-10-18T01:20:14+00:00,2026-10-18T06:17:12+00:00,South Africa,Xanax,1968,0,stockout,YATA,1792304232
+2026-10-18T01:20:14+00:00,2026-10-18T06:17:12+00:00,South Africa,Lion Plushie,499,0,stockout,YATA,1792304232
+2026-10-18T01:20:59+00:00,2026-10-18T06:17:30+00:00,Hawaii,Shark Fin,2909,0,stockout,Prometheus,1792304250
