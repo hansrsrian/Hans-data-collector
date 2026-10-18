@@ -7366,3 +7366,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-18T11:25:00+00:00,2026-10-18T14:44:52+00:00,United Kingdom,Xanax,0,1669,restock,Prometheus,1792334692
 2026-10-18T11:23:54+00:00,2026-10-18T14:45:16+00:00,China,Peony,7873,0,stockout,Prometheus,1792334716
 2026-10-18T14:45:16+00:00,2026-10-18T17:34:55+00:00,China,Peony,0,5060,restock,Prometheus,1792344895
+2026-10-18T17:34:44+00:00,2026-10-18T19:39:46+00:00,South Africa,Raw Ivory,0,1031,restock,Prometheus,1792352386
+2026-10-18T17:34:30+00:00,2026-10-18T19:39:52+00:00,UAE,Tribulus Omanense,2318,0,stockout,Prometheus,1792352392
+2026-10-18T17:34:30+00:00,2026-10-18T19:39:52+00:00,UAE,Camel Plushie,1594,0,stockout,Prometheus,1792352392
+2026-10-18T17:34:55+00:00,2026-10-18T19:39:49+00:00,China,Pangolin Scales,1444,0,stockout,YATA,1792352389
+2026-10-18T17:34:55+00:00,2026-10-18T19:39:49+00:00,China,Peony,5060,0,stockout,YATA,1792352389
