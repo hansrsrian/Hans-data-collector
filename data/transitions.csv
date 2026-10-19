@@ -7390,3 +7390,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-19T00:01:31+00:00,2026-10-19T04:31:10+00:00,United Kingdom,Xanax,0,2235,restock,Prometheus,1792384270
 2026-10-19T00:01:27+00:00,2026-10-19T04:31:26+00:00,China,Pangolin Scales,0,3504,restock,Prometheus,1792384286
 2026-10-19T00:01:27+00:00,2026-10-19T04:31:26+00:00,China,Peony,4452,0,stockout,Prometheus,1792384286
+2026-10-19T04:30:39+00:00,2026-10-19T10:14:37+00:00,South Africa,Smoke Grenade,221,0,stockout,Prometheus,1792404877
+2026-10-19T04:30:39+00:00,2026-10-19T10:14:37+00:00,South Africa,African Violet,8757,0,stockout,Prometheus,1792404877
+2026-10-19T04:31:35+00:00,2026-10-19T10:14:26+00:00,Japan,Xanax,0,1105,restock,YATA,1792404866
+2026-10-19T04:31:19+00:00,2026-10-19T10:14:36+00:00,UAE,Tribulus Omanense,9807,0,stockout,Prometheus,1792404876
+2026-10-19T04:31:26+00:00,2026-10-19T10:14:23+00:00,China,Panda Plushie,1581,0,stockout,Prometheus,1792404863
