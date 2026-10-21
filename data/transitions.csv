@@ -7440,3 +7440,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-21T10:32:11+00:00,2026-10-21T15:35:00+00:00,Hawaii,Shark Fin,0,1160,restock,Prometheus,1792596900
 2026-10-21T10:32:07+00:00,2026-10-21T15:35:06+00:00,China,Panda Plushie,1568,0,stockout,Prometheus,1792596906
 2026-10-21T10:32:07+00:00,2026-10-21T15:35:06+00:00,China,Peony,0,9071,restock,Prometheus,1792596906
+2026-10-21T19:36:11+00:00,2026-10-21T22:44:50+00:00,South Africa,Raw Ivory,1585,0,stockout,Prometheus,1792622690
+2026-10-21T19:36:15+00:00,2026-10-21T22:44:52+00:00,Canada,Xanax,0,1047,restock,Prometheus,1792622692
+2026-10-21T15:34:31+00:00,2026-10-21T19:36:12+00:00,United Kingdom,Xanax,0,2292,restock,Prometheus,1792611372
+2026-10-21T15:34:45+00:00,2026-10-21T19:35:30+00:00,UAE,Natural Pearls,0,566,restock,Prometheus,1792611330
+2026-10-21T15:35:00+00:00,2026-10-21T19:35:52+00:00,Hawaii,Shark Fin,1160,0,stockout,Prometheus,1792611352
+2026-10-21T15:35:06+00:00,2026-10-21T19:36:07+00:00,China,Panda Plushie,0,1664,restock,Prometheus,1792611367
