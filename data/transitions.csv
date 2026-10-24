@@ -7525,3 +7525,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-24T14:51:54+00:00,2026-10-24T17:49:57+00:00,South Africa,Raw Ivory,381,0,stockout,Prometheus,1792864197
 2026-10-24T14:51:54+00:00,2026-10-24T17:49:57+00:00,South Africa,African Violet,5300,0,stockout,Prometheus,1792864197
 2026-10-24T14:52:25+00:00,2026-10-24T17:49:55+00:00,China,Panda Plushie,0,1180,restock,Prometheus,1792864195
+2026-10-24T17:49:57+00:00,2026-10-24T19:58:58+00:00,South Africa,African Violet,0,8481,restock,Prometheus,1792871938
+2026-10-24T11:34:26+00:00,2026-10-24T17:49:55+00:00,China,Blank Casino Chips,59,0,stockout,Prometheus,1792864195
