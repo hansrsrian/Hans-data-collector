@@ -7527,3 +7527,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-24T14:52:25+00:00,2026-10-24T17:49:55+00:00,China,Panda Plushie,0,1180,restock,Prometheus,1792864195
 2026-10-24T17:49:57+00:00,2026-10-24T19:58:58+00:00,South Africa,African Violet,0,8481,restock,Prometheus,1792871938
 2026-10-24T11:34:26+00:00,2026-10-24T17:49:55+00:00,China,Blank Casino Chips,59,0,stockout,Prometheus,1792864195
+2026-10-24T19:59:35+00:00,2026-10-24T22:24:31+00:00,Hawaii,Shark Fin,0,1878,restock,Prometheus,1792880671
+2026-10-24T19:59:43+00:00,2026-10-24T22:24:53+00:00,China,Panda Plushie,1683,0,stockout,Prometheus,1792880693
