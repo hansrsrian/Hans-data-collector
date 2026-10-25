@@ -7530,3 +7530,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-24T19:59:35+00:00,2026-10-24T22:24:31+00:00,Hawaii,Shark Fin,0,1878,restock,Prometheus,1792880671
 2026-10-24T19:59:43+00:00,2026-10-24T22:24:53+00:00,China,Panda Plushie,1683,0,stockout,Prometheus,1792880693
 2026-10-24T22:24:19+00:00,2026-10-25T00:27:37+00:00,South Africa,Xanax,0,1495,restock,Prometheus,1792888057
+2026-10-25T00:27:37+00:00,2026-10-25T05:10:41+00:00,South Africa,Xanax,1495,0,stockout,Prometheus,1792905041
+2026-10-25T00:27:53+00:00,2026-10-25T05:09:48+00:00,Hawaii,Shark Fin,25,0,stockout,YATA,1792904988
+2026-10-25T00:28:04+00:00,2026-10-25T05:11:04+00:00,China,Peony,3648,0,stockout,Prometheus,1792905064
