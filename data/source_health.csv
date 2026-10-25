@@ -3985,3 +3985,5 @@ collection_timestamp,source,success,parsed_items,fresh_countries,error
 2026-10-25T17:37:30.379431+00:00,Prometheus,True,17,8,
 2026-10-25T19:57:27.899073+00:00,YATA,False,0,0,HTTPError: HTTP Error 502: Bad Gateway
 2026-10-25T19:57:27.899073+00:00,Prometheus,True,17,8,
+2026-10-25T22:26:59.592094+00:00,YATA,False,0,0,HTTPError: HTTP Error 502: Bad Gateway
+2026-10-25T22:26:59.592094+00:00,Prometheus,True,17,8,
