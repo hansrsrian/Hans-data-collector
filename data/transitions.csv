@@ -7546,3 +7546,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-25T19:55:37+00:00,2026-10-25T22:26:01+00:00,South Africa,Raw Ivory,0,2477,restock,Prometheus,1792967161
 2026-10-25T19:55:37+00:00,2026-10-25T22:26:01+00:00,South Africa,Xanax,0,2120,restock,Prometheus,1792967161
 2026-10-25T22:17:47+00:00,2026-10-26T00:37:52+00:00,Japan,Xanax,1475,0,stockout,Prometheus,1792975072
+2026-10-26T00:38:25+00:00,2026-10-26T05:19:27+00:00,South Africa,Raw Ivory,1958,0,stockout,Prometheus,1792991967
+2026-10-26T00:38:25+00:00,2026-10-26T05:19:27+00:00,South Africa,Xanax,1639,0,stockout,Prometheus,1792991967
+2026-10-26T05:19:24+00:00,2026-10-26T11:20:20+00:00,Japan,Xanax,0,252,restock,Prometheus,1793013620
+2026-10-26T05:17:53+00:00,2026-10-26T11:20:20+00:00,Hawaii,Shark Fin,1148,0,stockout,Prometheus,1793013620
