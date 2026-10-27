@@ -7565,3 +7565,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-27T12:20:31+00:00,2026-10-27T17:27:58+00:00,South Africa,Smoke Grenade,0,1717,restock,YATA,1793122078
 2026-10-27T12:20:37+00:00,2026-10-27T17:21:57+00:00,Canada,Xanax,0,347,restock,Prometheus,1793121717
 2026-10-27T12:20:33+00:00,2026-10-27T17:20:09+00:00,UAE,Camel Plushie,2198,0,stockout,YATA,1793121609
+2026-10-27T17:21:57+00:00,2026-10-27T22:14:11+00:00,Canada,Xanax,347,0,stockout,Prometheus,1793139251
+2026-10-27T17:20:09+00:00,2026-10-27T22:11:05+00:00,UAE,Camel Plushie,0,672,restock,Prometheus,1793139065
