@@ -7567,3 +7567,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-27T12:20:33+00:00,2026-10-27T17:20:09+00:00,UAE,Camel Plushie,2198,0,stockout,YATA,1793121609
 2026-10-27T17:21:57+00:00,2026-10-27T22:14:11+00:00,Canada,Xanax,347,0,stockout,Prometheus,1793139251
 2026-10-27T17:20:09+00:00,2026-10-27T22:11:05+00:00,UAE,Camel Plushie,0,672,restock,Prometheus,1793139065
+2026-10-27T22:14:07+00:00,2026-10-28T01:27:29+00:00,South Africa,Raw Ivory,0,855,restock,Prometheus,1793150849
+2026-10-27T22:14:07+00:00,2026-10-28T01:27:29+00:00,South Africa,Xanax,1119,0,stockout,Prometheus,1793150849
+2026-10-28T01:28:06+00:00,2026-10-28T07:18:47+00:00,Canada,Xanax,0,2025,restock,Prometheus,1793171927
+2026-10-27T22:13:57+00:00,2026-10-28T01:28:06+00:00,Hawaii,Shark Fin,0,3393,restock,Prometheus,1793150886
