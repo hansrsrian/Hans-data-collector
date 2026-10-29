@@ -7580,3 +7580,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-28T23:32:06+00:00,2026-10-29T02:49:13+00:00,South Africa,Raw Ivory,0,1859,restock,Prometheus,1793242153
 2026-10-29T02:48:44+00:00,2026-10-29T09:02:34+00:00,UAE,Tribulus Omanense,3414,0,stockout,YATA,1793264554
 2026-10-29T02:48:27+00:00,2026-10-29T09:02:17+00:00,Hawaii,Shark Fin,0,2312,restock,Prometheus,1793264537
+2026-10-29T09:02:34+00:00,2026-10-29T16:01:59+00:00,UAE,Tribulus Omanense,0,4531,restock,Prometheus,1793289719
