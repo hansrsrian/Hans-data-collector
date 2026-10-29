@@ -7576,3 +7576,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-28T07:18:37+00:00,2026-10-28T14:09:23+00:00,South Africa,Lion Plushie,1578,0,stockout,Prometheus,1793196563
 2026-10-28T07:18:47+00:00,2026-10-28T14:09:20+00:00,Canada,Xanax,2025,0,stockout,Prometheus,1793196560
 2026-10-28T07:18:22+00:00,2026-10-28T14:09:14+00:00,Hawaii,Shark Fin,2283,0,stockout,Prometheus,1793196554
+2026-10-28T19:34:57+00:00,2026-10-28T23:32:06+00:00,South Africa,Lion Plushie,0,1451,restock,Prometheus,1793230326
