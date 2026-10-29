@@ -7577,3 +7577,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-28T07:18:47+00:00,2026-10-28T14:09:20+00:00,Canada,Xanax,2025,0,stockout,Prometheus,1793196560
 2026-10-28T07:18:22+00:00,2026-10-28T14:09:14+00:00,Hawaii,Shark Fin,2283,0,stockout,Prometheus,1793196554
 2026-10-28T19:34:57+00:00,2026-10-28T23:32:06+00:00,South Africa,Lion Plushie,0,1451,restock,Prometheus,1793230326
+2026-10-28T23:32:06+00:00,2026-10-29T02:49:13+00:00,South Africa,Raw Ivory,0,1859,restock,Prometheus,1793242153
+2026-10-29T02:48:44+00:00,2026-10-29T09:02:34+00:00,UAE,Tribulus Omanense,3414,0,stockout,YATA,1793264554
+2026-10-29T02:48:27+00:00,2026-10-29T09:02:17+00:00,Hawaii,Shark Fin,0,2312,restock,Prometheus,1793264537
