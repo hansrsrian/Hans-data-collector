@@ -7584,3 +7584,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-29T21:03:00+00:00,2026-10-30T00:53:47+00:00,Japan,Xanax,0,1247,restock,Prometheus,1793321627
 2026-10-29T21:02:22+00:00,2026-10-30T00:52:59+00:00,Canada,Xanax,0,670,restock,Prometheus,1793321579
 2026-10-29T21:02:25+00:00,2026-10-30T00:53:39+00:00,UAE,Natural Pearls,1065,0,stockout,Prometheus,1793321619
+2026-10-30T00:53:41+00:00,2026-10-30T06:51:49+00:00,South Africa,Xanax,2361,0,stockout,Prometheus,1793343109
+2026-10-30T00:53:47+00:00,2026-10-30T06:51:55+00:00,Japan,Xanax,1247,0,stockout,Prometheus,1793343115
+2026-10-30T00:53:39+00:00,2026-10-30T06:51:47+00:00,UAE,Natural Pearls,0,3587,restock,YATA,1793343107
+2026-10-30T00:53:44+00:00,2026-10-30T06:51:45+00:00,China,Panda Plushie,30,0,stockout,Prometheus,1793343105
