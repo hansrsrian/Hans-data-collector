@@ -7592,3 +7592,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-10-30T06:51:38+00:00,2026-10-30T13:46:58+00:00,Canada,Xanax,1478,0,stockout,Prometheus,1793368018
 2026-10-30T13:46:47+00:00,2026-10-30T18:53:49+00:00,Hawaii,Shark Fin,3652,0,stockout,Prometheus,1793386429
 2026-10-30T13:46:53+00:00,2026-10-30T18:52:55+00:00,China,Panda Plushie,0,526,restock,Prometheus,1793386375
+2026-10-30T18:53:59+00:00,2026-10-30T22:50:05+00:00,Japan,Xanax,0,1312,restock,Prometheus,1793400605
