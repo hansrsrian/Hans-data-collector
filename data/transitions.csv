@@ -7629,3 +7629,10 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-02T19:28:14+00:00,2026-11-03T01:44:51+00:00,China,Pangolin Scales,0,4972,restock,YATA,1793670291
 2026-11-03T01:45:08+00:00,2026-11-03T08:39:29+00:00,South Africa,Lion Plushie,1252,0,stockout,Prometheus,1793695169
 2026-11-02T09:06:28+00:00,2026-11-02T19:28:14+00:00,China,Blank Casino Chips,164,0,stockout,Prometheus,1793647694
+2026-11-03T01:45:08+00:00,2026-11-03T08:39:29+00:00,South Africa,Raw Ivory,0,2452,restock,Prometheus,1793695169
+2026-11-03T08:39:29+00:00,2026-11-03T16:37:17+00:00,South Africa,Xanax,0,1399,restock,Prometheus,1793723837
+2026-11-03T08:39:29+00:00,2026-11-03T16:37:17+00:00,South Africa,Lion Plushie,0,604,restock,Prometheus,1793723837
+2026-11-03T08:39:29+00:00,2026-11-03T16:37:17+00:00,South Africa,African Violet,0,4682,restock,Prometheus,1793723837
+2026-11-03T08:39:33+00:00,2026-11-03T16:37:04+00:00,United Kingdom,Xanax,490,0,stockout,Prometheus,1793723824
+2026-11-03T08:38:35+00:00,2026-11-03T16:37:34+00:00,China,Panda Plushie,1450,0,stockout,Prometheus,1793723854
+2026-11-03T08:38:35+00:00,2026-11-03T16:37:34+00:00,China,Pangolin Scales,3243,0,stockout,Prometheus,1793723854
