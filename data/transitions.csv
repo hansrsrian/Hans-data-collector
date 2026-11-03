@@ -7636,3 +7636,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-03T08:39:33+00:00,2026-11-03T16:37:04+00:00,United Kingdom,Xanax,490,0,stockout,Prometheus,1793723824
 2026-11-03T08:38:35+00:00,2026-11-03T16:37:34+00:00,China,Panda Plushie,1450,0,stockout,Prometheus,1793723854
 2026-11-03T08:38:35+00:00,2026-11-03T16:37:34+00:00,China,Pangolin Scales,3243,0,stockout,Prometheus,1793723854
+2026-11-03T16:37:17+00:00,2026-11-03T22:01:43+00:00,South Africa,Raw Ivory,2050,0,stockout,Prometheus,1793743303
+2026-11-03T16:36:53+00:00,2026-11-03T22:01:43+00:00,UAE,Camel Plushie,1962,0,stockout,Prometheus,1793743303
+2026-11-03T16:36:53+00:00,2026-11-03T22:01:43+00:00,UAE,Natural Pearls,2453,0,stockout,Prometheus,1793743303
+2026-11-03T08:38:35+00:00,2026-11-03T16:37:34+00:00,China,Blank Casino Chips,0,974,restock,Prometheus,1793723854
+2026-11-03T16:37:34+00:00,2026-11-03T22:01:40+00:00,China,Panda Plushie,0,173,restock,Prometheus,1793743300
+2026-11-03T16:37:34+00:00,2026-11-03T22:01:40+00:00,China,Pangolin Scales,0,3924,restock,Prometheus,1793743300
