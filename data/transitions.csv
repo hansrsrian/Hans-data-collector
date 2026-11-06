@@ -7676,3 +7676,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-05T23:44:06+00:00,2026-11-06T03:41:52+00:00,Japan,Xanax,0,182,restock,Prometheus,1793936512
 2026-11-05T23:44:32+00:00,2026-11-06T03:43:21+00:00,Hawaii,Shark Fin,0,3873,restock,Prometheus,1793936601
 2026-11-05T23:43:57+00:00,2026-11-06T03:43:16+00:00,China,Pangolin Scales,4908,0,stockout,Prometheus,1793936596
+2026-11-06T03:41:52+00:00,2026-11-06T11:36:10+00:00,Japan,Xanax,182,0,stockout,Prometheus,1793964970
+2026-11-06T03:43:21+00:00,2026-11-06T11:36:17+00:00,United Kingdom,Xanax,2437,0,stockout,Prometheus,1793964977
+2026-11-06T03:43:03+00:00,2026-11-06T11:35:22+00:00,UAE,Tribulus Omanense,9577,0,stockout,Prometheus,1793964922
+2026-11-06T03:43:21+00:00,2026-11-06T11:35:54+00:00,Hawaii,Shark Fin,3873,0,stockout,Prometheus,1793964954
+2026-11-05T23:43:57+00:00,2026-11-06T03:43:16+00:00,China,Panda Plushie,1143,0,stockout,Prometheus,1793936596
+2026-11-06T03:43:16+00:00,2026-11-06T11:36:03+00:00,China,Pangolin Scales,0,4503,restock,Prometheus,1793964963
