@@ -7692,3 +7692,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-07T03:07:01+00:00,2026-11-07T10:04:53+00:00,UAE,Tribulus Omanense,7214,0,stockout,YATA,1794045893
 2026-11-06T18:28:42+00:00,2026-11-07T03:07:17+00:00,China,Blank Casino Chips,107,0,stockout,Prometheus,1794020837
 2026-11-07T03:07:17+00:00,2026-11-07T10:05:13+00:00,China,Peony,8817,0,stockout,Prometheus,1794045913
+2026-11-07T10:04:46+00:00,2026-11-07T16:23:54+00:00,South Africa,African Violet,0,9357,restock,Prometheus,1794068634
+2026-11-07T10:05:13+00:00,2026-11-07T16:23:42+00:00,China,Panda Plushie,1733,0,stockout,YATA,1794068622
+2026-11-07T10:05:13+00:00,2026-11-07T16:23:42+00:00,China,Pangolin Scales,3969,0,stockout,YATA,1794068622
