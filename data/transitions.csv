@@ -7695,3 +7695,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-07T10:04:46+00:00,2026-11-07T16:23:54+00:00,South Africa,African Violet,0,9357,restock,Prometheus,1794068634
 2026-11-07T10:05:13+00:00,2026-11-07T16:23:42+00:00,China,Panda Plushie,1733,0,stockout,YATA,1794068622
 2026-11-07T10:05:13+00:00,2026-11-07T16:23:42+00:00,China,Pangolin Scales,3969,0,stockout,YATA,1794068622
+2026-11-07T16:23:41+00:00,2026-11-07T20:24:46+00:00,UAE,Tribulus Omanense,0,4565,restock,Prometheus,1794083086
+2026-11-07T16:23:42+00:00,2026-11-07T20:24:35+00:00,China,Panda Plushie,0,1219,restock,Prometheus,1794083075
+2026-11-07T16:23:42+00:00,2026-11-07T20:24:35+00:00,China,Peony,0,3178,restock,Prometheus,1794083075
