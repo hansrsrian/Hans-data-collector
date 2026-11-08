@@ -7708,3 +7708,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-07T23:49:33+00:00,2026-11-08T03:23:23+00:00,UAE,Camel Plushie,0,2119,restock,Prometheus,1794108203
 2026-11-07T23:49:20+00:00,2026-11-08T03:23:41+00:00,Hawaii,Shark Fin,0,4523,restock,Prometheus,1794108221
 2026-11-07T23:49:25+00:00,2026-11-08T03:23:27+00:00,China,Peony,0,5861,restock,Prometheus,1794108207
+2026-11-08T03:23:37+00:00,2026-11-08T10:40:29+00:00,South Africa,Raw Ivory,1160,0,stockout,Prometheus,1794134429
+2026-11-08T03:23:37+00:00,2026-11-08T10:40:29+00:00,South Africa,Lion Plushie,1024,0,stockout,Prometheus,1794134429
+2026-11-08T03:23:23+00:00,2026-11-08T10:40:07+00:00,UAE,Tribulus Omanense,7131,0,stockout,Prometheus,1794134407
+2026-11-08T03:23:41+00:00,2026-11-08T10:40:34+00:00,Hawaii,Shark Fin,4523,0,stockout,Prometheus,1794134434
+2026-11-07T20:24:35+00:00,2026-11-08T03:23:27+00:00,China,Blank Casino Chips,0,995,restock,Prometheus,1794108207
