@@ -7718,3 +7718,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-08T16:46:59+00:00,2026-11-08T20:48:02+00:00,South Africa,Xanax,297,0,stockout,Prometheus,1794170882
 2026-11-08T16:46:56+00:00,2026-11-08T20:48:19+00:00,UAE,Tribulus Omanense,0,4590,restock,Prometheus,1794170899
 2026-11-08T16:47:04+00:00,2026-11-08T20:48:13+00:00,China,Peony,7146,0,stockout,Prometheus,1794170893
+2026-11-08T20:48:02+00:00,2026-11-09T00:10:41+00:00,South Africa,Xanax,0,2176,restock,Prometheus,1794183041
+2026-11-08T20:48:12+00:00,2026-11-09T00:10:35+00:00,Hawaii,Shark Fin,0,3823,restock,YATA,1794183035
+2026-11-08T20:48:13+00:00,2026-11-09T00:10:38+00:00,China,Panda Plushie,0,2179,restock,Prometheus,1794183038
+2026-11-08T20:48:13+00:00,2026-11-09T00:10:38+00:00,China,Peony,0,5664,restock,Prometheus,1794183038
