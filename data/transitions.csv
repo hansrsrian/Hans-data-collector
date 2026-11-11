@@ -7759,3 +7759,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-11T08:17:55+00:00,2026-11-11T16:22:10+00:00,South Africa,African Violet,0,1735,restock,Prometheus,1794414130
 2026-11-11T08:16:05+00:00,2026-11-11T16:22:11+00:00,UAE,Camel Plushie,0,75,restock,YATA,1794414131
 2026-11-11T08:17:39+00:00,2026-11-11T16:22:18+00:00,China,Peony,5870,0,stockout,Prometheus,1794414138
+2026-11-11T16:22:10+00:00,2026-11-11T22:54:00+00:00,South Africa,Lion Plushie,1434,0,stockout,Prometheus,1794437640
+2026-11-11T16:22:10+00:00,2026-11-11T22:54:00+00:00,South Africa,African Violet,1735,0,stockout,Prometheus,1794437640
+2026-11-11T16:22:18+00:00,2026-11-11T22:54:10+00:00,Hawaii,Shark Fin,0,350,restock,YATA,1794437650
+2026-11-11T08:17:39+00:00,2026-11-11T16:22:18+00:00,China,Blank Casino Chips,124,0,stockout,Prometheus,1794414138
+2026-11-11T16:22:18+00:00,2026-11-11T22:54:18+00:00,China,Panda Plushie,1119,0,stockout,Prometheus,1794437658
+2026-11-11T16:22:18+00:00,2026-11-11T22:54:18+00:00,China,Peony,0,8552,restock,Prometheus,1794437658
