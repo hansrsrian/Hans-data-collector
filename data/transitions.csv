@@ -7770,3 +7770,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-11T22:54:00+00:00,2026-11-12T03:40:14+00:00,South Africa,African Violet,0,3347,restock,Prometheus,1794454814
 2026-11-11T22:54:11+00:00,2026-11-12T03:39:16+00:00,Canada,Xanax,0,3,restock,Prometheus,1794454756
 2026-11-11T22:54:10+00:00,2026-11-12T03:39:59+00:00,Hawaii,Shark Fin,350,0,stockout,Prometheus,1794454799
+2026-11-12T03:40:14+00:00,2026-11-12T11:53:03+00:00,South Africa,Lion Plushie,780,0,stockout,Prometheus,1794484383
+2026-11-12T03:40:14+00:00,2026-11-12T11:53:03+00:00,South Africa,African Violet,3347,0,stockout,Prometheus,1794484383
+2026-11-12T03:39:16+00:00,2026-11-12T11:53:08+00:00,Canada,Xanax,3,0,stockout,Prometheus,1794484388
+2026-11-12T03:39:50+00:00,2026-11-12T11:53:10+00:00,China,Panda Plushie,0,1613,restock,Prometheus,1794484390
+2026-11-12T03:39:50+00:00,2026-11-12T11:53:10+00:00,China,Peony,1941,0,stockout,Prometheus,1794484390
