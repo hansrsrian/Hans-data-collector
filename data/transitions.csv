@@ -7779,3 +7779,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-12T11:53:03+00:00,2026-11-12T19:36:20+00:00,South Africa,African Violet,0,3687,restock,Prometheus,1794512180
 2026-11-12T11:52:25+00:00,2026-11-12T19:35:07+00:00,UAE,Camel Plushie,2035,0,stockout,Prometheus,1794512107
 2026-11-12T11:53:10+00:00,2026-11-12T19:36:40+00:00,China,Peony,0,3515,restock,Prometheus,1794512200
+2026-11-12T19:36:20+00:00,2026-11-13T00:40:58+00:00,South Africa,Raw Ivory,0,873,restock,Prometheus,1794530458
+2026-11-12T19:36:20+00:00,2026-11-13T00:40:58+00:00,South Africa,Xanax,1744,0,stockout,Prometheus,1794530458
+2026-11-12T11:53:10+00:00,2026-11-12T19:36:40+00:00,China,Blank Casino Chips,0,997,restock,Prometheus,1794512200
