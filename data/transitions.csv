@@ -7818,3 +7818,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-15T03:24:29+00:00,2026-11-15T11:22:51+00:00,Canada,Xanax,1859,0,stockout,Prometheus,1794741771
 2026-11-15T03:22:42+00:00,2026-11-15T11:23:36+00:00,United Kingdom,Xanax,238,0,stockout,YATA,1794741816
 2026-11-15T03:24:18+00:00,2026-11-15T11:23:13+00:00,China,Panda Plushie,0,2332,restock,Prometheus,1794741793
+2026-11-15T11:23:29+00:00,2026-11-15T17:55:34+00:00,South Africa,Raw Ivory,0,118,restock,Prometheus,1794765334
+2026-11-15T11:23:33+00:00,2026-11-15T17:55:15+00:00,Japan,Xanax,0,517,restock,YATA,1794765315
+2026-11-15T11:23:36+00:00,2026-11-15T17:55:23+00:00,United Kingdom,Xanax,0,2253,restock,YATA,1794765323
+2026-11-15T11:23:41+00:00,2026-11-15T17:55:29+00:00,Hawaii,Shark Fin,670,0,stockout,Prometheus,1794765329
