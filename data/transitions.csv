@@ -7837,3 +7837,6 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-16T02:23:07+00:00,2026-11-16T10:03:33+00:00,UAE,Camel Plushie,564,0,stockout,Prometheus,1794823413
 2026-11-16T02:23:07+00:00,2026-11-16T10:03:33+00:00,UAE,Natural Pearls,696,0,stockout,Prometheus,1794823413
 2026-11-16T02:24:23+00:00,2026-11-16T10:03:35+00:00,China,Panda Plushie,0,929,restock,Prometheus,1794823415
+2026-11-16T10:03:36+00:00,2026-11-16T20:22:49+00:00,United Kingdom,Xanax,379,0,stockout,Prometheus,1794860569
+2026-11-16T10:03:33+00:00,2026-11-16T20:22:35+00:00,UAE,Natural Pearls,0,3131,restock,Prometheus,1794860555
+2026-11-16T10:03:35+00:00,2026-11-16T20:22:12+00:00,China,Panda Plushie,929,0,stockout,YATA,1794860532
