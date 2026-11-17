@@ -7842,3 +7842,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-16T10:03:35+00:00,2026-11-16T20:22:12+00:00,China,Panda Plushie,929,0,stockout,YATA,1794860532
 2026-11-16T20:22:45+00:00,2026-11-17T03:01:29+00:00,South Africa,Xanax,0,294,restock,Prometheus,1794884489
 2026-11-16T20:22:35+00:00,2026-11-17T03:02:24+00:00,UAE,Camel Plushie,0,561,restock,YATA,1794884544
+2026-11-17T03:01:29+00:00,2026-11-17T11:43:11+00:00,South Africa,Xanax,294,0,stockout,Prometheus,1794915791
+2026-11-17T03:02:13+00:00,2026-11-17T11:43:13+00:00,Canada,Xanax,884,0,stockout,Prometheus,1794915793
+2026-11-17T03:02:24+00:00,2026-11-17T11:43:19+00:00,UAE,Camel Plushie,561,0,stockout,Prometheus,1794915799
+2026-11-17T03:01:37+00:00,2026-11-17T11:43:02+00:00,China,Peony,4456,0,stockout,Prometheus,1794915782
