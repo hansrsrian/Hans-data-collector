@@ -7846,3 +7846,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-17T03:02:13+00:00,2026-11-17T11:43:13+00:00,Canada,Xanax,884,0,stockout,Prometheus,1794915793
 2026-11-17T03:02:24+00:00,2026-11-17T11:43:19+00:00,UAE,Camel Plushie,561,0,stockout,Prometheus,1794915799
 2026-11-17T03:01:37+00:00,2026-11-17T11:43:02+00:00,China,Peony,4456,0,stockout,Prometheus,1794915782
+2026-11-17T11:43:11+00:00,2026-11-17T20:03:03+00:00,South Africa,Raw Ivory,0,488,restock,Prometheus,1794945783
+2026-11-17T11:43:11+00:00,2026-11-17T20:03:03+00:00,South Africa,Xanax,0,1664,restock,Prometheus,1794945783
+2026-11-17T11:43:11+00:00,2026-11-17T20:03:03+00:00,South Africa,Lion Plushie,2229,0,stockout,Prometheus,1794945783
+2026-11-17T11:43:13+00:00,2026-11-17T20:03:22+00:00,Canada,Xanax,0,1645,restock,Prometheus,1794945802
+2026-11-17T11:43:19+00:00,2026-11-17T20:03:35+00:00,UAE,Camel Plushie,0,596,restock,Prometheus,1794945815
+2026-11-17T11:43:02+00:00,2026-11-17T20:03:43+00:00,China,Peony,0,549,restock,Prometheus,1794945823
