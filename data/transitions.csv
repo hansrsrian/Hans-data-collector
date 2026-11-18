@@ -7858,3 +7858,8 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-17T20:03:03+00:00,2026-11-18T02:23:06+00:00,South Africa,Lion Plushie,0,12,restock,Prometheus,1794968586
 2026-11-17T20:03:42+00:00,2026-11-18T02:23:13+00:00,United Kingdom,Xanax,0,2174,restock,Prometheus,1794968593
 2026-11-17T20:03:41+00:00,2026-11-18T02:23:45+00:00,Hawaii,Shark Fin,0,2257,restock,Prometheus,1794968625
+2026-11-18T02:23:06+00:00,2026-11-18T10:30:22+00:00,South Africa,Smoke Grenade,0,2500,restock,Prometheus,1794997822
+2026-11-18T02:23:13+00:00,2026-11-18T10:31:13+00:00,United Kingdom,Xanax,2174,0,stockout,Prometheus,1794997873
+2026-11-18T02:23:45+00:00,2026-11-18T10:31:16+00:00,Hawaii,Shark Fin,2257,0,stockout,Prometheus,1794997876
+2026-11-18T02:23:24+00:00,2026-11-18T10:31:07+00:00,China,Panda Plushie,0,780,restock,Prometheus,1794997867
+2026-11-18T02:23:24+00:00,2026-11-18T10:31:07+00:00,China,Peony,2297,0,stockout,Prometheus,1794997867
