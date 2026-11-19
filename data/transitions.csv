@@ -7880,3 +7880,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-19T01:05:02+00:00,2026-11-19T08:44:38+00:00,UAE,Camel Plushie,0,823,restock,Prometheus,1795077878
 2026-11-18T19:00:03+00:00,2026-11-19T01:05:16+00:00,China,Blank Casino Chips,0,987,restock,Prometheus,1795050316
 2026-11-19T01:05:16+00:00,2026-11-19T08:44:06+00:00,China,Panda Plushie,221,0,stockout,Prometheus,1795077846
+2026-11-19T08:44:03+00:00,2026-11-19T17:43:59+00:00,South Africa,Smoke Grenade,0,440,restock,Prometheus,1795110239
+2026-11-19T08:44:03+00:00,2026-11-19T17:43:59+00:00,South Africa,Lion Plushie,752,0,stockout,Prometheus,1795110239
+2026-11-19T08:44:48+00:00,2026-11-19T17:43:34+00:00,Canada,Xanax,65,0,stockout,YATA,1795110214
+2026-11-19T08:44:51+00:00,2026-11-19T17:44:00+00:00,Hawaii,Shark Fin,0,67,restock,Prometheus,1795110240
