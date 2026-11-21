@@ -7913,3 +7913,4 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-20T15:44:01+00:00,2026-11-20T22:22:30+00:00,Canada,Xanax,843,0,stockout,Prometheus,1795213350
 2026-11-20T15:43:59+00:00,2026-11-20T22:22:48+00:00,United Kingdom,Xanax,118,0,stockout,Prometheus,1795213368
 2026-11-20T15:43:51+00:00,2026-11-20T22:22:55+00:00,China,Panda Plushie,1331,0,stockout,Prometheus,1795213375
+2026-11-20T22:22:43+00:00,2026-11-21T03:20:46+00:00,Japan,Xanax,645,0,stockout,Prometheus,1795231246
