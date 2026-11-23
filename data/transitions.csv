@@ -7952,3 +7952,7 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-22T18:46:00+00:00,2026-11-22T23:53:37+00:00,China,Peony,7541,0,stockout,YATA,1795391617
 2026-11-22T23:53:26+00:00,2026-11-23T06:20:38+00:00,Hawaii,Shark Fin,1910,0,stockout,Prometheus,1795414838
 2026-11-22T23:53:37+00:00,2026-11-23T06:20:48+00:00,China,Peony,0,2529,restock,Prometheus,1795414848
+2026-11-23T06:20:48+00:00,2026-11-23T18:34:06+00:00,South Africa,Smoke Grenade,1892,0,stockout,Prometheus,1795458846
+2026-11-23T06:20:17+00:00,2026-11-23T18:34:21+00:00,United Kingdom,Xanax,1528,0,stockout,Prometheus,1795458861
+2026-11-23T06:20:45+00:00,2026-11-23T18:34:14+00:00,UAE,Camel Plushie,2445,0,stockout,Prometheus,1795458854
+2026-11-22T18:46:00+00:00,2026-11-23T06:20:48+00:00,China,Blank Casino Chips,43,0,stockout,Prometheus,1795414848
