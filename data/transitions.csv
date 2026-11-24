@@ -7956,3 +7956,5 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-23T06:20:17+00:00,2026-11-23T18:34:21+00:00,United Kingdom,Xanax,1528,0,stockout,Prometheus,1795458861
 2026-11-23T06:20:45+00:00,2026-11-23T18:34:14+00:00,UAE,Camel Plushie,2445,0,stockout,Prometheus,1795458854
 2026-11-22T18:46:00+00:00,2026-11-23T06:20:48+00:00,China,Blank Casino Chips,43,0,stockout,Prometheus,1795414848
+2026-11-23T18:34:06+00:00,2026-11-24T04:04:01+00:00,South Africa,Smoke Grenade,0,978,restock,Prometheus,1795493041
+2026-11-23T18:34:14+00:00,2026-11-24T04:04:19+00:00,UAE,Camel Plushie,0,1965,restock,Prometheus,1795493059
