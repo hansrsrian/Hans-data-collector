@@ -7974,3 +7974,9 @@ lower_bound,upper_bound,country,item,from_stock,to_stock,type,source,source_upda
 2026-11-25T16:09:20+00:00,2026-11-26T00:22:29+00:00,Hawaii,Shark Fin,0,606,restock,Prometheus,1795652549
 2026-11-25T16:08:57+00:00,2026-11-26T00:21:05+00:00,China,Panda Plushie,0,1922,restock,YATA,1795652465
 2026-11-25T16:08:57+00:00,2026-11-26T00:21:05+00:00,China,Peony,0,8904,restock,YATA,1795652465
+2026-11-26T00:22:29+00:00,2026-11-26T08:43:05+00:00,South Africa,Smoke Grenade,114,0,stockout,Prometheus,1795682585
+2026-11-26T00:22:29+00:00,2026-11-26T08:43:05+00:00,South Africa,Lion Plushie,902,0,stockout,Prometheus,1795682585
+2026-11-26T00:22:29+00:00,2026-11-26T08:43:05+00:00,South Africa,African Violet,0,6900,restock,Prometheus,1795682585
+2026-11-26T00:22:05+00:00,2026-11-26T08:43:38+00:00,United Kingdom,Xanax,1276,0,stockout,YATA,1795682618
+2026-11-26T00:21:51+00:00,2026-11-26T08:44:30+00:00,UAE,Natural Pearls,0,1383,restock,Prometheus,1795682670
+2026-11-26T00:22:29+00:00,2026-11-26T08:44:20+00:00,Hawaii,Shark Fin,606,0,stockout,Prometheus,1795682660
